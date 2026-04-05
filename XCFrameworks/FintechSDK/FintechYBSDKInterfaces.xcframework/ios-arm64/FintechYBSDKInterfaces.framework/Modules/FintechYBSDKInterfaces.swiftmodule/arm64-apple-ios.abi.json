@@ -1,0 +1,340 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FintechYBSDKInterfaces",
+    "printedName": "FintechYBSDKInterfaces",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechYBSDKInterfaces"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechYBSDKInterfaces"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechYBSDKAdapter",
+        "printedName": "FintechYBSDKAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getPayCardTrustId",
+            "printedName": "getPayCardTrustId(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechYBSDKInterfaces0A12YBSDKAdapterP17getPayCardTrustId10completionyySSSgc_tF",
+            "mangledName": "$s22FintechYBSDKInterfaces0A12YBSDKAdapterP17getPayCardTrustId10completionyySSSgc_tF",
+            "moduleName": "FintechYBSDKInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "sugared_genericSig": "<Self where Self : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openPayCard",
+            "printedName": "openPayCard(amount:currency:presentingViewController:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Decimal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechYBSDKInterfaces0A12YBSDKAdapterP11openPayCard6amount8currency24presentingViewController10completionySo9NSDecimalaSg_SSSgSo06UIViewK0CyyctF",
+            "mangledName": "$s22FintechYBSDKInterfaces0A12YBSDKAdapterP11openPayCard6amount8currency24presentingViewController10completionySo9NSDecimalaSg_SSSgSo06UIViewK0CyyctF",
+            "moduleName": "FintechYBSDKInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "sugared_genericSig": "<Self where Self : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "topUp",
+            "printedName": "topUp(amount:currency:presentingViewController:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Decimal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechYBSDKInterfaces0A12YBSDKAdapterP5topUp6amount8currency24presentingViewController10completionySo9NSDecimalaSg_SSSgSo06UIViewJ0CyyctF",
+            "mangledName": "$s22FintechYBSDKInterfaces0A12YBSDKAdapterP5topUp6amount8currency24presentingViewController10completionySo9NSDecimalaSg_SSSgSo06UIViewJ0CyyctF",
+            "moduleName": "FintechYBSDKInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "sugared_genericSig": "<Self where Self : FintechYBSDKInterfaces.FintechYBSDKAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22FintechYBSDKInterfaces0A12YBSDKAdapterP",
+        "mangledName": "$s22FintechYBSDKInterfaces0A12YBSDKAdapterP",
+        "moduleName": "FintechYBSDKInterfaces",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechYBSDKInterfaces"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechYBSDKAdapterFactory",
+        "printedName": "FintechYBSDKAdapterFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make(isProduction:userAgent:yandexUID:deeplinkScheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechYBSDKAdapter",
+                "printedName": "any FintechYBSDKInterfaces.FintechYBSDKAdapter",
+                "usr": "s:22FintechYBSDKInterfaces0A12YBSDKAdapterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechYBSDKInterfaces0A19YBSDKAdapterFactoryP4make12isProduction9userAgent9yandexUID14deeplinkSchemeAA0aC0_pSb_SSSo8NSNumberCSgSStF",
+            "mangledName": "$s22FintechYBSDKInterfaces0A19YBSDKAdapterFactoryP4make12isProduction9userAgent9yandexUID14deeplinkSchemeAA0aC0_pSb_SSSo8NSNumberCSgSStF",
+            "moduleName": "FintechYBSDKInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechYBSDKInterfaces.FintechYBSDKAdapterFactory>",
+            "sugared_genericSig": "<Self where Self : FintechYBSDKInterfaces.FintechYBSDKAdapterFactory>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22FintechYBSDKInterfaces0A19YBSDKAdapterFactoryP",
+        "mangledName": "$s22FintechYBSDKInterfaces0A19YBSDKAdapterFactoryP",
+        "moduleName": "FintechYBSDKInterfaces",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name FintechSDKMerchantRedirect -package-name FintechSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import FintechSDKAnalyticsInterfaces
+@_spi(Internal) import FintechSDKAuthCoreImplementation
+import FintechSDKAuthInterfaces
+@_spi(Internal) import FintechSDKAuthorizationScenario
+@_spi(Internal) import FintechSDKBDUICore
+@_spi(Internal) import FintechSDKBDUIFeatures
+import FintechSDKCommonEntity
+@_spi(Internal) import FintechSDKCoreAnalytics
+@_spi(Internal) import FintechSDKCoreUI
+@_spi(Internal) import FintechSDKCoreUtils
+@_spi(Internal) import FintechSDKDivKitWidgetsFeatures
+import FintechSDKFontsInterfaces
+@_spi(Internal) import FintechSDKNativeErrorFeature
+@_spi(Internal) import FintechSDKNetworkImplementation
+import FintechSDKNetworkInterfaces
+import FintechSDKPayBadge
+import FintechSDKPayBoxEntity
+@_spi(Internal) import FintechSDKPayButton
+@_spi(Internal) import FintechSDKPayFormFeatures
+@_spi(Internal) import FintechSDKPayWidget
+@_spi(Internal) import FintechSDKRemoteResourcesData
+import FintechSDKUltimateWidget
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_spi(Internal) final public class FintechMerchantRedirectHandler {
+  @_spi(Internal) public init(config: FintechSDKPayBoxEntity.FTSDKConfiguration, appMetricaAdapter: any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter, fontsAdapter: any FintechSDKFontsInterfaces.FintechFontsAdapter, bduiAdapterFactory: any FintechSDKBDUIFeatures.FintechBDUIAdapterFactory, rtmFactory: any FintechSDKAnalyticsInterfaces.FintechRTMAdapterFactory, rumFactory: any FintechSDKAnalyticsInterfaces.FintechRUMAdapterFactory)
+  @_spi(Internal) final public func createYandexPayForm(paymentURL: Foundation.URL, delegate: any FintechSDKPayFormFeatures.FTPayFormDelegate) -> any FintechSDKPayFormFeatures.FTPayForm
+  @_spi(Internal) @_Concurrency.MainActor final public func createButton(model: FintechSDKPayButton.FTPayButtonModel = .default, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKPayButton.FTPayButtonPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate) -> any FintechSDKPayButton.FTPayButton
+  @_spi(Internal) @_Concurrency.MainActor final public func createButton(model: FintechSDKPayButton.FTPayButtonModel, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKPayButton.FTPayButtonPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate) -> some SwiftUICore.View
+  
+  @_spi(Internal) @_Concurrency.MainActor final public func createBadgeView(model: FintechSDKPayBadge.FTPayBadgeModel) -> some SwiftUICore.View
+  
+  @_spi(Internal) @_Concurrency.MainActor final public func createBadgeView(model: FintechSDKPayBadge.FTPayBadgeModel) -> UIKit.UIView
+  @_spi(Internal) @_Concurrency.MainActor final public func createUltimateWidgetView(model: FintechSDKUltimateWidget.FTUltimateWidgetModel, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: (any FintechSDKUltimateWidget.FTUltimateWidgetDelegate)? = nil) -> some SwiftUICore.View
+  
+  @_spi(Internal) @_Concurrency.MainActor final public func createUltimateWidgetView(model: FintechSDKUltimateWidget.FTUltimateWidgetModel, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: (any FintechSDKUltimateWidget.FTUltimateWidgetDelegate)? = nil) -> UIKit.UIView
+  @_spi(Internal) @_Concurrency.MainActor final public func createPayWidgetView(model: FintechSDKPayWidget.FTPayWidgetModel, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding) -> some SwiftUICore.View
+  
+  @_spi(Internal) @_Concurrency.MainActor final public func createPayWidgetUIView(model: FintechSDKPayWidget.FTPayWidgetModel, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding) -> UIKit.UIView
+  @_spi(Internal) @discardableResult
+  final public func applicationDidReceiveOpen(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
+  @_spi(Internal) @discardableResult
+  final public func applicationDidReceiveUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
+  @_spi(Internal) @objc deinit
+}

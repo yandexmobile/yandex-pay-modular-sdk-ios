@@ -1,0 +1,134 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FintechSDKPayBadge",
+    "printedName": "FintechSDKPayBadge",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayBadge"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxEntity",
+        "printedName": "FintechSDKPayBoxEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayBadge"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCommonEntity",
+        "printedName": "FintechSDKCommonEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayBadge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPayBadgeModel",
+        "printedName": "FTPayBadgeModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "theme",
+            "printedName": "theme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechSDKTheme",
+                "printedName": "FintechSDKCommonEntity.FintechSDKTheme",
+                "usr": "s:22FintechSDKCommonEntity0A8SDKThemeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKPayBadge05FTPayC5ModelV5theme0A15SDKCommonEntity0A8SDKThemeOvp",
+            "mangledName": "$s18FintechSDKPayBadge05FTPayC5ModelV5theme0A15SDKCommonEntity0A8SDKThemeOvp",
+            "moduleName": "FintechSDKPayBadge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechSDKTheme",
+                    "printedName": "FintechSDKCommonEntity.FintechSDKTheme",
+                    "usr": "s:22FintechSDKCommonEntity0A8SDKThemeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKPayBadge05FTPayC5ModelV5theme0A15SDKCommonEntity0A8SDKThemeOvg",
+                "mangledName": "$s18FintechSDKPayBadge05FTPayC5ModelV5theme0A15SDKCommonEntity0A8SDKThemeOvg",
+                "moduleName": "FintechSDKPayBadge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayBadgeModel",
+                "printedName": "FintechSDKPayBadge.FTPayBadgeModel",
+                "usr": "s:18FintechSDKPayBadge05FTPayC5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechSDKTheme",
+                "printedName": "FintechSDKCommonEntity.FintechSDKTheme",
+                "hasDefaultArg": true,
+                "usr": "s:22FintechSDKCommonEntity0A8SDKThemeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FintechSDKPayBadge05FTPayC5ModelV5themeAC0A15SDKCommonEntity0A8SDKThemeO_tcfc",
+            "mangledName": "$s18FintechSDKPayBadge05FTPayC5ModelV5themeAC0A15SDKCommonEntity0A8SDKThemeO_tcfc",
+            "moduleName": "FintechSDKPayBadge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18FintechSDKPayBadge05FTPayC5ModelV",
+        "mangledName": "$s18FintechSDKPayBadge05FTPayC5ModelV",
+        "moduleName": "FintechSDKPayBadge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

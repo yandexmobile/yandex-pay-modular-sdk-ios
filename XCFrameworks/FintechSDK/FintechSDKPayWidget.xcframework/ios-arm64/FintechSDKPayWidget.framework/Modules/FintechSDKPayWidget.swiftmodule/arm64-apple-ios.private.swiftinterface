@@ -1,0 +1,43 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name FintechSDKPayWidget -package-name FintechSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import FintechSDKBDUICore
+import FintechSDKCommonEntity
+@_spi(Internal) import FintechSDKCoreUI
+@_spi(Internal) import FintechSDKDivKitWidgetsFeatures
+@_spi(Internal) import FintechSDKNetworkImplementation
+import FintechSDKNetworkInterfaces
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_spi(Internal) public struct FTPayWidgetEndpoint : FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider {
+  @_spi(Internal) public typealias Decoder = FintechSDKNetworkImplementation.FTRawDataResponseDecoder
+  @_spi(Internal) public typealias ResultModel = Foundation.Data
+  @_spi(Internal) public let method: FintechSDKNetworkInterfaces.HTTPMethod
+  @_spi(Internal) public let path: Swift.String
+  @_spi(Internal) public let queryItems: [Foundation.URLQueryItem]?
+  @_spi(Internal) public let timeoutInSeconds: Swift.Double
+  @_spi(Internal) public var decoder: FintechSDKNetworkImplementation.FTRawDataResponseDecoder {
+    @_spi(Internal) get
+  }
+  @_spi(Internal) public init(model: FintechSDKPayWidget.FTPayWidgetModel)
+  @_spi(Internal) public var body: [Swift.String : Any]? {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) public typealias FTPayWidgetAuthorizedEndpoint = FintechSDKPayWidget.FTPayWidgetEndpoint
+@_spi(Internal) public enum FTPayWidgetFactory {
+  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient) -> some SwiftUICore.View
+  
+  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetUIView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient) -> UIKit.UIView
+}
+public struct FTPayWidgetModel : Swift.Sendable {
+  public var theme: FintechSDKCommonEntity.FintechSDKTheme
+  public var paymentInProgress: Swift.Bool
+  public init(theme: FintechSDKCommonEntity.FintechSDKTheme = .system, paymentInProgress: Swift.Bool = false)
+}
