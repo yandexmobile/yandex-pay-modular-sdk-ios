@@ -1,0 +1,2 @@
+# YandexPaySDK
+Binary distribution repository.
