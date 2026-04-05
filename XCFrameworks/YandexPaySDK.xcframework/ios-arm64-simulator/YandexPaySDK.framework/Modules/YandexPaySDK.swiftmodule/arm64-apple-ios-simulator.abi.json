@@ -8011,42 +8011,42 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Button\/YPButton.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Button\/YPButton.swift",
       "kind": "Array",
       "offset": 242,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "IntegerLiteral",
       "offset": 2285,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2314,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/0\/4000356504\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/YandexPaySDKApi+CurrentVersion.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/YandexPaySDKApi+CurrentVersion.swift",
       "kind": "StringLiteral",
       "offset": 109,
       "length": 2,
