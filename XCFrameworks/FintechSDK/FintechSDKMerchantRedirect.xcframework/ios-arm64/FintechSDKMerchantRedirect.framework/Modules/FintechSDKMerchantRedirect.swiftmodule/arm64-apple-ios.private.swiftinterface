@@ -31,6 +31,41 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_spi(Internal) public struct FTPWConfig : Swift.Sendable {
+  @_spi(Internal) public let enabled: Swift.Bool
+  @_spi(Internal) public let stopPollingStatuses: [Swift.String]
+}
+@_spi(Internal) public enum FTPWPaymentStatus : Swift.String, Swift.Sendable {
+  @_spi(Internal) case success
+  @_spi(Internal) case failure
+  @_spi(Internal) case userInteraction
+  @_spi(Internal) case inProgress
+  @_spi(Internal) case error
+  @_spi(Internal) public init?(rawValue: Swift.String)
+  @_spi(Internal) public typealias RawValue = Swift.String
+  @_spi(Internal) public var rawValue: Swift.String {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) public enum FTPWPaymentAction : Swift.String, Swift.Sendable {
+  @_spi(Internal) case openStatusScreen
+  @_spi(Internal) case forceOpenStatusScreen
+  @_spi(Internal) case stopPolling
+  @_spi(Internal) public init?(rawValue: Swift.String)
+  @_spi(Internal) public typealias RawValue = Swift.String
+  @_spi(Internal) public var rawValue: Swift.String {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) public struct FTPWCreateTransactionResult : Swift.Sendable {
+  @_spi(Internal) public let transactionID: Swift.String
+  @_spi(Internal) public let paymentStatus: FintechSDKMerchantRedirect.FTPWPaymentStatus
+  @_spi(Internal) public let actions: [FintechSDKMerchantRedirect.FTPWPaymentAction]
+}
+@_spi(Internal) public struct FTPWPaymentStatusResult : Swift.Sendable {
+  @_spi(Internal) public let paymentStatus: FintechSDKMerchantRedirect.FTPWPaymentStatus
+  @_spi(Internal) public let actions: [FintechSDKMerchantRedirect.FTPWPaymentAction]
+}
 @_spi(Internal) final public class FintechMerchantRedirectHandler {
   @_spi(Internal) public init(config: FintechSDKPayBoxEntity.FTSDKConfiguration, appMetricaAdapter: any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter, fontsAdapter: any FintechSDKFontsInterfaces.FintechFontsAdapter, bduiAdapterFactory: any FintechSDKBDUIFeatures.FintechBDUIAdapterFactory, rtmFactory: any FintechSDKAnalyticsInterfaces.FintechRTMAdapterFactory, rumFactory: any FintechSDKAnalyticsInterfaces.FintechRUMAdapterFactory)
   @_spi(Internal) final public func createYandexPayForm(paymentURL: Foundation.URL, delegate: any FintechSDKPayFormFeatures.FTPayFormDelegate) -> any FintechSDKPayFormFeatures.FTPayForm
@@ -52,3 +87,9 @@ import _SwiftConcurrencyShims
   final public func applicationDidReceiveUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
   @_spi(Internal) @objc deinit
 }
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentStatus : Swift.Equatable {}
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentStatus : Swift.Hashable {}
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentStatus : Swift.RawRepresentable {}
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentAction : Swift.Equatable {}
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentAction : Swift.Hashable {}
+@_spi(Internal) extension FintechSDKMerchantRedirect.FTPWPaymentAction : Swift.RawRepresentable {}

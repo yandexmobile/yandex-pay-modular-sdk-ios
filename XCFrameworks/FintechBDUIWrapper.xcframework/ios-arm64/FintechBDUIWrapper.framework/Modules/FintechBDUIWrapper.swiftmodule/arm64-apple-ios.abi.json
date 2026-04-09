@@ -601,6 +601,67 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "expressionResolver",
+            "printedName": "expressionResolver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FintechBDUIWrapper@objc(cs)FBWAdapter(py)expressionResolver",
+            "mangledName": "$s18FintechBDUIWrapper10FBWAdapterC18expressionResolverypSgvp",
+            "moduleName": "FintechBDUIWrapper",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FintechBDUIWrapper@objc(cs)FBWAdapter(im)expressionResolver",
+                "mangledName": "$s18FintechBDUIWrapper10FBWAdapterC18expressionResolverypSgvg",
+                "moduleName": "FintechBDUIWrapper",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",

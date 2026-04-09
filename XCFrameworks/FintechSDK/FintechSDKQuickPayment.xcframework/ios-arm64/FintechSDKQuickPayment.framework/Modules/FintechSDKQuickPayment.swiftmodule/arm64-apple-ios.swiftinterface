@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FintechSDKQuickPayment -package-name FintechSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import FintechSDKAnalyticsInterfaces
+import FintechSDKAuthCoreImplementation
+import FintechSDKAuthInterfaces
+import FintechSDKAuthorizationScenario
+import FintechSDKBDUICore
+import FintechSDKBDUIFeatures
+import FintechSDKCommonEntity
+import FintechSDKCoreAnalytics
+import FintechSDKCoreUI
+import FintechSDKCoreUtils
+import FintechSDKDivKitWidgetsFeatures
+import FintechSDKDivKitWidgetsFeatures/*.FTWidgetExpandState*/
+import FintechSDKFontsInterfaces
+import FintechSDKNativeErrorFeature
+import FintechSDKNetworkImplementation
+import FintechSDKNetworkInterfaces
+import FintechSDKRemoteResourcesData
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import UIKit/*.UIViewController*/
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias FintechQuickPayStateChangedHandler = (Swift.Bool) -> Swift.Void
+public enum FTQuickPayAuthState : Swift.Equatable {
+  public enum SecurityCheckFailReason : Swift.Equatable {
+    case userCancelled
+    case biometryNotAvailable
+    case unknownError
+    public static func == (a: FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason, b: FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  case notAuthorized
+  case authorizationInProgress
+  case accountAuthorized
+  case securityCheckInProgress
+  case securityCheckFailed(reason: FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason)
+  case securityCheckRequired
+  case securityCheckCompleted
+  public static func == (a: FintechSDKQuickPayment.FTQuickPayAuthState, b: FintechSDKQuickPayment.FTQuickPayAuthState) -> Swift.Bool
+}
+public struct FTQuickPayConfig {
+  public let merchantId: Swift.String
+  public let locale: FintechSDKCoreUI.FintechLocale
+  public let theme: FintechSDKCommonEntity.FintechSDKTheme
+  public let environment: FintechSDKCommonEntity.FintechSDKEnvironment
+  public let enableLogging: Swift.Bool
+  public init(merchantId: Swift.String, locale: FintechSDKCoreUI.FintechLocale, theme: FintechSDKCommonEntity.FintechSDKTheme, environment: FintechSDKCommonEntity.FintechSDKEnvironment, enableLogging: Swift.Bool)
+}
+public enum FTQuickPayResult {
+  case success
+  case failure
+  public static func == (a: FintechSDKQuickPayment.FTQuickPayResult, b: FintechSDKQuickPayment.FTQuickPayResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FTQuickPayWidgetExpandState : Swift.String {
+  case collapsed
+  case expanded
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol FTQuickPaymentStateListener : AnyObject {
+  func onPaymentEnabledStateChanged(isEnabled: Swift.Bool)
+  func onSessionExpired()
+  func onPaymentResult(quickpayResult: FintechSDKQuickPayment.FTQuickPayResult)
+  func onAuthStateChanged(_ state: FintechSDKQuickPayment.FTQuickPayAuthState)
+}
+extension FintechSDKQuickPayment.FTQuickPaymentStateListener {
+  public func onAuthStateChanged(_ state: FintechSDKQuickPayment.FTQuickPayAuthState)
+}
+public enum FintechQuickPaymentError : Swift.Error {
+  case noAuth
+  case cannotAuth
+  case cannotCreateNewSession(underlying: any Swift.Error)
+  case noPresentationContext
+}
+extension FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason : Swift.Hashable {}
+extension FintechSDKQuickPayment.FTQuickPayResult : Swift.Equatable {}
+extension FintechSDKQuickPayment.FTQuickPayResult : Swift.Hashable {}
+extension FintechSDKQuickPayment.FTQuickPayWidgetExpandState : Swift.Equatable {}
+extension FintechSDKQuickPayment.FTQuickPayWidgetExpandState : Swift.Hashable {}
+extension FintechSDKQuickPayment.FTQuickPayWidgetExpandState : Swift.RawRepresentable {}

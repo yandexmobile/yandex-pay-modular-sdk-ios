@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name FintechSDKAssistant -package-name FintechSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import FintechSDKAuthInterfaces
+import FintechSDKBDUICore
+@_spi(Internal) import FintechSDKBDUIFeatures
+import FintechSDKCommonEntity
+@_spi(Internal) import FintechSDKCoreAnalytics
+@_spi(Internal) import FintechSDKCoreUI
+@_spi(Internal) import FintechSDKCoreUtils
+@_spi(Internal) import FintechSDKDivKitWidgetsFeatures
+import FintechSDKFontsInterfaces
+@_spi(Internal) import FintechSDKNetworkImplementation
+import FintechSDKNetworkInterfaces
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_spi(Internal) public enum FTBenefitsWidgetScreen : Swift.String {
+  @_spi(Internal) case main
+  @_spi(Internal) case catalog
+  @_spi(Internal) case search
+  @_spi(Internal) case product
+  @_spi(Internal) case cart
+  @_spi(Internal) case checkout
+  @_spi(Internal) public init?(rawValue: Swift.String)
+  @_spi(Internal) public typealias RawValue = Swift.String
+  @_spi(Internal) public var rawValue: Swift.String {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) final public class FTYandexPayAssistantHandler {
+  @_spi(Internal) public init(merchantId: Swift.String, environment: FintechSDKCommonEntity.FintechSDKEnvironment, locale: FintechSDKCoreUI.FintechLocale, bduiAdapterFactory: any FintechSDKBDUIFeatures.FintechBDUIAdapterFactory, fontsAdapter: any FintechSDKFontsInterfaces.FintechFontsAdapter, accountManagerAdapter: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter, loginService: any FintechSDKAuthInterfaces.FintechLoginService, presenterViewController: UIKit.UIViewController?)
+  @_spi(Internal) @_Concurrency.MainActor final public func createBenefitsWidget(screen: FintechSDKAssistant.FTBenefitsWidgetScreen?) -> any SwiftUICore.View
+  @_spi(Internal) @_Concurrency.MainActor final public func createBenefitsWidget(screen: FintechSDKAssistant.FTBenefitsWidgetScreen?) -> UIKit.UIView
+  @_spi(Internal) @objc deinit
+}
+@_spi(Internal) extension FintechSDKAssistant.FTBenefitsWidgetScreen : Swift.Equatable {}
+@_spi(Internal) extension FintechSDKAssistant.FTBenefitsWidgetScreen : Swift.Hashable {}
+@_spi(Internal) extension FintechSDKAssistant.FTBenefitsWidgetScreen : Swift.RawRepresentable {}

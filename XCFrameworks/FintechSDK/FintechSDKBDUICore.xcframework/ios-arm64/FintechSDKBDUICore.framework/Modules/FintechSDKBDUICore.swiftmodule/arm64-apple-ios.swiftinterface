@@ -42,12 +42,14 @@ public protocol FintechBDUIActionHandlingContext {
   var variableStorage: any FintechSDKBDUICore.FintechBDUIDivVariableStorage { get }
   var router: any FintechSDKBDUICore.FintechBDUIRouter { get }
   var overlayManager: any FintechSDKBDUICore.FintechBDUIOverlayManager { get }
+  var cutoutManager: any FintechSDKBDUICore.FintechBDUICutoutManager { get }
   var actionDispatcher: any FintechSDKBDUICore.FintechBDUIActionDispatcher { get }
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
 }
 public protocol FintechBDUIAdapter : AnyObject {
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
   var variableStorage: any FintechSDKBDUICore.FintechBDUIDivVariableStorage { get }
+  var expressionResolver: any FintechSDKBDUICore.FintechDivKitExpressionResolver { get }
   func setThemeKind(themeKind: FintechSDKBDUICore.FintechBDUIThemeKind)
   @_Concurrency.MainActor func create<Preview>(entryPoint: FintechSDKBDUICore.FintechBDUIEntryPoint, preview: Preview) -> any FintechSDKBDUICore.FintechBDUIEngine where Preview : FintechSDKBDUICore.FintechBDUIContent
   @_Concurrency.MainActor func create<Content>(document: Content) -> any FintechSDKBDUICore.FintechBDUIEngine where Content : FintechSDKBDUICore.FintechBDUIContent
@@ -95,6 +97,29 @@ public struct FintechBDUICustomProps {
   public let popToRoot: Swift.Bool
   public let endEditing: Swift.Bool
   public init(rawValue: [Swift.String : Any])
+}
+public enum CutoutAnimationType : Swift.String, Swift.Decodable {
+  case scaleFromCenter
+  case fade
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CutoutShadowConfig {
+  public let color: UIKit.UIColor
+  public let offsetX: CoreFoundation.CGFloat
+  public let offsetY: CoreFoundation.CGFloat
+  public let opacity: Swift.Float
+  public let radius: CoreFoundation.CGFloat
+  public let spread: CoreFoundation.CGFloat
+  public init(color: UIKit.UIColor, offsetX: CoreFoundation.CGFloat, offsetY: CoreFoundation.CGFloat, opacity: Swift.Float, radius: CoreFoundation.CGFloat, spread: CoreFoundation.CGFloat)
+}
+public protocol FintechBDUICutoutManager : AnyObject {
+  func showCutout(viewId: Swift.String, animationDuration: Foundation.TimeInterval, animationType: FintechSDKBDUICore.CutoutAnimationType, shadow: FintechSDKBDUICore.CutoutShadowConfig?)
+  func hideCutout(viewId: Swift.String, animationDuration: Foundation.TimeInterval, animationType: FintechSDKBDUICore.CutoutAnimationType)
 }
 public protocol FintechBDUIDivCustom : Swift.Decodable {
   static var customType: Swift.String { get }
@@ -258,6 +283,9 @@ public struct FintechDivViewSource {
 }
 extension FintechSDKBDUICore.FintechBDUIAnyActionDecoder.DecodingError : Swift.Equatable {}
 extension FintechSDKBDUICore.FintechBDUIAnyActionDecoder.DecodingError : Swift.Hashable {}
+extension FintechSDKBDUICore.CutoutAnimationType : Swift.Equatable {}
+extension FintechSDKBDUICore.CutoutAnimationType : Swift.Hashable {}
+extension FintechSDKBDUICore.CutoutAnimationType : Swift.RawRepresentable {}
 @available(*, deprecated, message: "FINSDK-51 Use method with fontAdapter instead")
 extension FintechSDKBDUICore.FintechBDUIFontWeight : Swift.Equatable {}
 @available(*, deprecated, message: "FINSDK-51 Use method with fontAdapter instead")

@@ -1251,6 +1251,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "YPButtonPresentationContextProviding",
         "printedName": "YPButtonPresentationContextProviding",
@@ -1263,8 +1270,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContext",
-                "printedName": "YandexPaySDK.YPPresentationContext",
-                "usr": "s:12YandexPaySDK21YPPresentationContextO"
+                "printedName": "YandexPayConfiguration.YPPresentationContext",
+                "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
               },
               {
                 "kind": "TypeNominal",
@@ -1274,8 +1281,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK36YPButtonPresentationContextProvidingP09anchorForE03forAA014YPPresentationF0OAA0D0C_tF",
-            "mangledName": "$s12YandexPaySDK36YPButtonPresentationContextProvidingP09anchorForE03forAA014YPPresentationF0OAA0D0C_tF",
+            "usr": "s:12YandexPaySDK36YPButtonPresentationContextProvidingP09anchorForE03for0aB13Configuration014YPPresentationF0OAA0D0C_tF",
+            "mangledName": "$s12YandexPaySDK36YPButtonPresentationContextProvidingP09anchorForE03for0aB13Configuration014YPPresentationF0OAA0D0C_tF",
             "moduleName": "YandexPaySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : YandexPaySDK.YPButtonPresentationContextProviding>",
             "sugared_genericSig": "<Self where Self : YandexPaySDK.YPButtonPresentationContextProviding>",
@@ -1692,6 +1699,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "YPForm",
         "printedName": "YPForm",
@@ -1709,8 +1723,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContext",
-                "printedName": "YandexPaySDK.YPPresentationContext",
-                "usr": "s:12YandexPaySDK21YPPresentationContextO"
+                "printedName": "YandexPayConfiguration.YPPresentationContext",
+                "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
               },
               {
                 "kind": "TypeNominal",
@@ -1745,8 +1759,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK6YPFormP7present4from8animated10completionyAA21YPPresentationContextO_SbyycSgtF",
-            "mangledName": "$s12YandexPaySDK6YPFormP7present4from8animated10completionyAA21YPPresentationContextO_SbyycSgtF",
+            "usr": "s:12YandexPaySDK6YPFormP7present4from8animated10completiony0aB13Configuration21YPPresentationContextO_SbyycSgtF",
+            "mangledName": "$s12YandexPaySDK6YPFormP7present4from8animated10completiony0aB13Configuration21YPPresentationContextO_SbyycSgtF",
             "moduleName": "YandexPaySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : YandexPaySDK.YPForm>",
             "sugared_genericSig": "<Self where Self : YandexPaySDK.YPForm>",
@@ -2107,6 +2121,13 @@
       },
       {
         "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKCoreUI",
         "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
@@ -2114,173 +2135,6 @@
         "declAttributes": [
           "AccessControl",
           "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "YPPresentationContext",
-        "printedName": "YPPresentationContext",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(YandexPaySDK.YPPresentationContext.Type) -> (UIKit.UIViewController) -> YandexPaySDK.YPPresentationContext",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(UIKit.UIViewController) -> YandexPaySDK.YPPresentationContext",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "YPPresentationContext",
-                        "printedName": "YandexPaySDK.YPPresentationContext",
-                        "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "YandexPaySDK.YPPresentationContext.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "YPPresentationContext",
-                        "printedName": "YandexPaySDK.YPPresentationContext",
-                        "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12YandexPaySDK21YPPresentationContextO14viewControlleryACSo06UIViewG0CcACmF",
-            "mangledName": "$s12YandexPaySDK21YPPresentationContextO14viewControlleryACSo06UIViewG0CcACmF",
-            "moduleName": "YandexPaySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "window",
-            "printedName": "window",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(YandexPaySDK.YPPresentationContext.Type) -> (UIKit.UIWindow) -> YandexPaySDK.YPPresentationContext",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(UIKit.UIWindow) -> YandexPaySDK.YPPresentationContext",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "YPPresentationContext",
-                        "printedName": "YandexPaySDK.YPPresentationContext",
-                        "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIWindow",
-                        "printedName": "UIKit.UIWindow",
-                        "usr": "c:objc(cs)UIWindow"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "YandexPaySDK.YPPresentationContext.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "YPPresentationContext",
-                        "printedName": "YandexPaySDK.YPPresentationContext",
-                        "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12YandexPaySDK21YPPresentationContextO6windowyACSo8UIWindowCcACmF",
-            "mangledName": "$s12YandexPaySDK21YPPresentationContextO6windowyACSo8UIWindowCcACmF",
-            "moduleName": "YandexPaySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "keyWindow",
-            "printedName": "keyWindow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(YandexPaySDK.YPPresentationContext.Type) -> YandexPaySDK.YPPresentationContext",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "YPPresentationContext",
-                    "printedName": "YandexPaySDK.YPPresentationContext",
-                    "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "YandexPaySDK.YPPresentationContext.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "YPPresentationContext",
-                        "printedName": "YandexPaySDK.YPPresentationContext",
-                        "usr": "s:12YandexPaySDK21YPPresentationContextO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12YandexPaySDK21YPPresentationContextO9keyWindowyA2CmF",
-            "mangledName": "$s12YandexPaySDK21YPPresentationContextO9keyWindowyA2CmF",
-            "moduleName": "YandexPaySDK"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12YandexPaySDK21YPPresentationContextO",
-        "mangledName": "$s12YandexPaySDK21YPPresentationContextO",
-        "moduleName": "YandexPaySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -4498,6 +4352,13 @@
       },
       {
         "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKCoreUI",
         "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
@@ -4505,60 +4366,6 @@
         "declAttributes": [
           "AccessControl",
           "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "YPPresentationContextProviding",
-        "printedName": "YPPresentationContextProviding",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "anchorForPresentation",
-            "printedName": "anchorForPresentation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "YPPresentationContext",
-                "printedName": "YandexPaySDK.YPPresentationContext",
-                "usr": "s:12YandexPaySDK21YPPresentationContextO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP21anchorForPresentationAA0dE0OyF",
-            "mangledName": "$s12YandexPaySDK30YPPresentationContextProvidingP21anchorForPresentationAA0dE0OyF",
-            "moduleName": "YandexPaySDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPaySDK.YPPresentationContextProviding>",
-            "sugared_genericSig": "<Self where Self : YandexPaySDK.YPPresentationContextProviding>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP",
-        "mangledName": "$s12YandexPaySDK30YPPresentationContextProvidingP",
-        "moduleName": "YandexPaySDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
@@ -6867,6 +6674,27 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK"
+      },
+      {
+        "kind": "Import",
         "name": "YandexPayConfiguration",
         "printedName": "YandexPayConfiguration",
         "declKind": "Import",
@@ -6921,14 +6749,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "YandexPaySDKConfiguration",
-                "printedName": "YandexPayConfiguration.YandexPaySDKConfiguration",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC"
+                "name": "YPay",
+                "printedName": "YandexPayConfiguration.YPay",
+                "usr": "s:22YandexPayConfiguration4YPayC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK0aB16ModuleDescriptorC9configure4withy0aB13Configuration0aB16SDKConfigurationC_tF",
-            "mangledName": "$s12YandexPaySDK0aB16ModuleDescriptorC9configure4withy0aB13Configuration0aB16SDKConfigurationC_tF",
+            "usr": "s:12YandexPaySDK0aB16ModuleDescriptorC9configure4withy0aB13Configuration4YPayC_tF",
+            "mangledName": "$s12YandexPaySDK0aB16ModuleDescriptorC9configure4withy0aB13Configuration4YPayC_tF",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7211,13 +7039,6 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKAppMetricaAdapter",
-        "printedName": "FintechSDKAppMetricaAdapter",
-        "declKind": "Import",
-        "moduleName": "YandexPaySDK"
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKRealUserMonitoringAdapter",
         "printedName": "FintechSDKRealUserMonitoringAdapter",
         "declKind": "Import",
@@ -7299,6 +7120,17 @@
         "kind": "Import",
         "name": "FintechSDKPayButton",
         "printedName": "FintechSDKPayButton",
+        "declKind": "Import",
+        "moduleName": "YandexPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAnalyticsInterfaces",
+        "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
         "moduleName": "YandexPaySDK",
         "declAttributes": [
@@ -7543,8 +7375,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContextProviding",
-                "printedName": "any YandexPaySDK.YPPresentationContextProviding",
-                "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP"
+                "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
               },
               {
                 "kind": "TypeNominal",
@@ -7563,8 +7395,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateQrAA010YPUltimateI5ModelV_AA014YPPresentationM9Providing_pAA0pI8Delegate_pSgtF",
-            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateQrAA010YPUltimateI5ModelV_AA014YPPresentationM9Providing_pAA0pI8Delegate_pSgtF",
+            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateQrAA010YPUltimateI5ModelV_0aB13Configuration014YPPresentationM9Providing_pAA0pI8Delegate_pSgtF",
+            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateQrAA010YPUltimateI5ModelV_0aB13Configuration014YPPresentationM9Providing_pAA0pI8Delegate_pSgtF",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7594,8 +7426,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContextProviding",
-                "printedName": "any YandexPaySDK.YPPresentationContextProviding",
-                "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP"
+                "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
               },
               {
                 "kind": "TypeNominal",
@@ -7614,8 +7446,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateSo6UIViewCAA010YPUltimateI5ModelV_AA014YPPresentationM9Providing_pAA0qI8Delegate_pSgtF",
-            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateSo6UIViewCAA010YPUltimateI5ModelV_AA014YPPresentationM9Providing_pAA0qI8Delegate_pSgtF",
+            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateSo6UIViewCAA010YPUltimateI5ModelV_0aB13Configuration014YPPresentationM9Providing_pAA0qI8Delegate_pSgtF",
+            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC24createUltimateWidgetView5model27presentationContextProvider8delegateSo6UIViewCAA010YPUltimateI5ModelV_0aB13Configuration014YPPresentationM9Providing_pAA0qI8Delegate_pSgtF",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7653,13 +7485,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContextProviding",
-                "printedName": "any YandexPaySDK.YPPresentationContextProviding",
-                "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP"
+                "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC06createB10WidgetView5model27presentationContextProviderQrAA05YPPayH5ModelV_AA014YPPresentationL9Providing_ptF",
-            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC06createB10WidgetView5model27presentationContextProviderQrAA05YPPayH5ModelV_AA014YPPresentationL9Providing_ptF",
+            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC06createB10WidgetView5model27presentationContextProviderQrAA05YPPayH5ModelV_0aB13Configuration014YPPresentationL9Providing_ptF",
+            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC06createB10WidgetView5model27presentationContextProviderQrAA05YPPayH5ModelV_0aB13Configuration014YPPresentationL9Providing_ptF",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7689,13 +7521,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "YPPresentationContextProviding",
-                "printedName": "any YandexPaySDK.YPPresentationContextProviding",
-                "usr": "s:12YandexPaySDK30YPPresentationContextProvidingP"
+                "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC06createB12WidgetUIView5model27presentationContextProviderSo0I0CAA05YPPayH5ModelV_AA014YPPresentationL9Providing_ptF",
-            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC06createB12WidgetUIView5model27presentationContextProviderSo0I0CAA05YPPayH5ModelV_AA014YPPresentationL9Providing_ptF",
+            "usr": "s:12YandexPaySDK0B15OnlineModuleAPIC06createB12WidgetUIView5model27presentationContextProviderSo0I0CAA05YPPayH5ModelV_0aB13Configuration014YPPresentationL9Providing_ptF",
+            "mangledName": "$s12YandexPaySDK0B15OnlineModuleAPIC06createB12WidgetUIView5model27presentationContextProviderSo0I0CAA05YPPayH5ModelV_0aB13Configuration014YPPresentationL9Providing_ptF",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7730,27 +7562,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "YandexPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "YandexPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "YandexPayConfiguration",
-        "printedName": "YandexPayConfiguration",
-        "declKind": "Import",
-        "moduleName": "YandexPaySDK"
       },
       {
         "kind": "TypeDecl",
@@ -7873,8 +7684,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKConfiguration",
-        "printedName": "YandexPaySDKConfiguration",
+        "name": "YPay",
+        "printedName": "YPay",
         "children": [
           {
             "kind": "Var",
@@ -7889,8 +7700,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE14currentVersionSSvpZ",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE14currentVersionSSvpZ",
+            "usr": "s:22YandexPayConfiguration4YPayC0aB3SDKE14currentVersionSSvpZ",
+            "mangledName": "$s22YandexPayConfiguration4YPayC0aB3SDKE14currentVersionSSvpZ",
             "moduleName": "YandexPaySDK",
             "static": true,
             "declAttributes": [
@@ -7913,8 +7724,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE14currentVersionSSvgZ",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE14currentVersionSSvgZ",
+                "usr": "s:22YandexPayConfiguration4YPayC0aB3SDKE14currentVersionSSvgZ",
+                "mangledName": "$s22YandexPayConfiguration4YPayC0aB3SDKE14currentVersionSSvgZ",
                 "moduleName": "YandexPaySDK",
                 "static": true,
                 "declAttributes": [
@@ -7938,8 +7749,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE6onlineAD0B15OnlineModuleAPICvp",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE6onlineAD0B15OnlineModuleAPICvp",
+            "usr": "s:22YandexPayConfiguration4YPayC0aB3SDKE6onlineAD0B15OnlineModuleAPICvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC0aB3SDKE6onlineAD0B15OnlineModuleAPICvp",
             "moduleName": "YandexPaySDK",
             "declAttributes": [
               "Final",
@@ -7960,8 +7771,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE6onlineAD0B15OnlineModuleAPICvg",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC0aB3SDKE6onlineAD0B15OnlineModuleAPICvg",
+                "usr": "s:22YandexPayConfiguration4YPayC0aB3SDKE6onlineAD0B15OnlineModuleAPICvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC0aB3SDKE6onlineAD0B15OnlineModuleAPICvg",
                 "moduleName": "YandexPaySDK",
                 "declAttributes": [
                   "Final"
@@ -7973,8 +7784,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC",
-        "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC",
+        "usr": "s:22YandexPayConfiguration4YPayC",
+        "mangledName": "$s22YandexPayConfiguration4YPayC",
         "moduleName": "YandexPayConfiguration",
         "declAttributes": [
           "Final",
@@ -8011,42 +7822,42 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Button\/YPButton.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Button\/YPButton.swift",
       "kind": "Array",
       "offset": 242,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "IntegerLiteral",
       "offset": 2285,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2314,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/Widgets\/YPUltimateWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/YandexPaySDKApi+CurrentVersion.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDK\/Sources\/SDK\/YandexPaySDKApi+CurrentVersion.swift",
       "kind": "StringLiteral",
       "offset": 109,
       "length": 2,

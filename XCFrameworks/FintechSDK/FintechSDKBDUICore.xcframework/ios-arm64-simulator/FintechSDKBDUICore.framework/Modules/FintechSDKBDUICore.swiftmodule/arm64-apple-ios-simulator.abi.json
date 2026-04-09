@@ -777,6 +777,48 @@
           },
           {
             "kind": "Var",
+            "name": "cutoutManager",
+            "printedName": "cutoutManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechBDUICutoutManager",
+                "printedName": "any FintechSDKBDUICore.FintechBDUICutoutManager",
+                "usr": "s:18FintechSDKBDUICore0A17BDUICutoutManagerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore0A25BDUIActionHandlingContextP13cutoutManagerAA0a10BDUICutoutG0_pvp",
+            "mangledName": "$s18FintechSDKBDUICore0A25BDUIActionHandlingContextP13cutoutManagerAA0a10BDUICutoutG0_pvp",
+            "moduleName": "FintechSDKBDUICore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechBDUICutoutManager",
+                    "printedName": "any FintechSDKBDUICore.FintechBDUICutoutManager",
+                    "usr": "s:18FintechSDKBDUICore0A17BDUICutoutManagerP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore0A25BDUIActionHandlingContextP13cutoutManagerAA0a10BDUICutoutG0_pvg",
+                "mangledName": "$s18FintechSDKBDUICore0A25BDUIActionHandlingContextP13cutoutManagerAA0a10BDUICutoutG0_pvg",
+                "moduleName": "FintechSDKBDUICore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIActionHandlingContext>",
+                "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIActionHandlingContext>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "actionDispatcher",
             "printedName": "actionDispatcher",
             "children": [
@@ -978,6 +1020,48 @@
                 "declKind": "Accessor",
                 "usr": "s:18FintechSDKBDUICore0A11BDUIAdapterP15variableStorageAA0a15BDUIDivVariableE0_pvg",
                 "mangledName": "$s18FintechSDKBDUICore0A11BDUIAdapterP15variableStorageAA0a15BDUIDivVariableE0_pvg",
+                "moduleName": "FintechSDKBDUICore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIAdapter>",
+                "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIAdapter>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expressionResolver",
+            "printedName": "expressionResolver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechDivKitExpressionResolver",
+                "printedName": "any FintechSDKBDUICore.FintechDivKitExpressionResolver",
+                "usr": "s:18FintechSDKBDUICore0A24DivKitExpressionResolverP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore0A11BDUIAdapterP18expressionResolverAA0a16DivKitExpressionE0_pvp",
+            "mangledName": "$s18FintechSDKBDUICore0A11BDUIAdapterP18expressionResolverAA0a16DivKitExpressionE0_pvp",
+            "moduleName": "FintechSDKBDUICore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechDivKitExpressionResolver",
+                    "printedName": "any FintechSDKBDUICore.FintechDivKitExpressionResolver",
+                    "usr": "s:18FintechSDKBDUICore0A24DivKitExpressionResolverP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore0A11BDUIAdapterP18expressionResolverAA0a16DivKitExpressionE0_pvg",
+                "mangledName": "$s18FintechSDKBDUICore0A11BDUIAdapterP18expressionResolverAA0a16DivKitExpressionE0_pvg",
                 "moduleName": "FintechSDKBDUICore",
                 "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIAdapter>",
                 "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIAdapter>",
@@ -2623,6 +2707,745 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKBDUICore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CutoutAnimationType",
+        "printedName": "CutoutAnimationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scaleFromCenter",
+            "printedName": "scaleFromCenter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKBDUICore.CutoutAnimationType.Type) -> FintechSDKBDUICore.CutoutAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CutoutAnimationType",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                    "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CutoutAnimationType",
+                        "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                        "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO15scaleFromCenteryA2CmF",
+            "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO15scaleFromCenteryA2CmF",
+            "moduleName": "FintechSDKBDUICore"
+          },
+          {
+            "kind": "Var",
+            "name": "fade",
+            "printedName": "fade",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKBDUICore.CutoutAnimationType.Type) -> FintechSDKBDUICore.CutoutAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CutoutAnimationType",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                    "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CutoutAnimationType",
+                        "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                        "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO4fadeyA2CmF",
+            "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO4fadeyA2CmF",
+            "moduleName": "FintechSDKBDUICore"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKBDUICore.CutoutAnimationType.Type) -> FintechSDKBDUICore.CutoutAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CutoutAnimationType",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                    "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CutoutAnimationType",
+                        "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                        "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO4noneyA2CmF",
+            "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO4noneyA2CmF",
+            "moduleName": "FintechSDKBDUICore"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKBDUICore.CutoutAnimationType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CutoutAnimationType",
+                    "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                    "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FintechSDKBDUICore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueSSvp",
+            "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueSSvp",
+            "moduleName": "FintechSDKBDUICore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueSSvg",
+                "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO8rawValueSSvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO",
+        "mangledName": "$s18FintechSDKBDUICore19CutoutAnimationTypeO",
+        "moduleName": "FintechSDKBDUICore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CutoutShadowConfig",
+        "printedName": "CutoutShadowConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV5colorSo7UIColorCvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV5colorSo7UIColorCvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV5colorSo7UIColorCvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV5colorSo7UIColorCvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offsetX",
+            "printedName": "offsetX",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7offsetX14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7offsetX12CoreGraphics7CGFloatVvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7offsetX14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7offsetX12CoreGraphics7CGFloatVvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offsetY",
+            "printedName": "offsetY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7offsetY14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7offsetY12CoreGraphics7CGFloatVvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7offsetY14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7offsetY12CoreGraphics7CGFloatVvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opacity",
+            "printedName": "opacity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7opacitySfvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7opacitySfvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV7opacitySfvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV7opacitySfvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "radius",
+            "printedName": "radius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV6radius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV6radius12CoreGraphics7CGFloatVvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV6radius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV6radius12CoreGraphics7CGFloatVvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spread",
+            "printedName": "spread",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV6spread14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV6spread12CoreGraphics7CGFloatVvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV6spread14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV6spread12CoreGraphics7CGFloatVvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:offsetX:offsetY:opacity:radius:spread:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CutoutShadowConfig",
+                "printedName": "FintechSDKBDUICore.CutoutShadowConfig",
+                "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV5color7offsetX0G1Y7opacity6radius6spreadACSo7UIColorC_14CoreFoundation7CGFloatVANSfA2Ntcfc",
+            "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV5color7offsetX0G1Y7opacity6radius6spreadACSo7UIColorC_12CoreGraphics7CGFloatVANSfA2Ntcfc",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV",
+        "mangledName": "$s18FintechSDKBDUICore18CutoutShadowConfigV",
+        "moduleName": "FintechSDKBDUICore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechBDUICutoutManager",
+        "printedName": "FintechBDUICutoutManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showCutout",
+            "printedName": "showCutout(viewId:animationDuration:animationType:shadow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CutoutAnimationType",
+                "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKBDUICore.CutoutShadowConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CutoutShadowConfig",
+                    "printedName": "FintechSDKBDUICore.CutoutShadowConfig",
+                    "usr": "s:18FintechSDKBDUICore18CutoutShadowConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FintechSDKBDUICore0A17BDUICutoutManagerP10showCutout6viewId17animationDuration0I4Type6shadowySS_SdAA0f9AnimationK0OAA0F12ShadowConfigVSgtF",
+            "mangledName": "$s18FintechSDKBDUICore0A17BDUICutoutManagerP10showCutout6viewId17animationDuration0I4Type6shadowySS_SdAA0f9AnimationK0OAA0F12ShadowConfigVSgtF",
+            "moduleName": "FintechSDKBDUICore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUICutoutManager>",
+            "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUICutoutManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideCutout",
+            "printedName": "hideCutout(viewId:animationDuration:animationType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CutoutAnimationType",
+                "printedName": "FintechSDKBDUICore.CutoutAnimationType",
+                "usr": "s:18FintechSDKBDUICore19CutoutAnimationTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FintechSDKBDUICore0A17BDUICutoutManagerP10hideCutout6viewId17animationDuration0I4TypeySS_SdAA0f9AnimationK0OtF",
+            "mangledName": "$s18FintechSDKBDUICore0A17BDUICutoutManagerP10hideCutout6viewId17animationDuration0I4TypeySS_SdAA0f9AnimationK0OtF",
+            "moduleName": "FintechSDKBDUICore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUICutoutManager>",
+            "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUICutoutManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18FintechSDKBDUICore0A17BDUICutoutManagerP",
+        "mangledName": "$s18FintechSDKBDUICore0A17BDUICutoutManagerP",
+        "moduleName": "FintechSDKBDUICore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -7258,21 +8081,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechBDUICutoutManager.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 19,
+      "value": "\"scale_from_center\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 121,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 8,
       "value": "\"log_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 522,
       "length": 5,

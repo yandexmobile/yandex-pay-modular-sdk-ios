@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FintechSDKWebViewFeatures -package-name FintechSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Combine
+@_spi(Internal) import FintechSDKCoreUI
+import Swift
+import SwiftUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_spi(Internal) public protocol FTAnyWebViewModel : Combine.ObservableObject {
+  @_spi(Internal) @_Concurrency.MainActor var urlRequest: Foundation.URLRequest? { get }
+  @_spi(Internal) @_Concurrency.MainActor var state: FintechSDKWebViewFeatures.FTWebViewState { get }
+  @_spi(Internal) var cookie: Foundation.HTTPCookie? { get }
+  @_spi(Internal) var userAgent: Swift.String { get }
+  @_spi(Internal) var messageHandlers: [Swift.String : any WebKit.WKScriptMessageHandler] { get }
+  @_spi(Internal) var observer: (any FintechSDKCoreUI.FintechWebViewEventObserver)? { get }
+  @_spi(Internal) var shouldUsePersistentWebDataStore: Swift.Bool { get }
+  @_spi(Internal) @_Concurrency.MainActor @Sendable func load() async
+}
+@_spi(Internal) public enum FTWebViewState {
+  @_spi(Internal) case loading
+  @_spi(Internal) case loaded
+  @_spi(Internal) case error
+  @_spi(Internal) public static func == (a: FintechSDKWebViewFeatures.FTWebViewState, b: FintechSDKWebViewFeatures.FTWebViewState) -> Swift.Bool
+  @_spi(Internal) public func hash(into hasher: inout Swift.Hasher)
+  @_spi(Internal) public var hashValue: Swift.Int {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) @_Concurrency.MainActor @preconcurrency public struct FTWebView<WebViewModel, Shimmer, ErrorView> : SwiftUICore.View where WebViewModel : FintechSDKWebViewFeatures.FTAnyWebViewModel, Shimmer : SwiftUICore.View, ErrorView : SwiftUICore.View {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    @_spi(Internal) get
+  }
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public init(viewModel: WebViewModel, shimmer: Shimmer, errorView: ErrorView)
+  @_spi(Internal) public typealias Body = @_opaqueReturnTypeOf("$s25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvp", 0) __<WebViewModel, Shimmer, ErrorView>
+}
+@_spi(Internal) extension FintechSDKWebViewFeatures.FTWebViewState : Swift.Equatable {}
+@_spi(Internal) extension FintechSDKWebViewFeatures.FTWebViewState : Swift.Hashable {}
+@_spi(Internal) extension FintechSDKWebViewFeatures.FTWebView : Swift.Sendable {}

@@ -1,0 +1,809 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FintechSDKAssistant",
+    "printedName": "FintechSDKAssistant",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkImplementation",
+        "printedName": "FintechSDKNetworkImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUIFeatures",
+        "printedName": "FintechSDKBDUIFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreAnalytics",
+        "printedName": "FintechSDKCoreAnalytics",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUtils",
+        "printedName": "FintechSDKCoreUtils",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKDivKitWidgetsFeatures",
+        "printedName": "FintechSDKDivKitWidgetsFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkImplementation",
+        "printedName": "FintechSDKNetworkImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUICore",
+        "printedName": "FintechSDKBDUICore",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCommonEntity",
+        "printedName": "FintechSDKCommonEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKFontsInterfaces",
+        "printedName": "FintechSDKFontsInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUIFeatures",
+        "printedName": "FintechSDKBDUIFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCommonEntity",
+        "printedName": "FintechSDKCommonEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKFontsInterfaces",
+        "printedName": "FintechSDKFontsInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTBenefitsWidgetScreen",
+        "printedName": "FTBenefitsWidgetScreen",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "main",
+            "printedName": "main",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO4mainyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO4mainyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "catalog",
+            "printedName": "catalog",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO7catalogyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO7catalogyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "search",
+            "printedName": "search",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO6searchyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO6searchyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "product",
+            "printedName": "product",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO7productyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO7productyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cart",
+            "printedName": "cart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO4cartyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO4cartyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "checkout",
+            "printedName": "checkout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAssistant.FTBenefitsWidgetScreen.Type) -> FintechSDKAssistant.FTBenefitsWidgetScreen",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTBenefitsWidgetScreen",
+                        "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO8checkoutyA2CmF",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO8checkoutyA2CmF",
+            "moduleName": "FintechSDKAssistant",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueACSgSS_tcfc",
+            "moduleName": "FintechSDKAssistant",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueSSvp",
+            "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueSSvp",
+            "moduleName": "FintechSDKAssistant",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueSSvg",
+                "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO8rawValueSSvg",
+                "moduleName": "FintechSDKAssistant",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO",
+        "mangledName": "$s19FintechSDKAssistant22FTBenefitsWidgetScreenO",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTYandexPayAssistantHandler",
+        "printedName": "FTYandexPayAssistantHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantId:environment:locale:bduiAdapterFactory:fontsAdapter:accountManagerAdapter:loginService:presenterViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTYandexPayAssistantHandler",
+                "printedName": "FintechSDKAssistant.FTYandexPayAssistantHandler",
+                "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechSDKEnvironment",
+                "printedName": "FintechSDKCommonEntity.FintechSDKEnvironment",
+                "usr": "s:22FintechSDKCommonEntity0A14SDKEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLocale",
+                "printedName": "FintechSDKCoreUI.FintechLocale",
+                "usr": "s:16FintechSDKCoreUI0A6LocaleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechBDUIAdapterFactory",
+                "printedName": "any FintechSDKBDUIFeatures.FintechBDUIAdapterFactory",
+                "usr": "s:22FintechSDKBDUIFeatures0A18BDUIAdapterFactoryP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechFontsAdapter",
+                "printedName": "any FintechSDKFontsInterfaces.FintechFontsAdapter",
+                "usr": "s:25FintechSDKFontsInterfaces0A12FontsAdapterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAccountManagerAdapter",
+                "printedName": "any FintechSDKAuthInterfaces.FintechAccountManagerAdapter",
+                "usr": "s:24FintechSDKAuthInterfaces0A21AccountManagerAdapterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService23presenterViewControllerACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAV0a5LoginR0_pSo06UIViewU0CSgtcfc",
+            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService23presenterViewControllerACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAV0a5LoginR0_pSo06UIViewU0CSgtcfc",
+            "moduleName": "FintechSDKAssistant",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createBenefitsWidget",
+            "printedName": "createBenefitsWidget(screen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC20createBenefitsWidget6screen7SwiftUI4View_pAA010FTBenefitsI6ScreenOSg_tF",
+            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC20createBenefitsWidget6screen7SwiftUI4View_pAA010FTBenefitsI6ScreenOSg_tF",
+            "moduleName": "FintechSDKAssistant",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createBenefitsWidget",
+            "printedName": "createBenefitsWidget(screen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTBenefitsWidgetScreen",
+                    "printedName": "FintechSDKAssistant.FTBenefitsWidgetScreen",
+                    "usr": "s:19FintechSDKAssistant22FTBenefitsWidgetScreenO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC20createBenefitsWidget6screenSo6UIViewCAA010FTBenefitsI6ScreenOSg_tF",
+            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC20createBenefitsWidget6screenSo6UIViewCAA010FTBenefitsI6ScreenOSg_tF",
+            "moduleName": "FintechSDKAssistant",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC",
+        "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 38,
+      "value": "\"\/pay\/v1\/public\/widgets\/argo\/benefits\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
+      "kind": "FloatLiteral",
+      "offset": 425,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
+      "kind": "StringLiteral",
+      "offset": 4062,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
+      "kind": "StringLiteral",
+      "offset": 4430,
+      "length": 17,
+      "value": "\"benefits-widget\""
+    }
+  ]
+}

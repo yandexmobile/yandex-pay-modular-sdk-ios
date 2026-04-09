@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name YandexPaySDK -package-name yandexpaysdk
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import ExternalBduiAdapter
-import FintechSDKAppMetricaAdapter
 import FintechSDKFontsAdapter
 import FintechSDKRealTimeAnalyticsAdapter
 import FintechSDKRealUserMonitoringAdapter
@@ -57,7 +56,7 @@ public protocol YPButtonPaymentDataProviding : AnyObject {
   func paymentUrl(for yandexPayButton: YandexPaySDK.YPButton) async throws -> Swift.String
 }
 public protocol YPButtonPresentationContextProviding : AnyObject {
-  func anchorForPresentation(for yandexPayButton: YandexPaySDK.YPButton) -> YandexPaySDK.YPPresentationContext
+  func anchorForPresentation(for yandexPayButton: YandexPaySDK.YPButton) -> YandexPayConfiguration.YPPresentationContext
 }
 public enum YPTheme {
   case light
@@ -70,7 +69,7 @@ public enum YPTheme {
   }
 }
 public protocol YPForm : AnyObject {
-  func present(from anchor: YandexPaySDK.YPPresentationContext, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  func present(from anchor: YandexPayConfiguration.YPPresentationContext, animated: Swift.Bool, completion: (() -> Swift.Void)?)
   func present(from presenter: any YandexPaySDK.YPFormPresenter, animated: Swift.Bool, completion: (() -> Swift.Void)?)
   func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
 }
@@ -81,11 +80,6 @@ public protocol YPFormPresenter : AnyObject {
   func present(_ viewControllerToPresent: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
 }
 extension UIKit.UIViewController : YandexPaySDK.YPFormPresenter {
-}
-public enum YPPresentationContext {
-  case viewController(UIKit.UIViewController)
-  case window(UIKit.UIWindow)
-  case keyWindow
 }
 public enum YPAvailablePaymentMethod {
   case card
@@ -156,9 +150,6 @@ public struct YPPayWidgetModel {
   public let theme: YandexPaySDK.YPTheme
   public init(theme: YandexPaySDK.YPTheme = .system)
 }
-public protocol YPPresentationContextProviding : AnyObject {
-  func anchorForPresentation() -> YandexPaySDK.YPPresentationContext
-}
 public protocol YPUltimateWidgetDelegate : AnyObject {
   func onYandexPayUltimateCheckoutButtonClick(data: YandexPaySDK.YandexPayUltimateWidgetData)
   func onYandexPayHeaderClick()
@@ -226,9 +217,17 @@ public struct YandexPayUltimateWidgetData {
   public let splitMonthCount: Swift.Int
   public init(splitMonthCount: Swift.Int)
 }
+extension YandexPayConfiguration.YPay {
+  @_Concurrency.MainActor public static var currentVersion: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor final public var online: YandexPaySDK.PayOnlineModuleAPI {
+    get
+  }
+}
 final public class YandexPayModuleDescriptor : YandexPayConfiguration.YandexPaySDKModule {
   public init()
-  @_Concurrency.MainActor final public func configure(with configuration: YandexPayConfiguration.YandexPaySDKConfiguration)
+  @_Concurrency.MainActor final public func configure(with configuration: YandexPayConfiguration.YPay)
   final public var urlHandlers: [any YandexPayConfiguration.YandexPaySDKURLHandler] {
     get
   }
@@ -248,21 +247,13 @@ public enum YandexPay {
   @_Concurrency.MainActor final public func createBadgeView(model: YandexPaySDK.YPBadgeModel) -> some SwiftUICore.View
   
   @_Concurrency.MainActor final public func createBadgeView(model: YandexPaySDK.YPBadgeModel) -> UIKit.UIView
-  @_Concurrency.MainActor final public func createUltimateWidgetView(model: YandexPaySDK.YPUltimateWidgetModel, presentationContextProvider: any YandexPaySDK.YPPresentationContextProviding, delegate: (any YandexPaySDK.YPUltimateWidgetDelegate)? = nil) -> some SwiftUICore.View
+  @_Concurrency.MainActor final public func createUltimateWidgetView(model: YandexPaySDK.YPUltimateWidgetModel, presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding, delegate: (any YandexPaySDK.YPUltimateWidgetDelegate)? = nil) -> some SwiftUICore.View
   
-  @_Concurrency.MainActor final public func createUltimateWidgetView(model: YandexPaySDK.YPUltimateWidgetModel, presentationContextProvider: any YandexPaySDK.YPPresentationContextProviding, delegate: (any YandexPaySDK.YPUltimateWidgetDelegate)? = nil) -> UIKit.UIView
-  @_Concurrency.MainActor final public func createPayWidgetView(model: YandexPaySDK.YPPayWidgetModel = YPPayWidgetModel(), presentationContextProvider: any YandexPaySDK.YPPresentationContextProviding) -> some SwiftUICore.View
+  @_Concurrency.MainActor final public func createUltimateWidgetView(model: YandexPaySDK.YPUltimateWidgetModel, presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding, delegate: (any YandexPaySDK.YPUltimateWidgetDelegate)? = nil) -> UIKit.UIView
+  @_Concurrency.MainActor final public func createPayWidgetView(model: YandexPaySDK.YPPayWidgetModel = YPPayWidgetModel(), presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding) -> some SwiftUICore.View
   
-  @_Concurrency.MainActor final public func createPayWidgetUIView(model: YandexPaySDK.YPPayWidgetModel = YPPayWidgetModel(), presentationContextProvider: any YandexPaySDK.YPPresentationContextProviding) -> UIKit.UIView
+  @_Concurrency.MainActor final public func createPayWidgetUIView(model: YandexPaySDK.YPPayWidgetModel = YPPayWidgetModel(), presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding) -> UIKit.UIView
   @objc deinit
-}
-extension YandexPayConfiguration.YandexPaySDKConfiguration {
-  @_Concurrency.MainActor public static var currentVersion: Swift.String {
-    get
-  }
-  @_Concurrency.MainActor final public var online: YandexPaySDK.PayOnlineModuleAPI {
-    get
-  }
 }
 extension YandexPaySDK.YPTheme : Swift.Equatable {}
 extension YandexPaySDK.YPTheme : Swift.Hashable {}

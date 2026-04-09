@@ -68,12 +68,12 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKNetworkInterfaces",
-        "printedName": "FintechSDKNetworkInterfaces",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect",
         "declAttributes": [
-          "Preconcurrency"
+          "SPIAccessControl"
         ]
       },
       {
@@ -84,6 +84,1275 @@
         "moduleName": "FintechSDKMerchantRedirect",
         "declAttributes": [
           "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkImplementation",
+        "printedName": "FintechSDKNetworkImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkImplementation",
+        "printedName": "FintechSDKNetworkImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkImplementation",
+        "printedName": "FintechSDKNetworkImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRemoteResourcesData",
+        "printedName": "FintechSDKRemoteResourcesData",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPWConfig",
+        "printedName": "FTPWConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabled",
+            "printedName": "enabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect10FTPWConfigV7enabledSbvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect10FTPWConfigV7enabledSbvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect10FTPWConfigV7enabledSbvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect10FTPWConfigV7enabledSbvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stopPollingStatuses",
+            "printedName": "stopPollingStatuses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect10FTPWConfigV19stopPollingStatusesSaySSGvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect10FTPWConfigV19stopPollingStatusesSaySSGvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect10FTPWConfigV19stopPollingStatusesSaySSGvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect10FTPWConfigV19stopPollingStatusesSaySSGvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:26FintechSDKMerchantRedirect10FTPWConfigV",
+        "mangledName": "$s26FintechSDKMerchantRedirect10FTPWConfigV",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPWPaymentStatus",
+        "printedName": "FTPWPaymentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentStatus.Type) -> FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentStatus",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO7successyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO7successyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentStatus.Type) -> FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentStatus",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO7failureyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO7failureyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userInteraction",
+            "printedName": "userInteraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentStatus.Type) -> FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentStatus",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO15userInteractionyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO15userInteractionyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inProgress",
+            "printedName": "inProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentStatus.Type) -> FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentStatus",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO10inProgressyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO10inProgressyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentStatus.Type) -> FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentStatus",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO5erroryA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO5erroryA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueSSvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueSSvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueSSvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO8rawValueSSvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO",
+        "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentStatusO",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPWPaymentAction",
+        "printedName": "FTPWPaymentAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "openStatusScreen",
+            "printedName": "openStatusScreen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentAction.Type) -> FintechSDKMerchantRedirect.FTPWPaymentAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentAction",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO16openStatusScreenyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO16openStatusScreenyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "forceOpenStatusScreen",
+            "printedName": "forceOpenStatusScreen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentAction.Type) -> FintechSDKMerchantRedirect.FTPWPaymentAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentAction",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO21forceOpenStatusScreenyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO21forceOpenStatusScreenyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stopPolling",
+            "printedName": "stopPolling",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKMerchantRedirect.FTPWPaymentAction.Type) -> FintechSDKMerchantRedirect.FTPWPaymentAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentAction",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO11stopPollingyA2CmF",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO11stopPollingyA2CmF",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueACSgSS_tcfc",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueSSvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueSSvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueSSvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO8rawValueSSvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO",
+        "mangledName": "$s26FintechSDKMerchantRedirect17FTPWPaymentActionO",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPWCreateTransactionResult",
+        "printedName": "FTPWCreateTransactionResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "transactionID",
+            "printedName": "transactionID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13transactionIDSSvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13transactionIDSSvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13transactionIDSSvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13transactionIDSSvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentStatus",
+            "printedName": "paymentStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTPWPaymentStatus",
+                "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13paymentStatusAA011FTPWPaymentH0Ovp",
+            "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13paymentStatusAA011FTPWPaymentH0Ovp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13paymentStatusAA011FTPWPaymentH0Ovg",
+                "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV13paymentStatusAA011FTPWPaymentH0Ovg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actions",
+            "printedName": "actions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FintechSDKMerchantRedirect.FTPWPaymentAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV7actionsSayAA17FTPWPaymentActionOGvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV7actionsSayAA17FTPWPaymentActionOGvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FintechSDKMerchantRedirect.FTPWPaymentAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentAction",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV7actionsSayAA17FTPWPaymentActionOGvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV7actionsSayAA17FTPWPaymentActionOGvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV",
+        "mangledName": "$s26FintechSDKMerchantRedirect27FTPWCreateTransactionResultV",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPWPaymentStatusResult",
+        "printedName": "FTPWPaymentStatusResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paymentStatus",
+            "printedName": "paymentStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTPWPaymentStatus",
+                "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV07paymentE0AA0dE0Ovp",
+            "mangledName": "$s26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV07paymentE0AA0dE0Ovp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentStatus",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentStatus",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV07paymentE0AA0dE0Ovg",
+                "mangledName": "$s26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV07paymentE0AA0dE0Ovg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actions",
+            "printedName": "actions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FintechSDKMerchantRedirect.FTPWPaymentAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPWPaymentAction",
+                    "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                    "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV7actionsSayAA0D6ActionOGvp",
+            "mangledName": "$s26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV7actionsSayAA0D6ActionOGvp",
+            "moduleName": "FintechSDKMerchantRedirect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FintechSDKMerchantRedirect.FTPWPaymentAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPWPaymentAction",
+                        "printedName": "FintechSDKMerchantRedirect.FTPWPaymentAction",
+                        "usr": "s:26FintechSDKMerchantRedirect17FTPWPaymentActionO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV7actionsSayAA0D6ActionOGvg",
+                "mangledName": "$s26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV7actionsSayAA0D6ActionOGvg",
+                "moduleName": "FintechSDKMerchantRedirect",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV",
+        "mangledName": "$s26FintechSDKMerchantRedirect23FTPWPaymentStatusResultV",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -1218,21 +2487,140 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/ApplicationLayer\/Interactors\/FTMRPayWidgetConfigInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/ApplicationLayer\/Interactors\/FTMRPayWidgetConfigInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 16,
+      "value": "\"transaction_id\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 16,
+      "value": "\"payment_status\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 28,
+      "value": "\"\/pay\/v1\/pay-widget\/payment\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "kind": "FloatLiteral",
+      "offset": 744,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 23,
+      "value": "\"stop_polling_statuses\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 41,
+      "value": "\"\/pay\/v1\/public\/configuration\/pay-widget\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "kind": "FloatLiteral",
+      "offset": 747,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 16,
+      "value": "\"payment_status\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 35,
+      "value": "\"\/pay\/v1\/pay-widget\/payment\/status\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "kind": "FloatLiteral",
+      "offset": 673,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 18,
+      "value": "\"user_interaction\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 13,
+      "value": "\"in_progress\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 20,
+      "value": "\"open_status_screen\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 26,
+      "value": "\"force_open_status_screen\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 14,
+      "value": "\"stop_polling\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 512,
       "length": 8,
       "value": "\"origin\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 546,
       "length": 12,
       "value": "\"source_sdk\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 6,

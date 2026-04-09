@@ -459,6 +459,134 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAuthInterfaces"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTAuthFlowAnalyticsReporting",
+        "printedName": "FTAuthFlowAnalyticsReporting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "reportAuthProcessStarted",
+            "printedName": "reportAuthProcessStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP24reportAuthProcessStartedyyF",
+            "mangledName": "$s24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP24reportAuthProcessStartedyyF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportAuthProcessCompleted",
+            "printedName": "reportAuthProcessCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP26reportAuthProcessCompletedyyF",
+            "mangledName": "$s24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP26reportAuthProcessCompletedyyF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportAuthProcessFailed",
+            "printedName": "reportAuthProcessFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP23reportAuthProcessFailed5errorys5Error_p_tF",
+            "mangledName": "$s24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP23reportAuthProcessFailed5errorys5Error_p_tF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthFlowAnalyticsReporting>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP",
+        "mangledName": "$s24FintechSDKAuthInterfaces28FTAuthFlowAnalyticsReportingP",
+        "moduleName": "FintechSDKAuthInterfaces",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "FintechClientIdentifier",
         "printedName": "FintechClientIdentifier",
@@ -1353,6 +1481,48 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "keyType",
+            "printedName": "keyType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PublicKeyType",
+                "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24FintechSDKAuthInterfaces0A7DPoPKeyP7keyTypeAA09PublicKeyG0Ovp",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A7DPoPKeyP7keyTypeAA09PublicKeyG0Ovp",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PublicKeyType",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                    "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24FintechSDKAuthInterfaces0A7DPoPKeyP7keyTypeAA09PublicKeyG0Ovg",
+                "mangledName": "$s24FintechSDKAuthInterfaces0A7DPoPKeyP7keyTypeAA09PublicKeyG0Ovg",
+                "moduleName": "FintechSDKAuthInterfaces",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechDPoPKey>",
+                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechDPoPKey>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "makeDPoP",
             "printedName": "makeDPoP(method:path:tokenForAth:)",
@@ -1786,6 +1956,43 @@
           },
           {
             "kind": "Var",
+            "name": "systemCancelled",
+            "printedName": "systemCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.FintechCryptoKeyError.Type) -> FintechSDKAuthInterfaces.FintechCryptoKeyError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechCryptoKeyError",
+                    "printedName": "FintechSDKAuthInterfaces.FintechCryptoKeyError",
+                    "usr": "s:24FintechSDKAuthInterfaces0A14CryptoKeyErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.FintechCryptoKeyError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechCryptoKeyError",
+                        "printedName": "FintechSDKAuthInterfaces.FintechCryptoKeyError",
+                        "usr": "s:24FintechSDKAuthInterfaces0A14CryptoKeyErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces0A14CryptoKeyErrorO15systemCancelledyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A14CryptoKeyErrorO15systemCancelledyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Var",
             "name": "needToLogout",
             "printedName": "needToLogout",
             "children": [
@@ -1872,29 +2079,133 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FintechDPoPService",
-        "printedName": "FintechDPoPService",
+        "name": "PublicKeyType",
+        "printedName": "PublicKeyType",
         "children": [
           {
             "kind": "Var",
-            "name": "key",
-            "printedName": "key",
+            "name": "biometric",
+            "printedName": "biometric",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.PublicKeyType.Type) -> FintechSDKAuthInterfaces.PublicKeyType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PublicKeyType",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                    "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PublicKeyType",
+                        "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                        "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO9biometricyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO9biometricyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Var",
+            "name": "regular",
+            "printedName": "regular",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.PublicKeyType.Type) -> FintechSDKAuthInterfaces.PublicKeyType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PublicKeyType",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                    "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PublicKeyType",
+                        "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                        "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO7regularyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO7regularyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FintechDPoPKey",
-                "printedName": "any FintechSDKAuthInterfaces.FintechDPoPKey",
-                "usr": "s:24FintechSDKAuthInterfaces0A7DPoPKeyP"
+                "name": "Optional",
+                "printedName": "FintechSDKAuthInterfaces.PublicKeyType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PublicKeyType",
+                    "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                    "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:24FintechSDKAuthInterfaces0A11DPoPServiceP3keyAA0aD4PKey_pvp",
-            "mangledName": "$s24FintechSDKAuthInterfaces0A11DPoPServiceP3keyAA0aD4PKey_pvp",
+            "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueSSvp",
+            "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueSSvp",
             "moduleName": "FintechSDKAuthInterfaces",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
+            "implicit": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1903,23 +2214,136 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "FintechDPoPKey",
-                    "printedName": "any FintechSDKAuthInterfaces.FintechDPoPKey",
-                    "usr": "s:24FintechSDKAuthInterfaces0A7DPoPKeyP"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces0A11DPoPServiceP3keyAA0aD4PKey_pvg",
-                "mangledName": "$s24FintechSDKAuthInterfaces0A11DPoPServiceP3keyAA0aD4PKey_pvg",
+                "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueSSvg",
+                "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO8rawValueSSvg",
                 "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechDPoPService>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechDPoPService>",
-                "protocolReq": true,
-                "throwing": true,
-                "reqNewWitnessTableEntry": true,
+                "implicit": true,
                 "accessorKind": "get"
               }
             ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO",
+        "mangledName": "$s24FintechSDKAuthInterfaces13PublicKeyTypeO",
+        "moduleName": "FintechSDKAuthInterfaces",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechDPoPService",
+        "printedName": "FintechDPoPService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "key",
+            "printedName": "key(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechDPoPKey",
+                "printedName": "any FintechSDKAuthInterfaces.FintechDPoPKey",
+                "usr": "s:24FintechSDKAuthInterfaces0A7DPoPKeyP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PublicKeyType",
+                "printedName": "FintechSDKAuthInterfaces.PublicKeyType",
+                "usr": "s:24FintechSDKAuthInterfaces13PublicKeyTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A11DPoPServiceP3keyyAA0aD4PKey_pAA13PublicKeyTypeOAA0a6CryptoI5ErrorOYKF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A11DPoPServiceP3keyyAA0aD4PKey_pAA13PublicKeyTypeOAA0a6CryptoI5ErrorOYKF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechDPoPService>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechDPoPService>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2734,6 +3158,227 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAuthInterfaces"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechAuthType",
+        "printedName": "FintechAuthType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "internal",
+            "printedName": "internal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.FintechAuthType.Type) -> FintechSDKAuthInterfaces.FintechAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechAuthType",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                    "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechAuthType",
+                        "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                        "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO8internalyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO8internalyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Var",
+            "name": "external",
+            "printedName": "external",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.FintechAuthType.Type) -> FintechSDKAuthInterfaces.FintechAuthType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechAuthType",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                    "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechAuthType",
+                        "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                        "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO8externalyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO8externalyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO9hashValueSivp",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO9hashValueSivp",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO9hashValueSivg",
+                "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO9hashValueSivg",
+                "moduleName": "FintechSDKAuthInterfaces",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO",
+        "mangledName": "$s24FintechSDKAuthInterfaces0A8AuthTypeO",
+        "moduleName": "FintechSDKAuthInterfaces",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -2830,6 +3475,43 @@
             "declKind": "EnumElement",
             "usr": "s:24FintechSDKAuthInterfaces0A21AuthorizationStrategyO7webOnlyyA2CmF",
             "mangledName": "$s24FintechSDKAuthInterfaces0A21AuthorizationStrategyO7webOnlyyA2CmF",
+            "moduleName": "FintechSDKAuthInterfaces"
+          },
+          {
+            "kind": "Var",
+            "name": "primaryOnly",
+            "printedName": "primaryOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKAuthInterfaces.FintechAuthorizationStrategy.Type) -> FintechSDKAuthInterfaces.FintechAuthorizationStrategy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechAuthorizationStrategy",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthorizationStrategy",
+                    "usr": "s:24FintechSDKAuthInterfaces0A21AuthorizationStrategyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKAuthInterfaces.FintechAuthorizationStrategy.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechAuthorizationStrategy",
+                        "printedName": "FintechSDKAuthInterfaces.FintechAuthorizationStrategy",
+                        "usr": "s:24FintechSDKAuthInterfaces0A21AuthorizationStrategyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24FintechSDKAuthInterfaces0A21AuthorizationStrategyO11primaryOnlyyA2CmF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A21AuthorizationStrategyO11primaryOnlyyA2CmF",
             "moduleName": "FintechSDKAuthInterfaces"
           },
           {
@@ -3182,9 +3864,9 @@
         "printedName": "FintechLoginService",
         "children": [
           {
-            "kind": "Var",
-            "name": "auth",
-            "printedName": "auth",
+            "kind": "Function",
+            "name": "getCurrentAuth",
+            "printedName": "getCurrentAuth(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3199,56 +3881,43 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP4authAA0A9AuthModelVSgvp",
-            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP4authAA0A9AuthModelVSgvp",
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP14getCurrentAuth3forAA0aH5ModelVSgAA0aH4TypeO_tF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP14getCurrentAuth3forAA0aH5ModelVSgAA0aH4TypeO_tF",
             "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
             "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FintechSDKAuthInterfaces.FintechAuthModel?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FintechAuthModel",
-                        "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
-                        "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP4authAA0A9AuthModelVSgvg",
-                "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP4authAA0A9AuthModelVSgvg",
-                "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "authorize",
-            "printedName": "authorize(strategy:with:)",
+            "printedName": "authorize(for:strategy:with:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FintechAuthModel",
                 "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
                 "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               },
               {
                 "kind": "TypeNominal",
@@ -3264,8 +3933,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP9authorize8strategy4withAA0A9AuthModelVAA0A21AuthorizationStrategyO_So16UIViewControllerCtYaAA0adE5ErrorOYKF",
-            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP9authorize8strategy4withAA0A9AuthModelVAA0A21AuthorizationStrategyO_So16UIViewControllerCtYaAA0adE5ErrorOYKF",
+            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP9authorize3for8strategy4withAA0A9AuthModelVAA0aJ4TypeO_AA0A21AuthorizationStrategyOSo16UIViewControllerCtYaAA0adE5ErrorOYKF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP9authorize3for8strategy4withAA0A9AuthModelVAA0aJ4TypeO_AA0A21AuthorizationStrategyOSo16UIViewControllerCtYaAA0adE5ErrorOYKF",
             "moduleName": "FintechSDKAuthInterfaces",
             "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
             "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
@@ -3280,17 +3949,54 @@
           {
             "kind": "Function",
             "name": "logout",
-            "printedName": "logout()",
+            "printedName": "logout(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP6logoutyyF",
-            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP6logoutyyF",
+            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP6logout3foryAA0A8AuthTypeO_tF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP6logout3foryAA0A8AuthTypeO_tF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isURLRelatedToSDK",
+            "printedName": "isURLRelatedToSDK(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP17isURLRelatedToSDK3urlSb10Foundation3URLV_tF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP17isURLRelatedToSDK3urlSb10Foundation3URLV_tF",
             "moduleName": "FintechSDKAuthInterfaces",
             "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
             "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
@@ -3361,826 +4067,6 @@
         "moduleName": "FintechSDKAuthInterfaces",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FintechSDKAuthInterfaces"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FintechSDKAuthInterfaces"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FTAuthScenario",
-        "printedName": "FTAuthScenario",
-        "children": [
-          {
-            "kind": "AssociatedType",
-            "name": "FTSessionError",
-            "printedName": "FTSessionError",
-            "declKind": "AssociatedType",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP14FTSessionErrorQa",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP14FTSessionErrorQa",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "protocolReq": true
-          },
-          {
-            "kind": "Var",
-            "name": "isAuthenticated",
-            "printedName": "isAuthenticated",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP15isAuthenticatedSbvp",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP15isAuthenticatedSbvp",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP15isAuthenticatedSbvg",
-                "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP15isAuthenticatedSbvg",
-                "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioDelegate",
-                    "printedName": "any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>",
-                    "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvp",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvp",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioDelegate",
-                        "printedName": "any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>",
-                        "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvg",
-                "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvg",
-                "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioDelegate",
-                        "printedName": "any FintechSDKAuthInterfaces.FTAuthScenarioDelegate<τ_0_0.FTSessionError>",
-                        "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvs",
-                "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvs",
-                "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvM",
-                "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP8delegateAA0dE8Delegate_p14FTSessionErrorQzAGRS_XPSgvM",
-                "moduleName": "FintechSDKAuthInterfaces",
-                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "run",
-            "printedName": "run(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Tuple",
-                "printedName": "(auth: FintechSDKAuthInterfaces.FintechAuthModel, session: FintechSDKAuthInterfaces.FintechAuthSession)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FintechAuthModel",
-                    "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
-                    "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FintechAuthSession",
-                    "printedName": "FintechSDKAuthInterfaces.FintechAuthSession",
-                    "usr": "s:24FintechSDKAuthInterfaces0A11AuthSessionV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP3run4withAA0A9AuthModelV4auth_AA0aH7SessionV7sessiontSo16UIViewControllerC_tYa14FTSessionErrorQzYKF",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP3run4withAA0A9AuthModelV4auth_AA0aH7SessionV7sessiontSo16UIViewControllerC_tYa14FTSessionErrorQzYKF",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Custom"
-            ],
-            "throwing": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP6logoutyyF",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP6logoutyyF",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "handleURL",
-            "printedName": "handleURL(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP9handleURLySb10Foundation0G0VF",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP9handleURLySb10Foundation0G0VF",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "handleUserActivity",
-            "printedName": "handleUserActivity(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSUserActivity",
-                "printedName": "Foundation.NSUserActivity",
-                "usr": "c:objc(cs)NSUserActivity"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP18handleUserActivityySbSo06NSUserH0CF",
-            "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP18handleUserActivityySbSo06NSUserH0CF",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenario>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:24FintechSDKAuthInterfaces14FTAuthScenarioP",
-        "mangledName": "$s24FintechSDKAuthInterfaces14FTAuthScenarioP",
-        "moduleName": "FintechSDKAuthInterfaces",
-        "genericSig": "<τ_0_0 : AnyObject, τ_0_0.FTSessionError : Swift.Error>",
-        "sugared_genericSig": "<Self : AnyObject, Self.FTSessionError : Swift.Error>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FTAuthScenarioState",
-        "printedName": "FTAuthScenarioState",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "loginStarted",
-            "printedName": "loginStarted",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO12loginStartedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO12loginStartedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "passportAuthStarted",
-            "printedName": "passportAuthStarted",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO19passportAuthStartedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO19passportAuthStartedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "sessionGenerationStarted",
-            "printedName": "sessionGenerationStarted",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO24sessionGenerationStartedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO24sessionGenerationStartedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "loginEnded",
-            "printedName": "loginEnded",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO10loginEndedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO10loginEndedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "logoutStarted",
-            "printedName": "logoutStarted",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO13logoutStartedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO13logoutStartedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "logoutEnded",
-            "printedName": "logoutEnded",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FTAuthScenarioState",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO11logoutEndedyACyxGAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO11logoutEndedyACyxGAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          },
-          {
-            "kind": "Var",
-            "name": "error",
-            "printedName": "error",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0 where τ_0_0 : Swift.Error> (FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type) -> (τ_0_0?) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(τ_0_0?) -> FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "τ_0_0?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FTAuthScenarioState",
-                        "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO5erroryACyxGxSgcAEms5ErrorRzlF",
-            "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO5erroryACyxGxSgcAEms5ErrorRzlF",
-            "moduleName": "FintechSDKAuthInterfaces"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO",
-        "mangledName": "$s24FintechSDKAuthInterfaces19FTAuthScenarioStateO",
-        "moduleName": "FintechSDKAuthInterfaces",
-        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Error>",
-        "sugared_genericSig": "<FTSessionError where FTSessionError : Swift.Error>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FTAuthScenarioDelegate",
-        "printedName": "FTAuthScenarioDelegate",
-        "children": [
-          {
-            "kind": "AssociatedType",
-            "name": "FTSessionError",
-            "printedName": "FTSessionError",
-            "declKind": "AssociatedType",
-            "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP14FTSessionErrorQa",
-            "mangledName": "$s24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP14FTSessionErrorQa",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "protocolReq": true
-          },
-          {
-            "kind": "Function",
-            "name": "authScenarioDidChangeState",
-            "printedName": "authScenarioDidChangeState(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FTAuthScenarioState",
-                "printedName": "FintechSDKAuthInterfaces.FTAuthScenarioState<τ_0_0.FTSessionError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.FTSessionError"
-                  }
-                ],
-                "usr": "s:24FintechSDKAuthInterfaces19FTAuthScenarioStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP04authE14DidChangeStateyyAA0deJ0Oy14FTSessionErrorQzGF",
-            "mangledName": "$s24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP04authE14DidChangeStateyyAA0deJ0Oy14FTSessionErrorQzGF",
-            "moduleName": "FintechSDKAuthInterfaces",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FTAuthScenarioDelegate>",
-            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FTAuthScenarioDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP",
-        "mangledName": "$s24FintechSDKAuthInterfaces22FTAuthScenarioDelegateP",
-        "moduleName": "FintechSDKAuthInterfaces",
-        "genericSig": "<τ_0_0 : AnyObject, τ_0_0.FTSessionError : Swift.Error>",
-        "sugared_genericSig": "<Self : AnyObject, Self.FTSessionError : Swift.Error>",
         "declAttributes": [
           "AccessControl"
         ],

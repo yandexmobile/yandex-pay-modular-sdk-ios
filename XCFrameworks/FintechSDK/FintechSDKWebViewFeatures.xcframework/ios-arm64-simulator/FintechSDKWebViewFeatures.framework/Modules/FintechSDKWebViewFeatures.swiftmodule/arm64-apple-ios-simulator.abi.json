@@ -1,0 +1,1005 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FintechSDKWebViewFeatures",
+    "printedName": "FintechSDKWebViewFeatures",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKWebViewFeatures"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKWebViewFeatures"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTAnyWebViewModel",
+        "printedName": "FTAnyWebViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlRequest",
+            "printedName": "urlRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLRequest",
+                    "printedName": "Foundation.URLRequest",
+                    "usr": "s:10Foundation10URLRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP10urlRequest10Foundation10URLRequestVSgvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP10urlRequest10Foundation10URLRequestVSgvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequest",
+                        "printedName": "Foundation.URLRequest",
+                        "usr": "s:10Foundation10URLRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP10urlRequest10Foundation10URLRequestVSgvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP10urlRequest10Foundation10URLRequestVSgvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTWebViewState",
+                "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP5stateAA05FTWebC5StateOvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP5stateAA05FTWebC5StateOvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTWebViewState",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                    "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP5stateAA05FTWebC5StateOvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP5stateAA05FTWebC5StateOvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cookie",
+            "printedName": "cookie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPCookie?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPCookie",
+                    "printedName": "Foundation.HTTPCookie",
+                    "usr": "c:objc(cs)NSHTTPCookie"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP6cookieSo12NSHTTPCookieCSgvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP6cookieSo12NSHTTPCookieCSgvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.HTTPCookie?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPCookie",
+                        "printedName": "Foundation.HTTPCookie",
+                        "usr": "c:objc(cs)NSHTTPCookie"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP6cookieSo12NSHTTPCookieCSgvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP6cookieSo12NSHTTPCookieCSgvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userAgent",
+            "printedName": "userAgent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP9userAgentSSvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP9userAgentSSvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP9userAgentSSvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP9userAgentSSvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "messageHandlers",
+            "printedName": "messageHandlers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : any WebKit.WKScriptMessageHandler]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKScriptMessageHandler",
+                    "printedName": "any WebKit.WKScriptMessageHandler",
+                    "usr": "c:objc(pl)WKScriptMessageHandler"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP15messageHandlersSDySSSo22WKScriptMessageHandler_pGvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP15messageHandlersSDySSSo22WKScriptMessageHandler_pGvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : any WebKit.WKScriptMessageHandler]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKScriptMessageHandler",
+                        "printedName": "any WebKit.WKScriptMessageHandler",
+                        "usr": "c:objc(pl)WKScriptMessageHandler"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP15messageHandlersSDySSSo22WKScriptMessageHandler_pGvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP15messageHandlersSDySSSo22WKScriptMessageHandler_pGvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "observer",
+            "printedName": "observer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKCoreUI.FintechWebViewEventObserver)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechWebViewEventObserver",
+                    "printedName": "any FintechSDKCoreUI.FintechWebViewEventObserver",
+                    "usr": "s:16FintechSDKCoreUI0A20WebViewEventObserverP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP8observer0A9SDKCoreUI0afC13EventObserver_pSgvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP8observer0A9SDKCoreUI0afC13EventObserver_pSgvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FintechSDKCoreUI.FintechWebViewEventObserver)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechWebViewEventObserver",
+                        "printedName": "any FintechSDKCoreUI.FintechWebViewEventObserver",
+                        "usr": "s:16FintechSDKCoreUI0A20WebViewEventObserverP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP8observer0A9SDKCoreUI0afC13EventObserver_pSgvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP8observer0A9SDKCoreUI0afC13EventObserver_pSgvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldUsePersistentWebDataStore",
+            "printedName": "shouldUsePersistentWebDataStore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP019shouldUsePersistentF9DataStoreSbvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP019shouldUsePersistentF9DataStoreSbvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP019shouldUsePersistentF9DataStoreSbvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP019shouldUsePersistentF9DataStoreSbvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP4loadyyYaYbF",
+            "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP4loadyyYaYbF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+            "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTAnyWebViewModel>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Sendable",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25FintechSDKWebViewFeatures08FTAnyWebC5ModelP",
+        "mangledName": "$s25FintechSDKWebViewFeatures08FTAnyWebC5ModelP",
+        "moduleName": "FintechSDKWebViewFeatures",
+        "genericSig": "<τ_0_0 : Combine.ObservableObject>",
+        "sugared_genericSig": "<Self : Combine.ObservableObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTWebViewState",
+        "printedName": "FTWebViewState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKWebViewFeatures.FTWebViewState.Type) -> FintechSDKWebViewFeatures.FTWebViewState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTWebViewState",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                    "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTWebViewState",
+                        "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                        "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO7loadingyA2CmF",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO7loadingyA2CmF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loaded",
+            "printedName": "loaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKWebViewFeatures.FTWebViewState.Type) -> FintechSDKWebViewFeatures.FTWebViewState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTWebViewState",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                    "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTWebViewState",
+                        "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                        "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO6loadedyA2CmF",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO6loadedyA2CmF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKWebViewFeatures.FTWebViewState.Type) -> FintechSDKWebViewFeatures.FTWebViewState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTWebViewState",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                    "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKWebViewFeatures.FTWebViewState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTWebViewState",
+                        "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                        "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO5erroryA2CmF",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO5erroryA2CmF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "spi_group_names": [
+              "Internal"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTWebViewState",
+                "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTWebViewState",
+                "printedName": "FintechSDKWebViewFeatures.FTWebViewState",
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO2eeoiySbAC_ACtFZ",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "static": true,
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO9hashValueSivp",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO9hashValueSivp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO9hashValueSivg",
+                "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO9hashValueSivg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "implicit": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO4hash4intoys6HasherVz_tF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "implicit": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25FintechSDKWebViewFeatures05FTWebC5StateO",
+        "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC5StateO",
+        "moduleName": "FintechSDKWebViewFeatures",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKWebViewFeatures",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKWebViewFeatures"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTWebView",
+        "printedName": "FTWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvp",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvp",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvg",
+                "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvg",
+                "moduleName": "FintechSDKWebViewFeatures",
+                "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel, τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View>",
+                "sugared_genericSig": "<WebViewModel, Shimmer, ErrorView where WebViewModel : FintechSDKWebViewFeatures.FTAnyWebViewModel, Shimmer : SwiftUI.View, ErrorView : SwiftUI.View>",
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewModel:shimmer:errorView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTWebView",
+                "printedName": "FintechSDKWebViewFeatures.FTWebView<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:25FintechSDKWebViewFeatures05FTWebC0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_2"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC0V9viewModel7shimmer05errorC0ACyxq_q0_Gx_q_q0_tcfc",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC0V9viewModel7shimmer05errorC0ACyxq_q0_Gx_q_q0_tcfc",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel, τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View>",
+            "sugared_genericSig": "<WebViewModel, Shimmer, ErrorView where WebViewModel : FintechSDKWebViewFeatures.FTAnyWebViewModel, Shimmer : SwiftUI.View, ErrorView : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25FintechSDKWebViewFeatures05FTWebC0V",
+        "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC0V",
+        "moduleName": "FintechSDKWebViewFeatures",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : FintechSDKWebViewFeatures.FTAnyWebViewModel, τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View>",
+        "sugared_genericSig": "<WebViewModel, Shimmer, ErrorView where WebViewModel : FintechSDKWebViewFeatures.FTAnyWebViewModel, Shimmer : SwiftUI.View, ErrorView : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

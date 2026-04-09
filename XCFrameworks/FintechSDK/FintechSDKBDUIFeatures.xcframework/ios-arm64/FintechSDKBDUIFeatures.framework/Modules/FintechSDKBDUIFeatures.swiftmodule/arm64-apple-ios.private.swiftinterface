@@ -65,6 +65,9 @@ public struct FintechSDKAuthorizationDependencies {
   public let uid: Foundation.NSNumber?
   public init(accountManager: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter, uid: Foundation.NSNumber?, errorReporter: (any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter)? = nil)
 }
+@_spi(Internal) public protocol FTWidgetReloading {
+  @_spi(Internal) func refreshWidget()
+}
 @_spi(Internal) public protocol FTTransportBannerBDUIApi {
   @_spi(Internal) func reload()
   @_spi(Internal) func setLastUsedCardId(_ cardId: Swift.String)
@@ -168,6 +171,7 @@ public protocol FintechYBSDKApi {
 }
 @_spi(Internal) final public class FTBDUINativeRouter : FintechSDKBDUICore.FintechBDUIRouter, FintechSDKBDUIFeatures.FintechNativeRouterApi {
   @_spi(Internal) public init(rootViewController: UIKit.UIViewController?)
+  @_spi(Internal) public init(contextProvider: (any FintechSDKCoreUI.FTPresentationContextProviding)?)
   @_spi(Internal) final public func pop(animated: Swift.Bool)
   @_spi(Internal) final public func dismiss(animated: Swift.Bool, completion: ((UIKit.UIViewController?) -> Swift.Void)?)
   @_spi(Internal) final public func popToRoot(animated: Swift.Bool)
@@ -193,6 +197,7 @@ public protocol FintechYBSDKApi {
 }
 @_spi(Internal) final public class FTFlexRouter : FintechSDKBDUICore.FintechBDUIRouter {
   @_spi(Internal) public init(presenterViewController: UIKit.UIViewController?)
+  @_spi(Internal) public init(contextProvider: (any FintechSDKCoreUI.FTPresentationContextProviding)?)
   @_spi(Internal) final public func push(viewController: UIKit.UIViewController, animated: Swift.Bool)
   @_spi(Internal) final public func pop(animated: Swift.Bool)
   @_spi(Internal) final public func replace(with viewController: UIKit.UIViewController, animated: Swift.Bool)
@@ -239,6 +244,10 @@ public struct FintechSDKTokenizationDependencies {
   public let devicePubkeyProvider: (any FintechSDKBDUIFeatures.DevicePubkeyProviderApi)?
   public let deviceChallengeSignatureProvider: (any FintechSDKBDUIFeatures.DeviceChallengeSignatureProviderApi)?
   public init(fontAdapter: any FintechSDKFontsInterfaces.FintechFontsAdapter, accountManager: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter, networkChallengeHandler: any FintechSDKNetworkInterfaces.FintechNetworkChallengeHandler, uid: Foundation.NSNumber?, eventReporter: (any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter)? = nil, errorReporter: (any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter)? = nil, devicePubkeyProvider: (any FintechSDKBDUIFeatures.DevicePubkeyProviderApi)? = nil, deviceChallengeSignatureProvider: (any FintechSDKBDUIFeatures.DeviceChallengeSignatureProviderApi)? = nil)
+}
+@_spi(Internal) extension UIKit.UIColor {
+  @_spi(Internal) convenience public init?(hex hexString: Swift.String)
+  @_spi(Internal) public func toHex(withAlpha: Swift.Bool = true, withPrefix: Swift.Bool = true) -> Swift.String
 }
 extension UIKit.UIImage {
   public static func named(_ name: Swift.String) -> UIKit.UIImage?

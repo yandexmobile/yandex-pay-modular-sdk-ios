@@ -24,6 +24,9 @@ import _SwiftConcurrencyShims
   @objc final public var variableStorage: Any? {
     @objc get
   }
+  @objc final public var expressionResolver: Any? {
+    @objc get
+  }
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(FBWAdapterFactory) @objcMembers final public class FBWAdapterFactory : ObjectiveC.NSObject {

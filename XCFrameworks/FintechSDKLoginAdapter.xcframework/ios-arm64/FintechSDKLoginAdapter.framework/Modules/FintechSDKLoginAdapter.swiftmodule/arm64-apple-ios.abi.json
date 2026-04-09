@@ -496,13 +496,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "FintechSDKLoginAdapter"
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
@@ -545,14 +538,15 @@
             "moduleName": "FintechSDKLoginAdapter",
             "declAttributes": [
               "Convenience",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Convenience"
           },
           {
-            "kind": "Var",
-            "name": "auth",
-            "printedName": "auth",
+            "kind": "Function",
+            "name": "getCurrentAuth",
+            "printedName": "getCurrentAuth(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -567,58 +561,42 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC4auth0A17SDKAuthInterfaces0A9AuthModelVSgvp",
-            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC4auth0A17SDKAuthInterfaces0A9AuthModelVSgvp",
+            "declKind": "Func",
+            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC14getCurrentAuth3for0A17SDKAuthInterfaces0aI5ModelVSgAF0aI4TypeO_tF",
+            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC14getCurrentAuth3for0A17SDKAuthInterfaces0aI5ModelVSgAF0aI4TypeO_tF",
             "moduleName": "FintechSDKLoginAdapter",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
             ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FintechSDKAuthInterfaces.FintechAuthModel?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FintechAuthModel",
-                        "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
-                        "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC4auth0A17SDKAuthInterfaces0A9AuthModelVSgvg",
-                "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC4auth0A17SDKAuthInterfaces0A9AuthModelVSgvg",
-                "moduleName": "FintechSDKLoginAdapter",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "authorize",
-            "printedName": "authorize(strategy:with:)",
+            "printedName": "authorize(for:strategy:with:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "FintechAuthModel",
                 "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
                 "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               },
               {
                 "kind": "TypeNominal",
@@ -634,8 +612,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC9authorize8strategy4with0A17SDKAuthInterfaces0A9AuthModelVAG0A21AuthorizationStrategyO_So16UIViewControllerCtYaAG0adE5ErrorOYKF",
-            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC9authorize8strategy4with0A17SDKAuthInterfaces0A9AuthModelVAG0A21AuthorizationStrategyO_So16UIViewControllerCtYaAG0adE5ErrorOYKF",
+            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC9authorize3for8strategy4with0A17SDKAuthInterfaces0A9AuthModelVAH0aM4TypeO_AH0A21AuthorizationStrategyOSo16UIViewControllerCtYaAH0adE5ErrorOYKF",
+            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC9authorize3for8strategy4with0A17SDKAuthInterfaces0A9AuthModelVAH0aM4TypeO_AH0A21AuthorizationStrategyOSo16UIViewControllerCtYaAH0adE5ErrorOYKF",
             "moduleName": "FintechSDKLoginAdapter",
             "declAttributes": [
               "Final",
@@ -648,17 +626,52 @@
           {
             "kind": "Function",
             "name": "logout",
-            "printedName": "logout()",
+            "printedName": "logout(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthType",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthType",
+                "usr": "s:24FintechSDKAuthInterfaces0A8AuthTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC6logoutyyF",
-            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC6logoutyyF",
+            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC6logout3fory0A17SDKAuthInterfaces0A8AuthTypeO_tF",
+            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC6logout3fory0A17SDKAuthInterfaces0A8AuthTypeO_tF",
+            "moduleName": "FintechSDKLoginAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isURLRelatedToSDK",
+            "printedName": "isURLRelatedToSDK(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC17isURLRelatedToSDK3urlSb10Foundation3URLV_tF",
+            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC17isURLRelatedToSDK3urlSb10Foundation3URLV_tF",
             "moduleName": "FintechSDKLoginAdapter",
             "declAttributes": [
               "Final",
@@ -768,11 +781,46 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/AuthModelStorage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/AuthModelStorage.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 17,
       "value": "\"fintechsdk.auth\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 22,
+      "value": "\"YANDEX_PAY_CLIENT_ID\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 27,
+      "value": "\"YANDEX_PAY_CLIENT_ID_TEST\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 18,
+      "value": "\"YANDEX_CLIENT_ID\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 23,
+      "value": "\"YANDEX_CLIENT_ID_TEST\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 26,
+      "value": "\"fintechsdk.auth.external\""
     }
   ]
 }

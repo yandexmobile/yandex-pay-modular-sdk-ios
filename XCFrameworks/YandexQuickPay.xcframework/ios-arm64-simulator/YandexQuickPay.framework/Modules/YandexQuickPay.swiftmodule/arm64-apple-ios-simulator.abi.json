@@ -1,0 +1,1685 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "YandexQuickPay",
+    "printedName": "YandexQuickPay",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCommonEntity",
+        "printedName": "FintechSDKCommonEntity",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickPayResult",
+        "printedName": "QuickPayResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexQuickPay.QuickPayResult.Type) -> YandexQuickPay.QuickPayResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayResult",
+                    "printedName": "YandexQuickPay.QuickPayResult",
+                    "usr": "s:14YandexQuickPay0bC6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexQuickPay.QuickPayResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickPayResult",
+                        "printedName": "YandexQuickPay.QuickPayResult",
+                        "usr": "s:14YandexQuickPay0bC6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14YandexQuickPay0bC6ResultO7successyA2CmF",
+            "mangledName": "$s14YandexQuickPay0bC6ResultO7successyA2CmF",
+            "moduleName": "YandexQuickPay"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexQuickPay.QuickPayResult.Type) -> YandexQuickPay.QuickPayResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayResult",
+                    "printedName": "YandexQuickPay.QuickPayResult",
+                    "usr": "s:14YandexQuickPay0bC6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexQuickPay.QuickPayResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickPayResult",
+                        "printedName": "YandexQuickPay.QuickPayResult",
+                        "usr": "s:14YandexQuickPay0bC6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14YandexQuickPay0bC6ResultO7failureyA2CmF",
+            "mangledName": "$s14YandexQuickPay0bC6ResultO7failureyA2CmF",
+            "moduleName": "YandexQuickPay"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayResult",
+                "printedName": "YandexQuickPay.QuickPayResult",
+                "usr": "s:14YandexQuickPay0bC6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayResult",
+                "printedName": "YandexQuickPay.QuickPayResult",
+                "usr": "s:14YandexQuickPay0bC6ResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0bC6ResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14YandexQuickPay0bC6ResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "YandexQuickPay",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14YandexQuickPay0bC6ResultO9hashValueSivp",
+            "mangledName": "$s14YandexQuickPay0bC6ResultO9hashValueSivp",
+            "moduleName": "YandexQuickPay",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14YandexQuickPay0bC6ResultO9hashValueSivg",
+                "mangledName": "$s14YandexQuickPay0bC6ResultO9hashValueSivg",
+                "moduleName": "YandexQuickPay",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0bC6ResultO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14YandexQuickPay0bC6ResultO4hash4intoys6HasherVz_tF",
+            "moduleName": "YandexQuickPay",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14YandexQuickPay0bC6ResultO",
+        "mangledName": "$s14YandexQuickPay0bC6ResultO",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickPayWidgetExpandState",
+        "printedName": "QuickPayWidgetExpandState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "collapsed",
+            "printedName": "collapsed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexQuickPay.QuickPayWidgetExpandState.Type) -> YandexQuickPay.QuickPayWidgetExpandState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayWidgetExpandState",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                    "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickPayWidgetExpandState",
+                        "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                        "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO9collapsedyA2CmF",
+            "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO9collapsedyA2CmF",
+            "moduleName": "YandexQuickPay"
+          },
+          {
+            "kind": "Var",
+            "name": "expanded",
+            "printedName": "expanded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexQuickPay.QuickPayWidgetExpandState.Type) -> YandexQuickPay.QuickPayWidgetExpandState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayWidgetExpandState",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                    "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QuickPayWidgetExpandState",
+                        "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                        "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO8expandedyA2CmF",
+            "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO8expandedyA2CmF",
+            "moduleName": "YandexQuickPay"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayWidgetExpandState",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayWidgetExpandState",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "YandexQuickPay",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO9hashValueSivp",
+            "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO9hashValueSivp",
+            "moduleName": "YandexQuickPay",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO9hashValueSivg",
+                "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO9hashValueSivg",
+                "moduleName": "YandexQuickPay",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "YandexQuickPay",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO",
+        "mangledName": "$s14YandexQuickPay0bC17WidgetExpandStateO",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickPaymentStateListener",
+        "printedName": "QuickPaymentStateListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onPaymentEnabledStateChanged",
+            "printedName": "onPaymentEnabledStateChanged(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0B20PaymentStateListenerP02ond7EnabledE7Changed02isH0ySb_tF",
+            "mangledName": "$s14YandexQuickPay0B20PaymentStateListenerP02ond7EnabledE7Changed02isH0ySb_tF",
+            "moduleName": "YandexQuickPay",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexQuickPay.QuickPaymentStateListener>",
+            "sugared_genericSig": "<Self where Self : YandexQuickPay.QuickPaymentStateListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionExpired",
+            "printedName": "onSessionExpired()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0B20PaymentStateListenerP16onSessionExpiredyyF",
+            "mangledName": "$s14YandexQuickPay0B20PaymentStateListenerP16onSessionExpiredyyF",
+            "moduleName": "YandexQuickPay",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexQuickPay.QuickPaymentStateListener>",
+            "sugared_genericSig": "<Self where Self : YandexQuickPay.QuickPaymentStateListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentResult",
+            "printedName": "onPaymentResult(quickpayResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayResult",
+                "printedName": "YandexQuickPay.QuickPayResult",
+                "usr": "s:14YandexQuickPay0bC6ResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay0B20PaymentStateListenerP02onD6Result08quickpayH0yAA0bcH0O_tF",
+            "mangledName": "$s14YandexQuickPay0B20PaymentStateListenerP02onD6Result08quickpayH0yAA0bcH0O_tF",
+            "moduleName": "YandexQuickPay",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexQuickPay.QuickPaymentStateListener>",
+            "sugared_genericSig": "<Self where Self : YandexQuickPay.QuickPaymentStateListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14YandexQuickPay0B20PaymentStateListenerP",
+        "mangledName": "$s14YandexQuickPay0B20PaymentStateListenerP",
+        "moduleName": "YandexQuickPay",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YQuickPay",
+        "printedName": "YQuickPay",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isQuickPaymentEnabled",
+            "printedName": "isQuickPaymentEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C02isB14PaymentEnabledSbyYaKF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C02isB14PaymentEnabledSbyYaKF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableQuickPayment",
+            "printedName": "enableQuickPayment()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C06enableB7PaymentyyYaKF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C06enableB7PaymentyyYaKF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableQuickPayment",
+            "printedName": "disableQuickPayment()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C07disableB7PaymentyyYaKF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C07disableB7PaymentyyYaKF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentSessionId",
+            "printedName": "getPaymentSessionId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C19getPaymentSessionIdSSyYaKF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C19getPaymentSessionIdSSyYaKF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPaymentMethodsWidget",
+            "printedName": "createPaymentMethodsWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C26createPaymentMethodsWidgetSo6UIViewCyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C26createPaymentMethodsWidgetSo6UIViewCyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPaymentMethodsWidget",
+            "printedName": "createPaymentMethodsWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C26createPaymentMethodsWidget7SwiftUI4View_pyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C26createPaymentMethodsWidget7SwiftUI4View_pyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createActivePaymentMethodBadge",
+            "printedName": "createActivePaymentMethodBadge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C30createActivePaymentMethodBadgeSo6UIViewCyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C30createActivePaymentMethodBadgeSo6UIViewCyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createActivePaymentMethodBadge",
+            "printedName": "createActivePaymentMethodBadge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C30createActivePaymentMethodBadge7SwiftUI4View_pyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C30createActivePaymentMethodBadge7SwiftUI4View_pyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableActivePaymentMethodBadge",
+            "printedName": "enableActivePaymentMethodBadge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C30enableActivePaymentMethodBadgeyyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C30enableActivePaymentMethodBadgeyyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableActivePaymentMethodBadge",
+            "printedName": "disableActivePaymentMethodBadge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C31disableActivePaymentMethodBadgeyyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C31disableActivePaymentMethodBadgeyyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopPaymentPolling",
+            "printedName": "stopPaymentPolling()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C18stopPaymentPollingyyYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C18stopPaymentPollingyyYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showFaqScreen",
+            "printedName": "showFaqScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C13showFaqScreenyyYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C13showFaqScreenyyYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showOnboardingStoriesScreen",
+            "printedName": "showOnboardingStoriesScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C27showOnboardingStoriesScreenyyYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C27showOnboardingStoriesScreenyyYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createExpandablePaymentMethodsWidget",
+            "printedName": "createExpandablePaymentMethodsWidget(expandState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "any SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayWidgetExpandState",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C36createExpandablePaymentMethodsWidget11expandState7SwiftUI4View_pAA0bci6ExpandK0O_tF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C36createExpandablePaymentMethodsWidget11expandState7SwiftUI4View_pAA0bci6ExpandK0O_tF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createExpandablePaymentMethodsWidget",
+            "printedName": "createExpandablePaymentMethodsWidget(expandState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayWidgetExpandState",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C36createExpandablePaymentMethodsWidget11expandStateSo6UIViewCAA0bci6ExpandK0O_tF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C36createExpandablePaymentMethodsWidget11expandStateSo6UIViewCAA0bci6ExpandK0O_tF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addWidgetExpandChangeObserver",
+            "printedName": "addWidgetExpandChangeObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexQuickPay.QuickPayWidgetExpandState) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayWidgetExpandState",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                    "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C29addWidgetExpandChangeObservery10Foundation4UUIDVyAA0bcfG5StateOcYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C29addWidgetExpandChangeObservery10Foundation4UUIDVyAA0bcfG5StateOcYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeWidgetExpandChangeObserver",
+            "printedName": "removeWidgetExpandChangeObserver(forId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C32removeWidgetExpandChangeObserver5forIdy10Foundation4UUIDV_tYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C32removeWidgetExpandChangeObserver5forIdy10Foundation4UUIDV_tYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWidgetExpanded",
+            "printedName": "setWidgetExpanded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPayWidgetExpandState",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C17setWidgetExpandedyyAA0bcF11ExpandStateOF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C17setWidgetExpandedyyAA0bcF11ExpandStateOF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isWidgetExpanded",
+            "printedName": "isWidgetExpanded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YandexQuickPay.QuickPayWidgetExpandState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickPayWidgetExpandState",
+                    "printedName": "YandexQuickPay.QuickPayWidgetExpandState",
+                    "usr": "s:14YandexQuickPay0bC17WidgetExpandStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C16isWidgetExpandedAA0bcF11ExpandStateOSgyF",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C16isWidgetExpandedAA0bcF11ExpandStateOSgyF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "module",
+            "printedName": "module(stateListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YQuickPayModuleDescriptor",
+                "printedName": "YandexQuickPay.YQuickPayModuleDescriptor",
+                "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPaymentStateListener",
+                "printedName": "any YandexQuickPay.QuickPaymentStateListener",
+                "usr": "s:14YandexQuickPay0B20PaymentStateListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC0C6module13stateListenerAA0dC16ModuleDescriptorCAA0b12PaymentStateG0_p_tFZ",
+            "mangledName": "$s14YandexQuickPay06YQuickC0C6module13stateListenerAA0dC16ModuleDescriptorCAA0b12PaymentStateG0_p_tFZ",
+            "moduleName": "YandexQuickPay",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14YandexQuickPay06YQuickC0C",
+        "mangledName": "$s14YandexQuickPay06YQuickC0C",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "YandexPayConfiguration",
+        "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKQuickPayment",
+        "printedName": "FintechSDKQuickPayment",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKLoginAdapter",
+        "printedName": "FintechSDKLoginAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAppMetricaAdapter",
+        "printedName": "FintechSDKAppMetricaAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKFontsAdapter",
+        "printedName": "FintechSDKFontsAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "ExternalBduiAdapter",
+        "printedName": "ExternalBduiAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRealTimeAnalyticsAdapter",
+        "printedName": "FintechSDKRealTimeAnalyticsAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRealUserMonitoringAdapter",
+        "printedName": "FintechSDKRealUserMonitoringAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexQuickPay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YQuickPayModuleDescriptor",
+        "printedName": "YQuickPayModuleDescriptor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(stateListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YQuickPayModuleDescriptor",
+                "printedName": "YandexQuickPay.YQuickPayModuleDescriptor",
+                "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QuickPaymentStateListener",
+                "printedName": "any YandexQuickPay.QuickPaymentStateListener",
+                "usr": "s:14YandexQuickPay0B20PaymentStateListenerP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC13stateListenerAcA0b12PaymentStateH0_p_tcfc",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC13stateListenerAcA0b12PaymentStateH0_p_tcfc",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPay",
+                "printedName": "YandexPayConfiguration.YPay",
+                "usr": "s:22YandexPayConfiguration4YPayC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC9configure4withy0aC13Configuration4YPayC_tF",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC9configure4withy0aC13Configuration4YPayC_tF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "urlHandlers",
+            "printedName": "urlHandlers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YandexPaySDKURLHandler",
+                    "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
+                    "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC11urlHandlersSay0aC13Configuration0aC13SDKURLHandler_pGvp",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC11urlHandlersSay0aC13Configuration0aC13SDKURLHandler_pGvp",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YandexPaySDKURLHandler",
+                        "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
+                        "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC11urlHandlersSay0aC13Configuration0aC13SDKURLHandler_pGvg",
+                "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC11urlHandlersSay0aC13Configuration0aC13SDKURLHandler_pGvg",
+                "moduleName": "YandexQuickPay",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userActivityHandlers",
+            "printedName": "userActivityHandlers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YandexPaySDKUserActivityHandler",
+                    "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
+                    "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC20userActivityHandlersSay0aC13Configuration0ac7SDKUserH7Handler_pGvp",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC20userActivityHandlersSay0aC13Configuration0ac7SDKUserH7Handler_pGvp",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YandexPaySDKUserActivityHandler",
+                        "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
+                        "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC20userActivityHandlersSay0aC13Configuration0ac7SDKUserH7Handler_pGvg",
+                "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC20userActivityHandlersSay0aC13Configuration0ac7SDKUserH7Handler_pGvg",
+                "moduleName": "YandexQuickPay",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthState",
+            "printedName": "getAuthState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YPAuthState",
+                "printedName": "YandexPayConfiguration.YPAuthState",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC12getAuthState0aC13Configuration06YPAuthI0OyYaF",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC12getAuthState0aC13Configuration06YPAuthI0OyYaF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSecurityCheckRequired",
+            "printedName": "isSecurityCheckRequired()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC23isSecurityCheckRequiredSbyYaKF",
+            "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC23isSecurityCheckRequiredSbyYaKF",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14YandexQuickPay06YQuickC16ModuleDescriptorC",
+        "mangledName": "$s14YandexQuickPay06YQuickC16ModuleDescriptorC",
+        "moduleName": "YandexQuickPay",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "YandexPaySDKModule",
+            "printedName": "YandexPaySDKModule",
+            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP",
+            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "YPAuthStateProviding",
+            "printedName": "YPAuthStateProviding",
+            "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP",
+            "mangledName": "$s22YandexPayConfiguration20YPAuthStateProvidingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YPay",
+        "printedName": "YPay",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "quickPay",
+            "printedName": "quickPay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YQuickPay",
+                "printedName": "YandexQuickPay.YQuickPay",
+                "usr": "s:14YandexQuickPay06YQuickC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC0a5QuickB0E05quickB0AD06YQuickB0Cvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC0a5QuickB0E05quickB0AD06YQuickB0Cvp",
+            "moduleName": "YandexQuickPay",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YQuickPay",
+                    "printedName": "YandexQuickPay.YQuickPay",
+                    "usr": "s:14YandexQuickPay06YQuickC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC0a5QuickB0E05quickB0AD06YQuickB0Cvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC0a5QuickB0E05quickB0AD06YQuickB0Cvg",
+                "moduleName": "YandexQuickPay",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22YandexPayConfiguration4YPayC",
+        "mangledName": "$s22YandexPayConfiguration4YPayC",
+        "moduleName": "YandexPayConfiguration",
+        "declAttributes": [
+          "Final",
+          "Custom"
+        ],
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YQuickPay\/Sources\/Adapters\/UIViewWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

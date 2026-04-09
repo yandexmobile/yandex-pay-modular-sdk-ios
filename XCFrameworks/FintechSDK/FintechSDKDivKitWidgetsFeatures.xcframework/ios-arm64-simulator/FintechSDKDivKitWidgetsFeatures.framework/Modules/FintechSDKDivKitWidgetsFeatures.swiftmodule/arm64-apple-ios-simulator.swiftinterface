@@ -7,6 +7,7 @@ import FintechSDKAnalyticsInterfaces
 import FintechSDKAuthInterfaces
 import FintechSDKBDUICore
 import FintechSDKBDUIFeatures
+import FintechSDKCoreUI
 import FintechSDKCoreUtils
 import FintechSDKNetworkInterfaces
 import Foundation

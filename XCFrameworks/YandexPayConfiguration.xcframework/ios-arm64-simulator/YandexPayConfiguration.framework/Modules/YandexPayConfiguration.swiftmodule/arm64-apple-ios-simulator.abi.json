@@ -6,6 +6,910 @@
     "children": [
       {
         "kind": "TypeDecl",
+        "name": "YPAuthState",
+        "printedName": "YPAuthState",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "SecurityCheckFailReason",
+            "printedName": "SecurityCheckFailReason",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "userCancelled",
+                "printedName": "userCancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type) -> YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityCheckFailReason",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SecurityCheckFailReason",
+                            "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO13userCancelledyA2EmF",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO13userCancelledyA2EmF",
+                "moduleName": "YandexPayConfiguration"
+              },
+              {
+                "kind": "Var",
+                "name": "biometryNotAvailable",
+                "printedName": "biometryNotAvailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type) -> YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityCheckFailReason",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SecurityCheckFailReason",
+                            "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO20biometryNotAvailableyA2EmF",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO20biometryNotAvailableyA2EmF",
+                "moduleName": "YandexPayConfiguration"
+              },
+              {
+                "kind": "Var",
+                "name": "unknownError",
+                "printedName": "unknownError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type) -> YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityCheckFailReason",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SecurityCheckFailReason",
+                            "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO12unknownErroryA2EmF",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO12unknownErroryA2EmF",
+                "moduleName": "YandexPayConfiguration"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO9hashValueSivp",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO9hashValueSivp",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO9hashValueSivg",
+                    "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO9hashValueSivg",
+                    "moduleName": "YandexPayConfiguration",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO4hash4intoys6HasherVz_tF",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecurityCheckFailReason",
+                    "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecurityCheckFailReason",
+                    "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO2eeoiySbAE_AEtFZ",
+                "moduleName": "YandexPayConfiguration",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notAuthorized",
+            "printedName": "notAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO13notAuthorizedyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO13notAuthorizedyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationInProgress",
+            "printedName": "authorizationInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO23authorizationInProgressyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23authorizationInProgressyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "accountAuthorized",
+            "printedName": "accountAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO17accountAuthorizedyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO17accountAuthorizedyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "securityCheckInProgress",
+            "printedName": "securityCheckInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO23securityCheckInProgressyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO23securityCheckInProgressyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "securityCheckFailed",
+            "printedName": "securityCheckFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> (YandexPayConfiguration.YPAuthState.SecurityCheckFailReason) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YandexPayConfiguration.YPAuthState.SecurityCheckFailReason) -> YandexPayConfiguration.YPAuthState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: YandexPayConfiguration.YPAuthState.SecurityCheckFailReason)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SecurityCheckFailReason",
+                            "printedName": "YandexPayConfiguration.YPAuthState.SecurityCheckFailReason",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO23SecurityCheckFailReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO19securityCheckFailedyA2C08SecurityG10FailReasonO_tcACmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO19securityCheckFailedyA2C08SecurityG10FailReasonO_tcACmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "securityCheckRequired",
+            "printedName": "securityCheckRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO21securityCheckRequiredyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO21securityCheckRequiredyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "securityCheckCompleted",
+            "printedName": "securityCheckCompleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPAuthState.Type) -> YandexPayConfiguration.YPAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthState",
+                    "printedName": "YandexPayConfiguration.YPAuthState",
+                    "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO22securityCheckCompletedyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO22securityCheckCompletedyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPAuthState",
+                "printedName": "YandexPayConfiguration.YPAuthState",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPAuthState",
+                "printedName": "YandexPayConfiguration.YPAuthState",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration11YPAuthStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22YandexPayConfiguration11YPAuthStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "YandexPayConfiguration",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22YandexPayConfiguration11YPAuthStateO",
+        "mangledName": "$s22YandexPayConfiguration11YPAuthStateO",
+        "moduleName": "YandexPayConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YPAuthStateProviding",
+        "printedName": "YPAuthStateProviding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAuthState",
+            "printedName": "getAuthState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YPAuthState",
+                "printedName": "YandexPayConfiguration.YPAuthState",
+                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP07getAuthE0AA0dE0OyYaF",
+            "mangledName": "$s22YandexPayConfiguration20YPAuthStateProvidingP07getAuthE0AA0dE0OyYaF",
+            "moduleName": "YandexPayConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPAuthStateProviding>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPAuthStateProviding>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSecurityCheckRequired",
+            "printedName": "isSecurityCheckRequired()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP23isSecurityCheckRequiredSbyYaKF",
+            "mangledName": "$s22YandexPayConfiguration20YPAuthStateProvidingP23isSecurityCheckRequiredSbyYaKF",
+            "moduleName": "YandexPayConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPAuthStateProviding>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPAuthStateProviding>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP",
+        "mangledName": "$s22YandexPayConfiguration20YPAuthStateProvidingP",
+        "moduleName": "YandexPayConfiguration",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YandexPayConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YPPresentationContext",
+        "printedName": "YPPresentationContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPPresentationContext.Type) -> (UIKit.UIViewController) -> YandexPayConfiguration.YPPresentationContext",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController) -> YandexPayConfiguration.YPPresentationContext",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContext",
+                        "printedName": "YandexPayConfiguration.YPPresentationContext",
+                        "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPPresentationContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContext",
+                        "printedName": "YandexPayConfiguration.YPPresentationContext",
+                        "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPPresentationContextO14viewControlleryACSo06UIViewG0CcACmF",
+            "mangledName": "$s22YandexPayConfiguration21YPPresentationContextO14viewControlleryACSo06UIViewG0CcACmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "window",
+            "printedName": "window",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPPresentationContext.Type) -> (UIKit.UIWindow) -> YandexPayConfiguration.YPPresentationContext",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIWindow) -> YandexPayConfiguration.YPPresentationContext",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContext",
+                        "printedName": "YandexPayConfiguration.YPPresentationContext",
+                        "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPPresentationContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContext",
+                        "printedName": "YandexPayConfiguration.YPPresentationContext",
+                        "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPPresentationContextO6windowyACSo8UIWindowCcACmF",
+            "mangledName": "$s22YandexPayConfiguration21YPPresentationContextO6windowyACSo8UIWindowCcACmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "keyWindow",
+            "printedName": "keyWindow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPPresentationContext.Type) -> YandexPayConfiguration.YPPresentationContext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPPresentationContext",
+                    "printedName": "YandexPayConfiguration.YPPresentationContext",
+                    "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPPresentationContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContext",
+                        "printedName": "YandexPayConfiguration.YPPresentationContext",
+                        "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPPresentationContextO9keyWindowyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration21YPPresentationContextO9keyWindowyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22YandexPayConfiguration21YPPresentationContextO",
+        "mangledName": "$s22YandexPayConfiguration21YPPresentationContextO",
+        "moduleName": "YandexPayConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YPPresentationContextProviding",
+        "printedName": "YPPresentationContextProviding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "anchorForPresentation",
+            "printedName": "anchorForPresentation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YPPresentationContext",
+                "printedName": "YandexPayConfiguration.YPPresentationContext",
+                "usr": "s:22YandexPayConfiguration21YPPresentationContextO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP21anchorForPresentationAA0dE0OyF",
+            "mangledName": "$s22YandexPayConfiguration30YPPresentationContextProvidingP21anchorForPresentationAA0dE0OyF",
+            "moduleName": "YandexPayConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPPresentationContextProviding>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPPresentationContextProviding>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP",
+        "mangledName": "$s22YandexPayConfiguration30YPPresentationContextProvidingP",
+        "moduleName": "YandexPayConfiguration",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "YPSDKEnvironment",
         "printedName": "YPSDKEnvironment",
         "children": [
@@ -694,6 +1598,257 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "YPSDKThemeColorScheme",
+        "printedName": "YPSDKThemeColorScheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "system",
+            "printedName": "system",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPSDKThemeColorScheme.Type) -> YandexPayConfiguration.YPSDKThemeColorScheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPSDKThemeColorScheme",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                    "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPSDKThemeColorScheme",
+                        "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                        "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO6systemyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO6systemyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPSDKThemeColorScheme.Type) -> YandexPayConfiguration.YPSDKThemeColorScheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPSDKThemeColorScheme",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                    "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPSDKThemeColorScheme",
+                        "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                        "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO5lightyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO5lightyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "dark",
+            "printedName": "dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YandexPayConfiguration.YPSDKThemeColorScheme.Type) -> YandexPayConfiguration.YPSDKThemeColorScheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPSDKThemeColorScheme",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                    "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPSDKThemeColorScheme",
+                        "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                        "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO4darkyA2CmF",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO4darkyA2CmF",
+            "moduleName": "YandexPayConfiguration"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPSDKThemeColorScheme",
+                "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPSDKThemeColorScheme",
+                "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO2eeoiySbAC_ACtFZ",
+            "moduleName": "YandexPayConfiguration",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO9hashValueSivp",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO9hashValueSivp",
+            "moduleName": "YandexPayConfiguration",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO9hashValueSivg",
+                "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO9hashValueSivg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO4hash4intoys6HasherVz_tF",
+            "moduleName": "YandexPayConfiguration",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO",
+        "mangledName": "$s22YandexPayConfiguration21YPSDKThemeColorSchemeO",
+        "moduleName": "YandexPayConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -708,9 +1863,37 @@
         "moduleName": "YandexPayConfiguration"
       },
       {
+        "kind": "Import",
+        "name": "FintechSDKAnalyticsInterfaces",
+        "printedName": "FintechSDKAnalyticsInterfaces",
+        "declKind": "Import",
+        "moduleName": "YandexPayConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "YandexPayConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKLoginAdapter",
+        "printedName": "FintechSDKLoginAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexPayConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAppMetricaAdapter",
+        "printedName": "FintechSDKAppMetricaAdapter",
+        "declKind": "Import",
+        "moduleName": "YandexPayConfiguration"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKConfiguration",
-        "printedName": "YandexPaySDKConfiguration",
+        "name": "YPay",
+        "printedName": "YPay",
         "children": [
           {
             "kind": "Var",
@@ -719,14 +1902,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "YandexPaySDKConfiguration",
-                "printedName": "YandexPayConfiguration.YandexPaySDKConfiguration",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC"
+                "name": "YPay",
+                "printedName": "YandexPayConfiguration.YPay",
+                "usr": "s:22YandexPayConfiguration4YPayC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC8instanceACvpZ",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC8instanceACvpZ",
+            "usr": "s:22YandexPayConfiguration4YPayC8instanceACvpZ",
+            "mangledName": "$s22YandexPayConfiguration4YPayC8instanceACvpZ",
             "moduleName": "YandexPayConfiguration",
             "static": true,
             "declAttributes": [
@@ -742,14 +1925,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKConfiguration",
-                    "printedName": "YandexPayConfiguration.YandexPaySDKConfiguration",
-                    "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC"
+                    "name": "YPay",
+                    "printedName": "YandexPayConfiguration.YPay",
+                    "usr": "s:22YandexPayConfiguration4YPayC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC8instanceACvgZ",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC8instanceACvgZ",
+                "usr": "s:22YandexPayConfiguration4YPayC8instanceACvgZ",
+                "mangledName": "$s22YandexPayConfiguration4YPayC8instanceACvgZ",
                 "moduleName": "YandexPayConfiguration",
                 "static": true,
                 "declAttributes": [
@@ -772,8 +1955,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC13isInitializedSbvpZ",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC13isInitializedSbvpZ",
+            "usr": "s:22YandexPayConfiguration4YPayC13isInitializedSbvpZ",
+            "mangledName": "$s22YandexPayConfiguration4YPayC13isInitializedSbvpZ",
             "moduleName": "YandexPayConfiguration",
             "static": true,
             "declAttributes": [
@@ -795,8 +1978,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC13isInitializedSbvgZ",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC13isInitializedSbvgZ",
+                "usr": "s:22YandexPayConfiguration4YPayC13isInitializedSbvgZ",
+                "mangledName": "$s22YandexPayConfiguration4YPayC13isInitializedSbvgZ",
                 "moduleName": "YandexPayConfiguration",
                 "static": true,
                 "declAttributes": [
@@ -819,8 +2002,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC11environmentAA16YPSDKEnvironmentOvp",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC11environmentAA16YPSDKEnvironmentOvp",
+            "usr": "s:22YandexPayConfiguration4YPayC11environmentAA16YPSDKEnvironmentOvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC11environmentAA16YPSDKEnvironmentOvp",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Final",
@@ -845,8 +2028,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC11environmentAA16YPSDKEnvironmentOvg",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC11environmentAA16YPSDKEnvironmentOvg",
+                "usr": "s:22YandexPayConfiguration4YPayC11environmentAA16YPSDKEnvironmentOvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC11environmentAA16YPSDKEnvironmentOvg",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -869,8 +2052,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC8merchantAA13YPSDKMerchantVvp",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC8merchantAA13YPSDKMerchantVvp",
+            "usr": "s:22YandexPayConfiguration4YPayC8merchantAA13YPSDKMerchantVvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC8merchantAA13YPSDKMerchantVvp",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Final",
@@ -894,8 +2077,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC8merchantAA13YPSDKMerchantVvg",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC8merchantAA13YPSDKMerchantVvg",
+                "usr": "s:22YandexPayConfiguration4YPayC8merchantAA13YPSDKMerchantVvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC8merchantAA13YPSDKMerchantVvg",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -918,8 +2101,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC6localeAA11YPSDKLocaleOvp",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC6localeAA11YPSDKLocaleOvp",
+            "usr": "s:22YandexPayConfiguration4YPayC6localeAA11YPSDKLocaleOvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC6localeAA11YPSDKLocaleOvp",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Final",
@@ -943,14 +2126,468 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC6localeAA11YPSDKLocaleOvg",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC6localeAA11YPSDKLocaleOvg",
+                "usr": "s:22YandexPayConfiguration4YPayC6localeAA11YPSDKLocaleOvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC6localeAA11YPSDKLocaleOvg",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
                   "Final"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "theme",
+            "printedName": "theme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YPSDKThemeColorScheme",
+                "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC5themeAA21YPSDKThemeColorSchemeOvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC5themeAA21YPSDKThemeColorSchemeOvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPSDKThemeColorScheme",
+                    "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                    "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC5themeAA21YPSDKThemeColorSchemeOvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC5themeAA21YPSDKThemeColorSchemeOvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableLogging",
+            "printedName": "enableLogging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC13enableLoggingSbvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC13enableLoggingSbvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC13enableLoggingSbvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC13enableLoggingSbvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentationContextProvider",
+            "printedName": "presentationContextProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any YandexPayConfiguration.YPPresentationContextProviding)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPPresentationContextProviding",
+                    "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                    "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC27presentationContextProviderAA014YPPresentationF9Providing_pSgvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC27presentationContextProviderAA014YPPresentationF9Providing_pSgvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any YandexPayConfiguration.YPPresentationContextProviding)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPPresentationContextProviding",
+                        "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                        "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC27presentationContextProviderAA014YPPresentationF9Providing_pSgvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC27presentationContextProviderAA014YPPresentationF9Providing_pSgvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authStateProvider",
+            "printedName": "authStateProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any YandexPayConfiguration.YPAuthStateProviding)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPAuthStateProviding",
+                    "printedName": "any YandexPayConfiguration.YPAuthStateProviding",
+                    "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any YandexPayConfiguration.YPAuthStateProviding)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthStateProviding",
+                        "printedName": "any YandexPayConfiguration.YPAuthStateProviding",
+                        "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any YandexPayConfiguration.YPAuthStateProviding)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthStateProviding",
+                        "printedName": "any YandexPayConfiguration.YPAuthStateProviding",
+                        "usr": "s:22YandexPayConfiguration20YPAuthStateProvidingP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvs",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvs",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvM",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateProviderAA06YPAuthF9Providing_pSgvM",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authStateNotifier",
+            "printedName": "authStateNotifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((YandexPayConfiguration.YPAuthState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YandexPayConfiguration.YPAuthState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YPAuthState",
+                        "printedName": "YandexPayConfiguration.YPAuthState",
+                        "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((YandexPayConfiguration.YPAuthState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(YandexPayConfiguration.YPAuthState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "YPAuthState",
+                            "printedName": "YandexPayConfiguration.YPAuthState",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((YandexPayConfiguration.YPAuthState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(YandexPayConfiguration.YPAuthState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "YPAuthState",
+                            "printedName": "YandexPayConfiguration.YPAuthState",
+                            "usr": "s:22YandexPayConfiguration11YPAuthStateO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvs",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvs",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvM",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17authStateNotifieryAA06YPAuthF0OcSgvM",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -967,8 +2604,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
+            "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Final",
@@ -990,8 +2627,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -1017,8 +2654,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -1038,8 +2675,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
-                "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -1050,9 +2687,157 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "loginService",
+            "printedName": "loginService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC12loginService24FintechSDKAuthInterfaces0g5LoginF0_pvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC12loginService24FintechSDKAuthInterfaces0g5LoginF0_pvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechLoginService",
+                    "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                    "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC12loginService24FintechSDKAuthInterfaces0g5LoginF0_pvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC12loginService24FintechSDKAuthInterfaces0g5LoginF0_pvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountManagerAdapter",
+            "printedName": "accountManagerAdapter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAccountManagerAdapter",
+                "printedName": "any FintechSDKAuthInterfaces.FintechAccountManagerAdapter",
+                "usr": "s:24FintechSDKAuthInterfaces0A21AccountManagerAdapterP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC21accountManagerAdapter24FintechSDKAuthInterfaces0h7AccountfG0_pvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC21accountManagerAdapter24FintechSDKAuthInterfaces0h7AccountfG0_pvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Custom"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechAccountManagerAdapter",
+                    "printedName": "any FintechSDKAuthInterfaces.FintechAccountManagerAdapter",
+                    "usr": "s:24FintechSDKAuthInterfaces0A21AccountManagerAdapterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC21accountManagerAdapter24FintechSDKAuthInterfaces0h7AccountfG0_pvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC21accountManagerAdapter24FintechSDKAuthInterfaces0h7AccountfG0_pvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appMetricaAdapter",
+            "printedName": "appMetricaAdapter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAppMetricaAdapter",
+                "printedName": "any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter",
+                "usr": "s:29FintechSDKAnalyticsInterfaces0A17AppMetricaAdapterP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC17appMetricaAdapter29FintechSDKAnalyticsInterfaces0h3AppfG0_pvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC17appMetricaAdapter29FintechSDKAnalyticsInterfaces0h3AppfG0_pvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Custom"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechAppMetricaAdapter",
+                    "printedName": "any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter",
+                    "usr": "s:29FintechSDKAnalyticsInterfaces0A17AppMetricaAdapterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC17appMetricaAdapter29FintechSDKAnalyticsInterfaces0h3AppfG0_pvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC17appMetricaAdapter29FintechSDKAnalyticsInterfaces0h3AppfG0_pvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(environment:merchant:locale:modules:)",
+            "printedName": "initialize(environment:merchant:locale:theme:enableLogging:presentationContextProvider:modules:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1079,6 +2864,35 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "YPSDKThemeColorScheme",
+                "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                "hasDefaultArg": true,
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any YandexPayConfiguration.YPPresentationContextProviding)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YPPresentationContextProviding",
+                    "printedName": "any YandexPayConfiguration.YPPresentationContextProviding",
+                    "usr": "s:22YandexPayConfiguration30YPPresentationContextProvidingP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Array",
                 "printedName": "[any YandexPayConfiguration.YandexPaySDKModule]",
                 "children": [
@@ -1093,13 +2907,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC10initialize11environment8merchant6locale7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOSayAA0aB9SDKModule_pGtFZ",
-            "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC10initialize11environment8merchant6locale7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOSayAA0aB9SDKModule_pGtFZ",
+            "usr": "s:22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0aB9SDKModule_pGtFZ",
+            "mangledName": "$s22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0aB9SDKModule_pGtFZ",
             "moduleName": "YandexPayConfiguration",
             "static": true,
             "declAttributes": [
-              "Custom",
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1107,8 +2921,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC",
-        "mangledName": "$s22YandexPayConfiguration0aB16SDKConfigurationC",
+        "usr": "s:22YandexPayConfiguration4YPayC",
+        "mangledName": "$s22YandexPayConfiguration4YPayC",
         "moduleName": "YandexPayConfiguration",
         "declAttributes": [
           "Final",
@@ -1154,8 +2968,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "applicationDidReceiveOpen",
-            "printedName": "applicationDidReceiveOpen(_:options:)",
+            "name": "handleOpenURL",
+            "printedName": "handleOpenURL(_:options:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1186,12 +3000,13 @@
                     "printedName": "Any"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV25applicationDidReceiveOpen_7optionsSb10Foundation3URLV_SDySo013UIApplicationI13URLOptionsKeyaypGtF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV25applicationDidReceiveOpen_7optionsSb10Foundation3URLV_SDySo013UIApplicationI13URLOptionsKeyaypGtF",
+            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0H0V_SDySo013UIApplicationG13URLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0H0V_SDySo013UIApplicationG13URLOptionsKeyaypGtF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -1202,8 +3017,8 @@
           },
           {
             "kind": "Function",
-            "name": "applicationDidReceiveUserActivity",
-            "printedName": "applicationDidReceiveUserActivity(_:)",
+            "name": "handleUserActivity",
+            "printedName": "handleUserActivity(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1219,14 +3034,122 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV33applicationDidReceiveUserActivityySbSo06NSUserJ0CF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV33applicationDidReceiveUserActivityySbSo06NSUserJ0CF",
+            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV18handleUserActivityySbSo06NSUserH0CF",
+            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV18handleUserActivityySbSo06NSUserH0CF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
               "AccessControl",
               "DiscardableResult"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isURLRelatedToSDK",
+            "printedName": "isURLRelatedToSDK(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
+            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryHandleOpenURL",
+            "printedName": "tryHandleOpenURL(_:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryHandleUserActivity",
+            "printedName": "tryHandleUserActivity(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserActivity",
+                "printedName": "Foundation.NSUserActivity",
+                "usr": "c:objc(cs)NSUserActivity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserI0CF",
+            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserI0CF",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -1286,14 +3209,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "YandexPaySDKConfiguration",
-                "printedName": "YandexPayConfiguration.YandexPaySDKConfiguration",
-                "usr": "s:22YandexPayConfiguration0aB16SDKConfigurationC"
+                "name": "YPay",
+                "printedName": "YandexPayConfiguration.YPay",
+                "usr": "s:22YandexPayConfiguration4YPayC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA0aB16SDKConfigurationC_tF",
-            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA0aB16SDKConfigurationC_tF",
+            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA4YPayC_tF",
+            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA4YPayC_tF",
             "moduleName": "YandexPayConfiguration",
             "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKModule>",
             "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKModule>",
@@ -1671,11 +3594,32 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/1\/4000453912\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPaySDKConfiguration\/Sources\/YPSDKEnvironment.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPSDKEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 58,
       "length": 10,
       "value": "1"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YandexPaySDKDeeplinkHandler.swift",
+      "kind": "Dictionary",
+      "offset": 307,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YandexPaySDKDeeplinkHandler.swift",
+      "kind": "Dictionary",
+      "offset": 1101,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }
