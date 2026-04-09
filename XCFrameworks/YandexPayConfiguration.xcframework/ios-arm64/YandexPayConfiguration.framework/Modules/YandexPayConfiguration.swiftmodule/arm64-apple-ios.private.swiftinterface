@@ -92,42 +92,42 @@ public enum YPSDKThemeColorScheme {
   @_Concurrency.MainActor final public let theme: YandexPayConfiguration.YPSDKThemeColorScheme
   @_Concurrency.MainActor final public let enableLogging: Swift.Bool
   @_Concurrency.MainActor final public let presentationContextProvider: (any YandexPayConfiguration.YPPresentationContextProviding)?
-  @_Concurrency.MainActor final public var authStateProvider: (any YandexPayConfiguration.YPAuthStateProviding)?
+  @_spi(Internal) @_Concurrency.MainActor final public var authStateProvider: (any YandexPayConfiguration.YPAuthStateProviding)?
   @_spi(Internal) @_Concurrency.MainActor final public var authStateNotifier: ((YandexPayConfiguration.YPAuthState) -> Swift.Void)?
-  @_Concurrency.MainActor final public var deeplinkHandler: YandexPayConfiguration.YandexPaySDKDeeplinkHandler {
+  @_Concurrency.MainActor final public var deeplinkHandler: YandexPayConfiguration.YPayDeeplinkHandler {
     get
     set
   }
-  @_Concurrency.MainActor final public let loginService: any FintechSDKAuthInterfaces.FintechLoginService
-  @_Concurrency.MainActor final public let accountManagerAdapter: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter
-  @_Concurrency.MainActor final public let appMetricaAdapter: any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter
-  @_Concurrency.MainActor public static func initialize(environment: YandexPayConfiguration.YPSDKEnvironment, merchant: YandexPayConfiguration.YPSDKMerchant, locale: YandexPayConfiguration.YPSDKLocale, theme: YandexPayConfiguration.YPSDKThemeColorScheme = .system, enableLogging: Swift.Bool = false, presentationContextProvider: (any YandexPayConfiguration.YPPresentationContextProviding)? = nil, modules: [any YandexPayConfiguration.YandexPaySDKModule])
+  @_spi(Internal) @_Concurrency.MainActor final public let loginService: any FintechSDKAuthInterfaces.FintechLoginService
+  @_spi(Internal) @_Concurrency.MainActor final public let accountManagerAdapter: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter
+  @_spi(Internal) @_Concurrency.MainActor final public let appMetricaAdapter: any FintechSDKAnalyticsInterfaces.FintechAppMetricaAdapter
+  @_Concurrency.MainActor public static func initialize(environment: YandexPayConfiguration.YPSDKEnvironment, merchant: YandexPayConfiguration.YPSDKMerchant, locale: YandexPayConfiguration.YPSDKLocale, theme: YandexPayConfiguration.YPSDKThemeColorScheme = .system, enableLogging: Swift.Bool = false, presentationContextProvider: (any YandexPayConfiguration.YPPresentationContextProviding)? = nil, modules: [any YandexPayConfiguration.YPayModule])
   @objc deinit
 }
-@_Concurrency.MainActor public struct YandexPaySDKDeeplinkHandler {
+@_Concurrency.MainActor public struct YPayDeeplinkHandler {
   @discardableResult
   @_Concurrency.MainActor public func handleOpenURL(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
   @discardableResult
   @_Concurrency.MainActor public func handleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
   @_Concurrency.MainActor public func isURLRelatedToSDK(_ url: Foundation.URL) -> Swift.Bool
 }
-extension YandexPayConfiguration.YandexPaySDKDeeplinkHandler {
+extension YandexPayConfiguration.YPayDeeplinkHandler {
   @discardableResult
   @_Concurrency.MainActor public func tryHandleOpenURL(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
   @discardableResult
   @_Concurrency.MainActor public func tryHandleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
 }
-public protocol YandexPaySDKModule : AnyObject {
+public protocol YPayModule : AnyObject {
   @_Concurrency.MainActor func configure(with configuration: YandexPayConfiguration.YPay)
-  var urlHandlers: [any YandexPayConfiguration.YandexPaySDKURLHandler] { get }
-  var userActivityHandlers: [any YandexPayConfiguration.YandexPaySDKUserActivityHandler] { get }
+  var urlHandlers: [any YandexPayConfiguration.YPayURLHandler] { get }
+  var userActivityHandlers: [any YandexPayConfiguration.YPayUserActivityHandler] { get }
 }
-public protocol YandexPaySDKURLHandler {
+public protocol YPayURLHandler {
   func canHandle(url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
   @discardableResult
   func handle(url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
 }
-public protocol YandexPaySDKUserActivityHandler {
+public protocol YPayUserActivityHandler {
   func canHandle(userActivity: Foundation.NSUserActivity) -> Swift.Bool
   @discardableResult
   func handle(userActivity: Foundation.NSUserActivity) -> Swift.Bool
@@ -141,4 +141,4 @@ extension YandexPayConfiguration.YPSDKLocale : Swift.Hashable {}
 extension YandexPayConfiguration.YPSDKThemeColorScheme : Swift.Equatable {}
 extension YandexPayConfiguration.YPSDKThemeColorScheme : Swift.Hashable {}
 extension YandexPayConfiguration.YPay : Swift.Sendable {}
-extension YandexPayConfiguration.YandexPaySDKDeeplinkHandler : Swift.Sendable {}
+extension YandexPayConfiguration.YPayDeeplinkHandler : Swift.Sendable {}

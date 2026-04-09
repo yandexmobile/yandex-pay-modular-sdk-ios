@@ -23,7 +23,8 @@ public enum YPAuthorizationStrategy {
 public struct YPAuthModel : Swift.Sendable {
   public let token: Swift.String
   public let uid: Swift.Int
-  public init(token: Swift.String, uid: Swift.Int)
+  public let jwt: Swift.String?
+  public init(token: Swift.String, uid: Swift.Int, jwt: Swift.String? = nil)
 }
 @_Concurrency.MainActor public protocol YPLoginObserver : AnyObject {
   @_Concurrency.MainActor func didFinishLogin(with result: Swift.Result<YandexPayAuth.YPAuthModel, any Swift.Error>)
@@ -36,22 +37,22 @@ extension YandexPayConfiguration.YPay {
     get
   }
 }
-final public class YandexPayAuthModuleDescriptor : YandexPayConfiguration.YandexPaySDKModule {
+final public class YPayAuthModule : YandexPayConfiguration.YPayModule {
   public init()
   @_Concurrency.MainActor final public func configure(with configuration: YandexPayConfiguration.YPay)
-  final public var urlHandlers: [any YandexPayConfiguration.YandexPaySDKURLHandler] {
+  final public var urlHandlers: [any YandexPayConfiguration.YPayURLHandler] {
     get
   }
-  final public var userActivityHandlers: [any YandexPayConfiguration.YandexPaySDKUserActivityHandler] {
+  final public var userActivityHandlers: [any YandexPayConfiguration.YPayUserActivityHandler] {
     get
   }
   @objc deinit
 }
 extension YandexPayAuth.YPayAuth {
-  @_Concurrency.MainActor public static func module() -> YandexPayAuth.YandexPayAuthModuleDescriptor
+  @_Concurrency.MainActor public static func module() -> YandexPayAuth.YPayAuthModule
 }
 @_Concurrency.MainActor final public class YPayAuth {
-  @_Concurrency.MainActor public init(loginService: any FintechSDKAuthInterfaces.FintechLoginService)
+  @_spi(Internal) @_Concurrency.MainActor public init(loginService: any FintechSDKAuthInterfaces.FintechLoginService)
   @discardableResult
   @_Concurrency.MainActor final public func authorize(strategy: YandexPayAuth.YPAuthorizationStrategy = .default, with presenter: UIKit.UIViewController) async throws -> YandexPayAuth.YPAuthModel
   @_Concurrency.MainActor final public func logout()

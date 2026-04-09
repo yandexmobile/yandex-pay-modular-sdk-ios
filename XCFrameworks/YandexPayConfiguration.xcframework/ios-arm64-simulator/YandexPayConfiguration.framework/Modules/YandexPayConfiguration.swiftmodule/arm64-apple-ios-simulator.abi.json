@@ -2329,7 +2329,11 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2360,6 +2364,9 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
                 ],
                 "accessorKind": "get"
               },
@@ -2396,6 +2403,9 @@
                 "declAttributes": [
                   "Final"
                 ],
+                "spi_group_names": [
+                  "Internal"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -2416,6 +2426,9 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
                 ],
                 "accessorKind": "_modify"
               }
@@ -2598,14 +2611,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "YandexPaySDKDeeplinkHandler",
-                "printedName": "YandexPayConfiguration.YandexPaySDKDeeplinkHandler",
-                "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV"
+                "name": "YPayDeeplinkHandler",
+                "printedName": "YandexPayConfiguration.YPayDeeplinkHandler",
+                "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
-            "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvp",
+            "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvp",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Final",
@@ -2621,14 +2634,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKDeeplinkHandler",
-                    "printedName": "YandexPayConfiguration.YandexPaySDKDeeplinkHandler",
-                    "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV"
+                    "name": "YPayDeeplinkHandler",
+                    "printedName": "YandexPayConfiguration.YPayDeeplinkHandler",
+                    "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
-                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvg",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvg",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -2648,14 +2661,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKDeeplinkHandler",
-                    "printedName": "YandexPayConfiguration.YandexPaySDKDeeplinkHandler",
-                    "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV"
+                    "name": "YPayDeeplinkHandler",
+                    "printedName": "YandexPayConfiguration.YPayDeeplinkHandler",
+                    "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
-                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0Vvs",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvs",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0Vvs",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -2675,8 +2688,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
-                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0ab11SDKDeeplinkF0VvM",
+                "usr": "s:22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0VvM",
+                "mangledName": "$s22YandexPayConfiguration4YPayC15deeplinkHandlerAA0d8DeeplinkF0VvM",
                 "moduleName": "YandexPayConfiguration",
                 "implicit": true,
                 "declAttributes": [
@@ -2707,7 +2720,11 @@
               "HasStorage",
               "AccessControl",
               "Custom",
+              "SPIAccessControl",
               "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Internal"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2731,6 +2748,9 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
                 ],
                 "accessorKind": "get"
               }
@@ -2756,7 +2776,11 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2780,6 +2804,9 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
                 ],
                 "accessorKind": "get"
               }
@@ -2805,7 +2832,11 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2829,6 +2860,9 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
                 ],
                 "accessorKind": "get"
               }
@@ -2894,21 +2928,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[any YandexPayConfiguration.YandexPaySDKModule]",
+                "printedName": "[any YandexPayConfiguration.YPayModule]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKModule",
-                    "printedName": "any YandexPayConfiguration.YandexPaySDKModule",
-                    "usr": "s:22YandexPayConfiguration0aB9SDKModuleP"
+                    "name": "YPayModule",
+                    "printedName": "any YandexPayConfiguration.YPayModule",
+                    "usr": "s:22YandexPayConfiguration10YPayModuleP"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0aB9SDKModule_pGtFZ",
-            "mangledName": "$s22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0aB9SDKModule_pGtFZ",
+            "usr": "s:22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0D6Module_pGtFZ",
+            "mangledName": "$s22YandexPayConfiguration4YPayC10initialize11environment8merchant6locale5theme13enableLogging27presentationContextProvider7modulesyAA16YPSDKEnvironmentO_AA13YPSDKMerchantVAA11YPSDKLocaleOAA21YPSDKThemeColorSchemeOSbAA014YPPresentationM9Providing_pSgSayAA0D6Module_pGtFZ",
             "moduleName": "YandexPayConfiguration",
             "static": true,
             "declAttributes": [
@@ -2963,8 +2997,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKDeeplinkHandler",
-        "printedName": "YandexPaySDKDeeplinkHandler",
+        "name": "YPayDeeplinkHandler",
+        "printedName": "YPayDeeplinkHandler",
         "children": [
           {
             "kind": "Function",
@@ -3005,8 +3039,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0H0V_SDySo013UIApplicationG13URLOptionsKeyaypGtF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0H0V_SDySo013UIApplicationG13URLOptionsKeyaypGtF",
+            "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV13handleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -3034,8 +3068,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV18handleUserActivityySbSo06NSUserH0CF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV18handleUserActivityySbSo06NSUserH0CF",
+            "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV18handleUserActivityySbSo06NSUserI0CF",
+            "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV18handleUserActivityySbSo06NSUserI0CF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -3063,8 +3097,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
+            "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
+            "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV17isURLRelatedToSDKySb10Foundation3URLVF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -3111,8 +3145,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0I0V_SDySo013UIApplicationH13URLOptionsKeyaypGtF",
+            "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0J0V_SDySo013UIApplicationI13URLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV16tryHandleOpenURL_7optionsSb10Foundation0J0V_SDySo013UIApplicationI13URLOptionsKeyaypGtF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -3141,8 +3175,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserI0CF",
-            "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserI0CF",
+            "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserJ0CF",
+            "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV21tryHandleUserActivityySbSo06NSUserJ0CF",
             "moduleName": "YandexPayConfiguration",
             "declAttributes": [
               "Custom",
@@ -3154,8 +3188,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:22YandexPayConfiguration0aB18SDKDeeplinkHandlerV",
-        "mangledName": "$s22YandexPayConfiguration0aB18SDKDeeplinkHandlerV",
+        "usr": "s:22YandexPayConfiguration19YPayDeeplinkHandlerV",
+        "mangledName": "$s22YandexPayConfiguration19YPayDeeplinkHandlerV",
         "moduleName": "YandexPayConfiguration",
         "declAttributes": [
           "AccessControl",
@@ -3194,8 +3228,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKModule",
-        "printedName": "YandexPaySDKModule",
+        "name": "YPayModule",
+        "printedName": "YPayModule",
         "children": [
           {
             "kind": "Function",
@@ -3215,11 +3249,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA4YPayC_tF",
-            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP9configure4withyAA4YPayC_tF",
+            "usr": "s:22YandexPayConfiguration10YPayModuleP9configure4withyAA0D0C_tF",
+            "mangledName": "$s22YandexPayConfiguration10YPayModuleP9configure4withyAA0D0C_tF",
             "moduleName": "YandexPayConfiguration",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKModule>",
-            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKModule>",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayModule>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
             "protocolReq": true,
             "declAttributes": [
               "Custom"
@@ -3235,21 +3269,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                "printedName": "[any YandexPayConfiguration.YPayURLHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKURLHandler",
-                    "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
-                    "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                    "name": "YPayURLHandler",
+                    "printedName": "any YandexPayConfiguration.YPayURLHandler",
+                    "usr": "s:22YandexPayConfiguration14YPayURLHandlerP"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP11urlHandlersSayAA0aB13SDKURLHandler_pGvp",
-            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP11urlHandlersSayAA0aB13SDKURLHandler_pGvp",
+            "usr": "s:22YandexPayConfiguration10YPayModuleP11urlHandlersSayAA0D10URLHandler_pGvp",
+            "mangledName": "$s22YandexPayConfiguration10YPayModuleP11urlHandlersSayAA0D10URLHandler_pGvp",
             "moduleName": "YandexPayConfiguration",
             "protocolReq": true,
             "accessors": [
@@ -3261,24 +3295,24 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                    "printedName": "[any YandexPayConfiguration.YPayURLHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "YandexPaySDKURLHandler",
-                        "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
-                        "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                        "name": "YPayURLHandler",
+                        "printedName": "any YandexPayConfiguration.YPayURLHandler",
+                        "usr": "s:22YandexPayConfiguration14YPayURLHandlerP"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB9SDKModuleP11urlHandlersSayAA0aB13SDKURLHandler_pGvg",
-                "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP11urlHandlersSayAA0aB13SDKURLHandler_pGvg",
+                "usr": "s:22YandexPayConfiguration10YPayModuleP11urlHandlersSayAA0D10URLHandler_pGvg",
+                "mangledName": "$s22YandexPayConfiguration10YPayModuleP11urlHandlersSayAA0D10URLHandler_pGvg",
                 "moduleName": "YandexPayConfiguration",
-                "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKModule>",
-                "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKModule>",
+                "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayModule>",
+                "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -3293,21 +3327,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                "printedName": "[any YandexPayConfiguration.YPayUserActivityHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKUserActivityHandler",
-                    "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
-                    "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                    "name": "YPayUserActivityHandler",
+                    "printedName": "any YandexPayConfiguration.YPayUserActivityHandler",
+                    "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP20userActivityHandlersSayAA0ab7SDKUserF7Handler_pGvp",
-            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP20userActivityHandlersSayAA0ab7SDKUserF7Handler_pGvp",
+            "usr": "s:22YandexPayConfiguration10YPayModuleP20userActivityHandlersSayAA0d4UserG7Handler_pGvp",
+            "mangledName": "$s22YandexPayConfiguration10YPayModuleP20userActivityHandlersSayAA0d4UserG7Handler_pGvp",
             "moduleName": "YandexPayConfiguration",
             "protocolReq": true,
             "accessors": [
@@ -3319,24 +3353,24 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                    "printedName": "[any YandexPayConfiguration.YPayUserActivityHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "YandexPaySDKUserActivityHandler",
-                        "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
-                        "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                        "name": "YPayUserActivityHandler",
+                        "printedName": "any YandexPayConfiguration.YPayUserActivityHandler",
+                        "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22YandexPayConfiguration0aB9SDKModuleP20userActivityHandlersSayAA0ab7SDKUserF7Handler_pGvg",
-                "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP20userActivityHandlersSayAA0ab7SDKUserF7Handler_pGvg",
+                "usr": "s:22YandexPayConfiguration10YPayModuleP20userActivityHandlersSayAA0d4UserG7Handler_pGvg",
+                "mangledName": "$s22YandexPayConfiguration10YPayModuleP20userActivityHandlersSayAA0d4UserG7Handler_pGvg",
                 "moduleName": "YandexPayConfiguration",
-                "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKModule>",
-                "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKModule>",
+                "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayModule>",
+                "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -3345,8 +3379,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:22YandexPayConfiguration0aB9SDKModuleP",
-        "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP",
+        "usr": "s:22YandexPayConfiguration10YPayModuleP",
+        "mangledName": "$s22YandexPayConfiguration10YPayModuleP",
         "moduleName": "YandexPayConfiguration",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -3373,8 +3407,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKURLHandler",
-        "printedName": "YandexPaySDKURLHandler",
+        "name": "YPayURLHandler",
+        "printedName": "YPayURLHandler",
         "children": [
           {
             "kind": "Function",
@@ -3414,11 +3448,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP9canHandle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
-            "mangledName": "$s22YandexPayConfiguration0aB13SDKURLHandlerP9canHandle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
+            "usr": "s:22YandexPayConfiguration14YPayURLHandlerP9canHandle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration14YPayURLHandlerP9canHandle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
             "moduleName": "YandexPayConfiguration",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKURLHandler>",
-            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKURLHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayURLHandler>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayURLHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3461,11 +3495,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP6handle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
-            "mangledName": "$s22YandexPayConfiguration0aB13SDKURLHandlerP6handle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
+            "usr": "s:22YandexPayConfiguration14YPayURLHandlerP6handle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
+            "mangledName": "$s22YandexPayConfiguration14YPayURLHandlerP6handle3url7optionsSb10Foundation3URLV_SDySo30UIApplicationOpenURLOptionsKeyaypGtF",
             "moduleName": "YandexPayConfiguration",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKURLHandler>",
-            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKURLHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayURLHandler>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayURLHandler>",
             "protocolReq": true,
             "declAttributes": [
               "DiscardableResult"
@@ -3475,8 +3509,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP",
-        "mangledName": "$s22YandexPayConfiguration0aB13SDKURLHandlerP",
+        "usr": "s:22YandexPayConfiguration14YPayURLHandlerP",
+        "mangledName": "$s22YandexPayConfiguration14YPayURLHandlerP",
         "moduleName": "YandexPayConfiguration",
         "declAttributes": [
           "AccessControl",
@@ -3501,8 +3535,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPaySDKUserActivityHandler",
-        "printedName": "YandexPaySDKUserActivityHandler",
+        "name": "YPayUserActivityHandler",
+        "printedName": "YPayUserActivityHandler",
         "children": [
           {
             "kind": "Function",
@@ -3523,11 +3557,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP9canHandle04userE0SbSo06NSUserE0C_tF",
-            "mangledName": "$s22YandexPayConfiguration0aB22SDKUserActivityHandlerP9canHandle04userE0SbSo06NSUserE0C_tF",
+            "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP9canHandle04userF0SbSo06NSUserF0C_tF",
+            "mangledName": "$s22YandexPayConfiguration23YPayUserActivityHandlerP9canHandle04userF0SbSo06NSUserF0C_tF",
             "moduleName": "YandexPayConfiguration",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKUserActivityHandler>",
-            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKUserActivityHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayUserActivityHandler>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayUserActivityHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3551,11 +3585,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP6handle04userE0SbSo06NSUserE0C_tF",
-            "mangledName": "$s22YandexPayConfiguration0aB22SDKUserActivityHandlerP6handle04userE0SbSo06NSUserE0C_tF",
+            "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP6handle04userF0SbSo06NSUserF0C_tF",
+            "mangledName": "$s22YandexPayConfiguration23YPayUserActivityHandlerP6handle04userF0SbSo06NSUserF0C_tF",
             "moduleName": "YandexPayConfiguration",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YandexPaySDKUserActivityHandler>",
-            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YandexPaySDKUserActivityHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayUserActivityHandler>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayUserActivityHandler>",
             "protocolReq": true,
             "declAttributes": [
               "DiscardableResult"
@@ -3565,8 +3599,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP",
-        "mangledName": "$s22YandexPayConfiguration0aB22SDKUserActivityHandlerP",
+        "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP",
+        "mangledName": "$s22YandexPayConfiguration23YPayUserActivityHandlerP",
         "moduleName": "YandexPayConfiguration",
         "declAttributes": [
           "AccessControl",
@@ -3594,30 +3628,30 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPSDKEnvironment.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPSDKEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 58,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPay.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1791,
+      "offset": 1818,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YandexPaySDKDeeplinkHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
       "kind": "Dictionary",
-      "offset": 307,
+      "offset": 299,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YandexPaySDKDeeplinkHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
       "kind": "Dictionary",
-      "offset": 1101,
+      "offset": 1085,
       "length": 3,
       "value": "[]"
     }

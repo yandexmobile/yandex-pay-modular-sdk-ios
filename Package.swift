@@ -63,6 +63,7 @@ let package = Package(
         "FintechSDKNavigationImplementation",
         "FintechSDKWebViewFeatures",
         "ExternalBduiAdapter",
+        "FintechBDUIWrapper",
         "FintechSDKAppMetricaAdapter",
         "FintechSDKFontsAdapter",
         "FintechSDKLoginAdapter",
@@ -165,52 +166,16 @@ let package = Package(
       path: "XCFrameworks/YandexPayAuth.xcframework"
     ),
     .binaryTarget(
-      name: "YandexPaySDK",
-      path: "XCFrameworks/YandexPaySDK.xcframework"
+      name: "YandexQuickPay",
+      path: "XCFrameworks/YandexQuickPay.xcframework"
     ),
     .binaryTarget(
-      name: "FintechSDKMerchantRedirect",
-      path: "XCFrameworks/FintechSDK/FintechSDKMerchantRedirect.xcframework"
+      name: "FintechSDKQuickPayment",
+      path: "XCFrameworks/FintechSDK/FintechSDKQuickPayment.xcframework"
     ),
     .binaryTarget(
-      name: "FintechSDKPayBoxEntity",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayBoxEntity.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayBoxResources",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayBoxResources.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayOrderData",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayOrderData.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayMerchantData",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayMerchantData.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKRedirectScenario",
-      path: "XCFrameworks/FintechSDK/FintechSDKRedirectScenario.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayFormFeatures",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayFormFeatures.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayButton",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayButton.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayBadge",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayBadge.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKPayWidget",
-      path: "XCFrameworks/FintechSDK/FintechSDKPayWidget.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKUltimateWidget",
-      path: "XCFrameworks/FintechSDK/FintechSDKUltimateWidget.xcframework"
+      name: "FintechSDKDivKitWidgetsFeatures",
+      path: "XCFrameworks/FintechSDK/FintechSDKDivKitWidgetsFeatures.xcframework"
     ),
     .binaryTarget(
       name: "FintechSDKAuthCoreImplementation",
@@ -225,20 +190,8 @@ let package = Package(
       path: "XCFrameworks/FintechSDK/FintechSDKNativeErrorFeature.xcframework"
     ),
     .binaryTarget(
-      name: "FintechSDKDivKitWidgetsFeatures",
-      path: "XCFrameworks/FintechSDK/FintechSDKDivKitWidgetsFeatures.xcframework"
-    ),
-    .binaryTarget(
       name: "FintechSDKLoaderScreen",
       path: "XCFrameworks/FintechSDK/FintechSDKLoaderScreen.xcframework"
-    ),
-    .binaryTarget(
-      name: "YandexQuickPay",
-      path: "XCFrameworks/YandexQuickPay.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKQuickPayment",
-      path: "XCFrameworks/FintechSDK/FintechSDKQuickPayment.xcframework"
     ),
     .binaryTarget(
       name: "FintechSDKNavigationInterfaces",
@@ -251,14 +204,6 @@ let package = Package(
     .binaryTarget(
       name: "FintechSDKWebViewFeatures",
       path: "XCFrameworks/FintechSDK/FintechSDKWebViewFeatures.xcframework"
-    ),
-    .binaryTarget(
-      name: "YandexPayAssistant",
-      path: "XCFrameworks/YandexPayAssistant.xcframework"
-    ),
-    .binaryTarget(
-      name: "FintechSDKAssistant",
-      path: "XCFrameworks/FintechSDK/FintechSDKAssistant.xcframework"
     ),
   ]
 )

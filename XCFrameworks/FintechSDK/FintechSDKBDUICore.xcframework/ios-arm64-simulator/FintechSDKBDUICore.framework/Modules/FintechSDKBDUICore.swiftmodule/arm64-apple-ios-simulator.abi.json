@@ -900,6 +900,48 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewCoordinatesProvider",
+            "printedName": "viewCoordinatesProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FintechBDUIViewCoordinatesProvider",
+                "printedName": "any FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider",
+                "usr": "s:18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore0A25BDUIActionHandlingContextP23viewCoordinatesProviderAA0a8BDUIViewgH0_pvp",
+            "mangledName": "$s18FintechSDKBDUICore0A25BDUIActionHandlingContextP23viewCoordinatesProviderAA0a8BDUIViewgH0_pvp",
+            "moduleName": "FintechSDKBDUICore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechBDUIViewCoordinatesProvider",
+                    "printedName": "any FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider",
+                    "usr": "s:18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore0A25BDUIActionHandlingContextP23viewCoordinatesProviderAA0a8BDUIViewgH0_pvg",
+                "mangledName": "$s18FintechSDKBDUICore0A25BDUIActionHandlingContextP23viewCoordinatesProviderAA0a8BDUIViewgH0_pvg",
+                "moduleName": "FintechSDKBDUICore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIActionHandlingContext>",
+                "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIActionHandlingContext>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Protocol",
@@ -6584,6 +6626,81 @@
       },
       {
         "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "FintechSDKBDUICore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FintechBDUIViewCoordinatesProvider",
+        "printedName": "FintechBDUIViewCoordinatesProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "frame",
+            "printedName": "frame(forViewId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP5frame9forViewIdSo6CGRectVSgSS_tF",
+            "mangledName": "$s18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP5frame9forViewIdSo6CGRectVSgSS_tF",
+            "moduleName": "FintechSDKBDUICore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider>",
+            "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP",
+        "mangledName": "$s18FintechSDKBDUICore0A27BDUIViewCoordinatesProviderP",
+        "moduleName": "FintechSDKBDUICore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8081,28 +8198,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechBDUICutoutManager.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechBDUICutoutManager.swift",
       "kind": "StringLiteral",
       "offset": 92,
       "length": 19,
       "value": "\"scale_from_center\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 121,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 8,
       "value": "\"log_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 522,
       "length": 5,

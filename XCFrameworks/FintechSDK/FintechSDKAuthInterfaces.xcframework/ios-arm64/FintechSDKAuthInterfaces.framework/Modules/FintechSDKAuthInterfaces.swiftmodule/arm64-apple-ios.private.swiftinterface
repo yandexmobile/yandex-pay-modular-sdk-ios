@@ -110,7 +110,8 @@ public protocol FintechAuthAdapterFactory {
 public struct FintechAuthModel : Swift.Codable, Swift.Sendable {
   public let token: Swift.String
   public let uid: Swift.Int
-  public init(token: Swift.String, uid: Swift.Int)
+  public let jwt: Swift.String?
+  public init(token: Swift.String, uid: Swift.Int, jwt: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

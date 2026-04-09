@@ -6,19 +6,19 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		45NVRjh1pRRU4/tu5EuIrV/HvnQ=
+		W4kdVJdqXROPKwsNy1frxyqXTwk=
 		</data>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YWJ/BI5MCu8I5bGEbXaZW/tBT8I=
+		cE96tPyOJurdVSR0O1YBwFF7P7Y=
 		</data>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		mVN5uA1ZXv/9lQ2esf/knzLe9FM=
+		TOmBe5MjJTzUiN8U8jh40JHjN9M=
 		</data>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mVN5uA1ZXv/9lQ2esf/knzLe9FM=
+		TOmBe5MjJTzUiN8U8jh40JHjN9M=
 		</data>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		coyhd9t/c1/S07JcZXA84rEoieU=
+		OO2RrXCsU/BywIC9j9oZSBiPero=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,21 +35,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AGvGIXC148rNNt1lbjqbP1j7lw500q0u8cQKO1xN6S8=
+			/wuw/tyAP3Fd/U4EBq+L1hBkqE7ayq0ARjRTfXZuz8A=
 			</data>
 		</dict>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+d8t59LrkdcrFhzJymrZRiNC10WvXRpm/NjbD6SFA0=
+			ZqCjcswKgSi8s+XVVLoEvDjTrxBBtzKAZo4CxqRpDyA=
 			</data>
 		</dict>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+d8t59LrkdcrFhzJymrZRiNC10WvXRpm/NjbD6SFA0=
+			ZqCjcswKgSi8s+XVVLoEvDjTrxBBtzKAZo4CxqRpDyA=
 			</data>
 		</dict>
 		<key>Modules/YandexPayConfiguration.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x0gv0Ao8bvzMQ/tAzwvY4vjOqIZRHMWZAWp9rXo3HDU=
+			+GVf6FewwsvOsQ4JDiRGL5MGfBu0aB2jdBd8OyRXCVI=
 			</data>
 		</dict>
 	</dict>

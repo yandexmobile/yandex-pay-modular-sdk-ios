@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FintechSDKBDUICore -package-name FintechSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import CoreGraphics
 import FintechSDKAnalyticsInterfaces
 import FintechSDKCommonEntity
 import FintechSDKCoreUtils
@@ -45,6 +46,7 @@ public protocol FintechBDUIActionHandlingContext {
   var cutoutManager: any FintechSDKBDUICore.FintechBDUICutoutManager { get }
   var actionDispatcher: any FintechSDKBDUICore.FintechBDUIActionDispatcher { get }
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
+  var viewCoordinatesProvider: any FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider { get }
 }
 public protocol FintechBDUIAdapter : AnyObject {
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
@@ -231,6 +233,9 @@ public enum FintechBDUIThemeKind {
 }
 extension FintechSDKCommonEntity.FintechSDKTheme {
   public func toBDUIThemeKind() -> FintechSDKBDUICore.FintechBDUIThemeKind
+}
+public protocol FintechBDUIViewCoordinatesProvider : AnyObject {
+  func frame(forViewId id: Swift.String) -> CoreFoundation.CGRect?
 }
 public class FintechDivAction : Swift.Codable {
   public enum CodingKeys : Swift.String, Swift.CodingKey {

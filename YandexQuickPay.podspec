@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YandexQuickPay'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'YandexQuickPay — Yandex Pay SDK for iOS'
   s.homepage         = 'https://github.com/yandexmobile/yandex-pay-modular-sdk-ios'
   s.license          = { :type => 'Proprietary' }
@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
     'XCFrameworks/FintechSDK/FintechSDKNavigationImplementation.xcframework',
     'XCFrameworks/FintechSDK/FintechSDKWebViewFeatures.xcframework',
     'XCFrameworks/ExternalBduiAdapter.xcframework',
+    'XCFrameworks/FintechBDUIWrapper.xcframework',
     'XCFrameworks/FintechSDKAppMetricaAdapter.xcframework',
     'XCFrameworks/FintechSDKFontsAdapter.xcframework',
     'XCFrameworks/FintechSDKLoginAdapter.xcframework',

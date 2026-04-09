@@ -363,9 +363,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "jwt",
+            "printedName": "jwt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13YandexPayAuth11YPAuthModelV3jwtSSSgvp",
+            "mangledName": "$s13YandexPayAuth11YPAuthModelV3jwtSSSgvp",
+            "moduleName": "YandexPayAuth",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13YandexPayAuth11YPAuthModelV3jwtSSSgvg",
+                "mangledName": "$s13YandexPayAuth11YPAuthModelV3jwtSSSgvg",
+                "moduleName": "YandexPayAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:uid:)",
+            "printedName": "init(token:uid:jwt:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -384,11 +444,26 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13YandexPayAuth11YPAuthModelV5token3uidACSS_Sitcfc",
-            "mangledName": "$s13YandexPayAuth11YPAuthModelV5token3uidACSS_Sitcfc",
+            "usr": "s:13YandexPayAuth11YPAuthModelV5token3uid3jwtACSS_SiSSSgtcfc",
+            "mangledName": "$s13YandexPayAuth11YPAuthModelV5token3uid3jwtACSS_SiSSSgtcfc",
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "AccessControl"
@@ -583,7 +658,10 @@
         "name": "YandexPayConfiguration",
         "printedName": "YandexPayConfiguration",
         "declKind": "Import",
-        "moduleName": "YandexPayAuth"
+        "moduleName": "YandexPayAuth",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -594,8 +672,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "YandexPayAuthModuleDescriptor",
-        "printedName": "YandexPayAuthModuleDescriptor",
+        "name": "YPayAuthModule",
+        "printedName": "YPayAuthModule",
         "children": [
           {
             "kind": "Constructor",
@@ -604,14 +682,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "YandexPayAuthModuleDescriptor",
-                "printedName": "YandexPayAuth.YandexPayAuthModuleDescriptor",
-                "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC"
+                "name": "YPayAuthModule",
+                "printedName": "YandexPayAuth.YPayAuthModule",
+                "usr": "s:13YandexPayAuth04YPayC6ModuleC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13YandexPayAuth0abC16ModuleDescriptorCACycfc",
-            "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorCACycfc",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleCACycfc",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleCACycfc",
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "AccessControl"
@@ -636,8 +714,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC9configure4withy0aB13Configuration4YPayC_tF",
-            "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC9configure4withy0aB13Configuration4YPayC_tF",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleC9configure4withy0aB13Configuration0D0C_tF",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleC9configure4withy0aB13Configuration0D0C_tF",
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "Final",
@@ -654,21 +732,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                "printedName": "[any YandexPayConfiguration.YPayURLHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKURLHandler",
-                    "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
-                    "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                    "name": "YPayURLHandler",
+                    "printedName": "any YandexPayConfiguration.YPayURLHandler",
+                    "usr": "s:22YandexPayConfiguration14YPayURLHandlerP"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC11urlHandlersSay0aB13Configuration0aB13SDKURLHandler_pGvp",
-            "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC11urlHandlersSay0aB13Configuration0aB13SDKURLHandler_pGvp",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleC11urlHandlersSay0aB13Configuration0D10URLHandler_pGvp",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleC11urlHandlersSay0aB13Configuration0D10URLHandler_pGvp",
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "Final",
@@ -683,21 +761,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[any YandexPayConfiguration.YandexPaySDKURLHandler]",
+                    "printedName": "[any YandexPayConfiguration.YPayURLHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "YandexPaySDKURLHandler",
-                        "printedName": "any YandexPayConfiguration.YandexPaySDKURLHandler",
-                        "usr": "s:22YandexPayConfiguration0aB13SDKURLHandlerP"
+                        "name": "YPayURLHandler",
+                        "printedName": "any YandexPayConfiguration.YPayURLHandler",
+                        "usr": "s:22YandexPayConfiguration14YPayURLHandlerP"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC11urlHandlersSay0aB13Configuration0aB13SDKURLHandler_pGvg",
-                "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC11urlHandlersSay0aB13Configuration0aB13SDKURLHandler_pGvg",
+                "usr": "s:13YandexPayAuth04YPayC6ModuleC11urlHandlersSay0aB13Configuration0D10URLHandler_pGvg",
+                "mangledName": "$s13YandexPayAuth04YPayC6ModuleC11urlHandlersSay0aB13Configuration0D10URLHandler_pGvg",
                 "moduleName": "YandexPayAuth",
                 "declAttributes": [
                   "Final"
@@ -714,21 +792,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                "printedName": "[any YandexPayConfiguration.YPayUserActivityHandler]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "YandexPaySDKUserActivityHandler",
-                    "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
-                    "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                    "name": "YPayUserActivityHandler",
+                    "printedName": "any YandexPayConfiguration.YPayUserActivityHandler",
+                    "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC20userActivityHandlersSay0aB13Configuration0ab7SDKUserG7Handler_pGvp",
-            "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC20userActivityHandlersSay0aB13Configuration0ab7SDKUserG7Handler_pGvp",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleC20userActivityHandlersSay0aB13Configuration0d4UserG7Handler_pGvp",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleC20userActivityHandlersSay0aB13Configuration0d4UserG7Handler_pGvp",
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "Final",
@@ -743,21 +821,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[any YandexPayConfiguration.YandexPaySDKUserActivityHandler]",
+                    "printedName": "[any YandexPayConfiguration.YPayUserActivityHandler]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "YandexPaySDKUserActivityHandler",
-                        "printedName": "any YandexPayConfiguration.YandexPaySDKUserActivityHandler",
-                        "usr": "s:22YandexPayConfiguration0aB22SDKUserActivityHandlerP"
+                        "name": "YPayUserActivityHandler",
+                        "printedName": "any YandexPayConfiguration.YPayUserActivityHandler",
+                        "usr": "s:22YandexPayConfiguration23YPayUserActivityHandlerP"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC20userActivityHandlersSay0aB13Configuration0ab7SDKUserG7Handler_pGvg",
-                "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC20userActivityHandlersSay0aB13Configuration0ab7SDKUserG7Handler_pGvg",
+                "usr": "s:13YandexPayAuth04YPayC6ModuleC20userActivityHandlersSay0aB13Configuration0d4UserG7Handler_pGvg",
+                "mangledName": "$s13YandexPayAuth04YPayC6ModuleC20userActivityHandlersSay0aB13Configuration0d4UserG7Handler_pGvg",
                 "moduleName": "YandexPayAuth",
                 "declAttributes": [
                   "Final"
@@ -768,8 +846,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC",
-        "mangledName": "$s13YandexPayAuth0abC16ModuleDescriptorC",
+        "usr": "s:13YandexPayAuth04YPayC6ModuleC",
+        "mangledName": "$s13YandexPayAuth04YPayC6ModuleC",
         "moduleName": "YandexPayAuth",
         "declAttributes": [
           "Final",
@@ -792,10 +870,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "YandexPaySDKModule",
-            "printedName": "YandexPaySDKModule",
-            "usr": "s:22YandexPayConfiguration0aB9SDKModuleP",
-            "mangledName": "$s22YandexPayConfiguration0aB9SDKModuleP"
+            "name": "YPayModule",
+            "printedName": "YPayModule",
+            "usr": "s:22YandexPayConfiguration10YPayModuleP",
+            "mangledName": "$s22YandexPayConfiguration10YPayModuleP"
           }
         ]
       },
@@ -852,7 +930,11 @@
             "moduleName": "YandexPayAuth",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
             ],
             "init_kind": "Designated"
           },
@@ -1114,14 +1196,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "YandexPayAuthModuleDescriptor",
-                "printedName": "YandexPayAuth.YandexPayAuthModuleDescriptor",
-                "usr": "s:13YandexPayAuth0abC16ModuleDescriptorC"
+                "name": "YPayAuthModule",
+                "printedName": "YandexPayAuth.YPayAuthModule",
+                "usr": "s:13YandexPayAuth04YPayC6ModuleC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C6moduleAA0abC16ModuleDescriptorCyFZ",
-            "mangledName": "$s13YandexPayAuth04YPayC0C6moduleAA0abC16ModuleDescriptorCyFZ",
+            "usr": "s:13YandexPayAuth04YPayC0C6moduleAA0dC6ModuleCyFZ",
+            "mangledName": "$s13YandexPayAuth04YPayC0C6moduleAA0dC6ModuleCyFZ",
             "moduleName": "YandexPayAuth",
             "static": true,
             "declAttributes": [
@@ -1258,14 +1340,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
       "kind": "Array",
       "offset": 238,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/9\/1\/4018089919\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
       "kind": "Array",
       "offset": 301,
       "length": 2,

@@ -6,15 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		TU4U38cD124nrX4mk7iCUPanftY=
+		Kez81xXO5KBniAV5PHazDhtyd4Y=
 		</data>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KCrkdmcAsWjUl92KPswjZRTS5Ng=
+		hBgu4Kj/Inth8wZYP/pGyIAPICI=
 		</data>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		To9sPRrXwndS88u4fZRcVGEawX0=
+		R3a1zqYkdpZfpMXYzA++3xDYP5M=
 		</data>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZfS+vigbtyKvsF1mKJEoILBWaAo=
+		8tR4P+zQ+ZclK57QFqrBA5lsjlc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -31,14 +31,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qq1XXhzepBefkWvas3qNTBQcZ77b379vjjaWZ7D6as4=
+			D+Q0oNsvL8V/reCFIDcpfBvL6VwOK25tVY5uFNSkjBw=
 			</data>
 		</dict>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zu+axwtBY4OBe/LV9FTswZ34C3amTed0sr6hOtRYz64=
+			1O0rWVtIXUvNvLHPvRL3JY7/Iu3CSe+IMV8QW1IDf8U=
 			</data>
 		</dict>
 		<key>Modules/YandexPayAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -52,7 +52,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjHIfhNEcKMQ//zfe61fWs5QG9RXm15MRaHF5wYOkaA=
+			4+vFh1AfGUMRbh3ydbriS1A82MHnV5tQXTJIuCUOrSU=
 			</data>
 		</dict>
 	</dict>
