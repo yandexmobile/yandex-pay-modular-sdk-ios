@@ -61,11 +61,11 @@ dependencies: [
 ### CocoaPods
 
 ```ruby
-pod 'YandexPayAuth'    # при необходимости
-pod 'YandexQuickPay'   # при необходимости
+pod 'YandexPayModularSDK/YandexPayAuth'    # при необходимости
+pod 'YandexPayModularSDK/YandexQuickPay'   # при необходимости
 ```
 
-`YandexPayConfiguration` будет подтянут транзитивно.
+SDK использует единый umbrella-подспек `YandexPayModularSDK` с одним сабспеком на каждый xcframework. CocoaPods устанавливает каждый xcframework ровно один раз независимо от того, сколько модулей его используют — точно так же, как SPM деплицирует `.binaryTarget`-ы.
 
 ---
 
