@@ -343,28 +343,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 14,
       "value": "\"YandexPaySDK\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 13,
       "value": "\"BDUIAdapter\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 58,
       "value": "\"Some symbols were lost in the framework. Using stub BDUI\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/3\/1\/4018658113\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 61,
