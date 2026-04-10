@@ -1,4 +1,4 @@
-# Yandex Pay Modular SDK — Руководство по интеграции для iOS
+# Pre-Stable Yandex Pay Modular SDK — Руководство по интеграции для iOS
 
 ## Требования
 
