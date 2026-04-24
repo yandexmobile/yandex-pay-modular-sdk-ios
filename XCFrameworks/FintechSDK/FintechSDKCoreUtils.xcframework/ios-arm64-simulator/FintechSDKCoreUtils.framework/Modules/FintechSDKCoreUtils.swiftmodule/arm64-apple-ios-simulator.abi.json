@@ -2592,6 +2592,249 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "FTObserverList",
+        "printedName": "FTObserverList",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTObserverList",
+                "printedName": "FintechSDKCoreUtils.FTObserverList<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19FintechSDKCoreUtils14FTObserverListV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19FintechSDKCoreUtils14FTObserverListVACyxGycfc",
+            "mangledName": "$s19FintechSDKCoreUtils14FTObserverListVACyxGycfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Observer>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKCoreUtils14FTObserverListV3addyyxF",
+            "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV3addyyxF",
+            "moduleName": "FintechSDKCoreUtils",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Observer>",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKCoreUtils14FTObserverListV6removeyyxF",
+            "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV6removeyyxF",
+            "moduleName": "FintechSDKCoreUtils",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Observer>",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Var",
+            "name": "observers",
+            "printedName": "observers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19FintechSDKCoreUtils14FTObserverListV9observersSayxGvp",
+            "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV9observersSayxGvp",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils14FTObserverListV9observersSayxGvg",
+                "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV9observersSayxGvg",
+                "moduleName": "FintechSDKCoreUtils",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Observer>",
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "forEach",
+            "printedName": "forEach(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKCoreUtils14FTObserverListV7forEachyyyxXEF",
+            "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV7forEachyyyxXEF",
+            "moduleName": "FintechSDKCoreUtils",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Observer>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19FintechSDKCoreUtils14FTObserverListV",
+        "mangledName": "$s19FintechSDKCoreUtils14FTObserverListV",
+        "moduleName": "FintechSDKCoreUtils",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Observer>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5228,6 +5471,210 @@
         "moduleName": "FintechSDKCoreUtils",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTWeakRef",
+        "printedName": "FTWeakRef",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "τ_0_0?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19FintechSDKCoreUtils9FTWeakRefC5valuexSgvp",
+            "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefC5valuexSgvp",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils9FTWeakRefC5valuexSgvg",
+                "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefC5valuexSgvg",
+                "moduleName": "FintechSDKCoreUtils",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils9FTWeakRefC5valuexSgvs",
+                "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefC5valuexSgvs",
+                "moduleName": "FintechSDKCoreUtils",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils9FTWeakRefC5valuexSgvM",
+                "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefC5valuexSgvM",
+                "moduleName": "FintechSDKCoreUtils",
+                "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+                "sugared_genericSig": "<T where T : AnyObject>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTWeakRef",
+                "printedName": "FintechSDKCoreUtils.FTWeakRef<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19FintechSDKCoreUtils9FTWeakRefC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19FintechSDKCoreUtils9FTWeakRefCyACyxGxcfc",
+            "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefCyACyxGxcfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+            "sugared_genericSig": "<T where T : AnyObject>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19FintechSDKCoreUtils9FTWeakRefC",
+        "mangledName": "$s19FintechSDKCoreUtils9FTWeakRefC",
+        "moduleName": "FintechSDKCoreUtils",
+        "genericSig": "<τ_0_0 where τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<T where T : AnyObject>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
         ],
         "conformances": [
           {
@@ -10041,196 +10488,203 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/FTSequenceExtensions.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/FTSequenceExtensions.swift",
       "kind": "Dictionary",
       "offset": 631,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 7,
       "value": "\"ru_RU\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/String.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/String.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 5,
       "value": "\" \""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTObserverList.swift",
+      "kind": "Array",
+      "offset": 373,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "Array",
       "offset": 125,
       "length": 29,
       "value": "[\"fintech-sdk\", \"fintechsdk\"]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 3,
       "value": "\"[\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 3,
       "value": "\"]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 3,
       "value": "\"[\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 393,
       "length": 3,
       "value": "\"]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 3,
       "value": "\"{\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 4,
       "value": "\"[]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 67,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_\/\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTTagged.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTTagged.swift",
       "kind": "StringLiteral",
       "offset": 3475,
       "length": 43,
       "value": "\"You don't need to cast value to same type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 97,
       "length": 34,
       "value": "\"FintechApiBaseUrlType.PayBackend\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 151,
       "length": 33,
       "value": "\"FintechApiBaseUrlType.Frontback\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 33,
       "value": "\"FintechApiBaseUrlType.Tovarisch\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechSDKCurrentVersion.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechSDKCurrentVersion.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 8,
-      "value": "\"1.10.0\""
+      "value": "\"1.11.0\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 109,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 3,
       "value": "\"*\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Services\/EventusIdGenerator\/LogIdGenerator.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Services\/EventusIdGenerator\/LogIdGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 82,
       "length": 1,

@@ -337,38 +337,45 @@
             "mangledName": "$s22FintechSDKBDUIFeatures0A18BDUIAdapterFactoryP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ExternalBduiAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ExternalBduiAdapter"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 14,
       "value": "\"YandexPaySDK\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 13,
       "value": "\"BDUIAdapter\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 58,
       "value": "\"Some symbols were lost in the framework. Using stub BDUI\""
-    },
-    {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 470,
-      "length": 61,
-      "value": "\"Some symbols were lost in the framework. Using stub SwiftUI\""
     }
   ]
 }

@@ -527,6 +527,16 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKBDUIFeatures",
+        "printedName": "FintechSDKBDUIFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayWidget",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKDivKitWidgetsFeatures",
         "printedName": "FintechSDKDivKitWidgetsFeatures",
         "declKind": "Import",
@@ -553,7 +563,7 @@
           {
             "kind": "Function",
             "name": "createPayWidgetView",
-            "printedName": "createPayWidgetView(presenterViewController:model:bduiAdapter:flexClient:)",
+            "printedName": "createPayWidgetView(presenterViewController:model:bduiAdapter:flexClient:widgetReloader:onAppearTask:authorizeHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -591,11 +601,40 @@
                 "name": "FintechNetworkClient",
                 "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkClient",
                 "usr": "s:27FintechSDKNetworkInterfaces0A13NetworkClientP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTWidgetReloader",
+                "printedName": "FintechSDKDivKitWidgetsFeatures.FTWidgetReloader",
+                "usr": "s:31FintechSDKDivKitWidgetsFeatures16FTWidgetReloaderC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTAuthorizeActionHandling",
+                "printedName": "any FintechSDKBDUIFeatures.FTAuthorizeActionHandling",
+                "usr": "s:22FintechSDKBDUIFeatures25FTAuthorizeActionHandlingP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19FintechSDKPayWidget05FTPayC7FactoryO09createPayC4View09presenterH10Controller5model11bduiAdapter10flexClientQrSo06UIViewJ0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkO0_ptFZ",
-            "mangledName": "$s19FintechSDKPayWidget05FTPayC7FactoryO09createPayC4View09presenterH10Controller5model11bduiAdapter10flexClientQrSo06UIViewJ0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkO0_ptFZ",
+            "usr": "s:19FintechSDKPayWidget05FTPayC7FactoryO09createPayC4View09presenterH10Controller5model11bduiAdapter10flexClient14widgetReloader12onAppearTask16authorizeHandlerQrSo06UIViewJ0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkO0_p0A24SDKDivKitWidgetsFeatures08FTWidgetQ0CyyYaKc0A15SDKBDUIFeatures25FTAuthorizeActionHandling_ptFZ",
+            "mangledName": "$s19FintechSDKPayWidget05FTPayC7FactoryO09createPayC4View09presenterH10Controller5model11bduiAdapter10flexClient14widgetReloader12onAppearTask16authorizeHandlerQrSo06UIViewJ0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkO0_p0A24SDKDivKitWidgetsFeatures08FTWidgetQ0CyyYaKc0A15SDKBDUIFeatures25FTAuthorizeActionHandling_ptFZ",
             "moduleName": "FintechSDKPayWidget",
             "static": true,
             "declAttributes": [
@@ -610,7 +649,7 @@
           {
             "kind": "Function",
             "name": "createPayWidgetUIView",
-            "printedName": "createPayWidgetUIView(presenterViewController:model:bduiAdapter:flexClient:)",
+            "printedName": "createPayWidgetUIView(presenterViewController:model:bduiAdapter:flexClient:widgetReloader:onAppearTask:authorizeHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -641,11 +680,40 @@
                 "name": "FintechNetworkClient",
                 "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkClient",
                 "usr": "s:27FintechSDKNetworkInterfaces0A13NetworkClientP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTWidgetReloader",
+                "printedName": "FintechSDKDivKitWidgetsFeatures.FTWidgetReloader",
+                "usr": "s:31FintechSDKDivKitWidgetsFeatures16FTWidgetReloaderC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTAuthorizeActionHandling",
+                "printedName": "any FintechSDKBDUIFeatures.FTAuthorizeActionHandling",
+                "usr": "s:22FintechSDKBDUIFeatures25FTAuthorizeActionHandlingP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19FintechSDKPayWidget05FTPayC7FactoryO09createPayC6UIView23presenterViewController5model11bduiAdapter10flexClientSo0H0CSo0hK0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkP0_ptFZ",
-            "mangledName": "$s19FintechSDKPayWidget05FTPayC7FactoryO09createPayC6UIView23presenterViewController5model11bduiAdapter10flexClientSo0H0CSo0hK0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkP0_ptFZ",
+            "usr": "s:19FintechSDKPayWidget05FTPayC7FactoryO09createPayC6UIView23presenterViewController5model11bduiAdapter10flexClient14widgetReloader12onAppearTask16authorizeHandlerSo0H0CSo0hK0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkP0_p0A24SDKDivKitWidgetsFeatures08FTWidgetR0CyyYaKc0A15SDKBDUIFeatures25FTAuthorizeActionHandling_ptFZ",
+            "mangledName": "$s19FintechSDKPayWidget05FTPayC7FactoryO09createPayC6UIView23presenterViewController5model11bduiAdapter10flexClient14widgetReloader12onAppearTask16authorizeHandlerSo0H0CSo0hK0C_AA0dC5ModelV0A11SDKBDUICore0A11BDUIAdapter_p0A20SDKNetworkInterfaces0a7NetworkP0_p0A24SDKDivKitWidgetsFeatures08FTWidgetR0CyyYaKc0A15SDKBDUIFeatures25FTAuthorizeActionHandling_ptFZ",
             "moduleName": "FintechSDKPayWidget",
             "static": true,
             "declAttributes": [
@@ -964,28 +1032,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 35,
       "value": "\"\/pay\/v1\/public\/widgets\/pay-widget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 485,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/FTPayWidgetFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/FTPayWidgetFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 3426,
       "length": 20,
       "value": "\"YandexPayPayWidget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Model\/FTPayWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Model\/FTPayWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
       "length": 5,

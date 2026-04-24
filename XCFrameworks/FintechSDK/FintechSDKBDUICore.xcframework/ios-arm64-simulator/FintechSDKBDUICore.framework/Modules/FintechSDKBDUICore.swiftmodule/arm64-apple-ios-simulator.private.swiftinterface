@@ -47,8 +47,9 @@ public protocol FintechBDUIActionHandlingContext {
   var actionDispatcher: any FintechSDKBDUICore.FintechBDUIActionDispatcher { get }
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
   var viewCoordinatesProvider: any FintechSDKBDUICore.FintechBDUIViewCoordinatesProvider { get }
+  var divActionHandler: any FintechSDKBDUICore.FintechBDUIDivActionHandler { get }
 }
-public protocol FintechBDUIAdapter : AnyObject {
+public protocol FintechBDUIAdapter : FintechSDKBDUICore.FintechBDUIDivActionHandler {
   var payloadExtender: any FintechSDKBDUICore.FintechBDUIPayloadExtender { get }
   var variableStorage: any FintechSDKBDUICore.FintechBDUIDivVariableStorage { get }
   var expressionResolver: any FintechSDKBDUICore.FintechDivKitExpressionResolver { get }
@@ -122,6 +123,9 @@ public struct CutoutShadowConfig {
 public protocol FintechBDUICutoutManager : AnyObject {
   func showCutout(viewId: Swift.String, animationDuration: Foundation.TimeInterval, animationType: FintechSDKBDUICore.CutoutAnimationType, shadow: FintechSDKBDUICore.CutoutShadowConfig?)
   func hideCutout(viewId: Swift.String, animationDuration: Foundation.TimeInterval, animationType: FintechSDKBDUICore.CutoutAnimationType)
+}
+public protocol FintechBDUIDivActionHandler : AnyObject {
+  @_Concurrency.MainActor func handleDivAction(cardId: Swift.String, url: Swift.String, logId: Swift.String, payload: [Swift.String : Any]?) -> Swift.Bool
 }
 public protocol FintechBDUIDivCustom : Swift.Decodable {
   static var customType: Swift.String { get }

@@ -6,12 +6,6 @@ import FintechSDKCoreUI
 import FintechSDKPayBoxEntity
 import Foundation
 import Swift
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol FTPayFormPresenter : AnyObject {
-  func present(_ viewControllerToPresent: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
-}
-extension UIKit.UIViewController : @preconcurrency FintechSDKPayFormFeatures.FTPayFormPresenter {
-}

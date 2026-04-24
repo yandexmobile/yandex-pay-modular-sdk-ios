@@ -9,7 +9,9 @@ import FintechSDKLoaderScreen
 import FintechSDKNetworkInterfaces
 import Foundation
 import Swift
+import SwiftUI
 import SwiftUI/*.UIHostingController*/
+import UIKit
 import UIKit/*.UIViewController*/
 import _Concurrency
 import _StringProcessing

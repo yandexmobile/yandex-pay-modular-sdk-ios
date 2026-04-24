@@ -6,6 +6,7 @@ import FintechSDKAnalyticsInterfaces
 @_spi(Internal) import FintechSDKCoreUI
 @_spi(Internal) import FintechSDKLoaderScreen
 import FintechSDKNetworkInterfaces
+@_spi(Internal) import FintechSDKPayBoxResources
 import Foundation
 import Swift
 import SwiftUI
@@ -13,30 +14,30 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum FTPollingStatus : Swift.String {
-  case success
-  case error
-  case cancel
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
+@_spi(Internal) public enum FTPollingStatus : Swift.String {
+  @_spi(Internal) case success
+  @_spi(Internal) case error
+  @_spi(Internal) case cancel
+  @_spi(Internal) public init?(rawValue: Swift.String)
+  @_spi(Internal) public typealias RawValue = Swift.String
+  @_spi(Internal) public var rawValue: Swift.String {
+    @_spi(Internal) get
   }
 }
-public protocol FTPollingScenario {
-  @discardableResult
-  @_Concurrency.MainActor func run(paymentURL: Foundation.URL, with presenter: UIKit.UIViewController, animated: Swift.Bool) async -> FintechSDKRedirectScenario.FTPollingStatus
-  func handleURL(_ url: Foundation.URL) -> Swift.Bool
-  func handleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
+@_spi(Internal) public protocol FTPollingScenario {
+  @_spi(Internal) @discardableResult
+  @_Concurrency.MainActor func run(paymentURL: Foundation.URL, with presenter: any FintechSDKCoreUI.FTPresentationContextProviding, animated: Swift.Bool) async -> FintechSDKRedirectScenario.FTPollingStatus
+  @_spi(Internal) func handleURL(_ url: Foundation.URL) -> Swift.Bool
+  @_spi(Internal) func handleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
 }
-final public class FTPollingScenarioImpl : FintechSDKRedirectScenario.FTPollingScenario {
-  public init(clientId: Swift.String?, paybackendNetworkClient: any FintechSDKNetworkInterfaces.FintechNetworkClient, redirectScenario: any FintechSDKRedirectScenario.FTRedirectScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, errorReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter)
-  @objc deinit
-  @_Concurrency.MainActor final public func run(paymentURL: Foundation.URL, with presenter: UIKit.UIViewController, animated: Swift.Bool) async -> FintechSDKRedirectScenario.FTPollingStatus
+@_spi(Internal) final public class FTPollingScenarioImpl : FintechSDKRedirectScenario.FTPollingScenario {
+  @_spi(Internal) public init(clientId: Swift.String?, paybackendNetworkClient: any FintechSDKNetworkInterfaces.FintechNetworkClient, redirectScenario: any FintechSDKRedirectScenario.FTRedirectScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, errorReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter)
+  @_spi(Internal) @objc deinit
+  @_spi(Internal) @_Concurrency.MainActor final public func run(paymentURL: Foundation.URL, with presenter: any FintechSDKCoreUI.FTPresentationContextProviding, animated: Swift.Bool) async -> FintechSDKRedirectScenario.FTPollingStatus
 }
-extension FintechSDKRedirectScenario.FTPollingScenarioImpl {
-  final public func handleURL(_ url: Foundation.URL) -> Swift.Bool
-  final public func handleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
+@_spi(Internal) extension FintechSDKRedirectScenario.FTPollingScenarioImpl {
+  @_spi(Internal) final public func handleURL(_ url: Foundation.URL) -> Swift.Bool
+  @_spi(Internal) final public func handleUserActivity(_ userActivity: Foundation.NSUserActivity) -> Swift.Bool
 }
 public protocol FTRedirectScenario {
   @discardableResult
@@ -48,6 +49,6 @@ final public class FTRedirectScenarioImpl : FintechSDKRedirectScenario.FTRedirec
   final public func runLogic(with paymentURL: Foundation.URL) async -> Swift.Bool
   @objc deinit
 }
-extension FintechSDKRedirectScenario.FTPollingStatus : Swift.Equatable {}
-extension FintechSDKRedirectScenario.FTPollingStatus : Swift.Hashable {}
-extension FintechSDKRedirectScenario.FTPollingStatus : Swift.RawRepresentable {}
+@_spi(Internal) extension FintechSDKRedirectScenario.FTPollingStatus : Swift.Equatable {}
+@_spi(Internal) extension FintechSDKRedirectScenario.FTPollingStatus : Swift.Hashable {}
+@_spi(Internal) extension FintechSDKRedirectScenario.FTPollingStatus : Swift.RawRepresentable {}

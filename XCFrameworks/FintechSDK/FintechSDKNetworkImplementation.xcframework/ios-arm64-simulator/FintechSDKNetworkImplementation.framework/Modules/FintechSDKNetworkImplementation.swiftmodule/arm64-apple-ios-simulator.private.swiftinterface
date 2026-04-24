@@ -42,16 +42,19 @@ public struct DiehardNetworkClientFactoryImpl : FintechSDKNetworkInterfaces.Dieh
   @_spi(Internal) public init(environment: FintechSDKCommonEntity.FintechSDKEnvironment, sessionService: (any FintechSDKNetworkInterfaces.FTSessionProviderServing)?, urlProvider: (any FintechSDKNetworkImplementation.FTFrontbackUrlProvider)? = nil, userAgentProvider: any FintechSDKCoreUtils.FTUserAgentProvider, additionalRequestMiddlewares: [any FintechSDKNetworkInterfaces.FintechNetworkRequestMiddleware] = [], additionalResponseMiddlewares: [any FintechSDKNetworkInterfaces.FintechNetworkResponseMiddleware] = [], serviceTokenProvider: (any FintechSDKNetworkImplementation.FTFrontbackServiceTokenProvider)? = nil)
   @_spi(Internal) public func makeNetworkClient(with networkAuthManager: (any FintechSDKNetworkInterfaces.FintechNetworkAuthManager)?, errorReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter) -> any FintechSDKNetworkInterfaces.FintechNetworkClient
 }
+@_spi(Internal) public enum FTHeaderConstants {
+  @_spi(Internal) public static let bstHeader: Swift.String
+}
 @_spi(Internal) final public class NetworkAuthManagerImpl : FintechSDKNetworkInterfaces.FintechNetworkAuthManager {
   @_spi(Internal) final public var uidString: Swift.String {
-    @_spi(Internal) get
+    @_spi(Internal) get async
   }
   @_spi(Internal) @_Concurrency.MainActor final public var partition: Swift.String {
     @_spi(Internal) get
   }
   @_spi(Internal) public init(accountManager: any FintechSDKAuthInterfaces.FintechAccountManagerAdapter, uid: Foundation.NSNumber, authSession: FintechSDKAuthInterfaces.FintechAuthSession? = nil)
   @_spi(Internal) @_Concurrency.MainActor final public func obtainToken() async throws -> Swift.String
-  @_spi(Internal) @_Concurrency.MainActor final public func dropToken()
+  @_spi(Internal) @_Concurrency.MainActor final public func dropToken() async
   @_spi(Internal) final public func obtainSessionToken() async -> Swift.String?
   @_spi(Internal) @objc deinit
 }

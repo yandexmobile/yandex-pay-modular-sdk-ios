@@ -75,6 +75,71 @@
           },
           {
             "kind": "Var",
+            "name": "navBar",
+            "printedName": "navBar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC0V6navBarQrvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC0V6navBarQrvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC0V6navBarQrvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC0V6navBarQrvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
+                "sugared_genericSig": "<ViewModel where ViewModel : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "body",
             "printedName": "body",
             "children": [
@@ -210,6 +275,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKLoaderScreen"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FintechSDKLoaderScreen"
       },
@@ -396,6 +468,70 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP4logo7SwiftUI5ImageVSgvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP4logo7SwiftUI5ImageVSgvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP4logo7SwiftUI5ImageVSgvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP4logo7SwiftUI5ImageVSgvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
+                "sugared_genericSig": "<Self where Self : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "onAppear",
             "printedName": "onAppear()",
@@ -510,21 +646,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "FloatLiteral",
       "offset": 891,
       "length": 3,
       "value": "3.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "FloatLiteral",
       "offset": 967,
       "length": 3,

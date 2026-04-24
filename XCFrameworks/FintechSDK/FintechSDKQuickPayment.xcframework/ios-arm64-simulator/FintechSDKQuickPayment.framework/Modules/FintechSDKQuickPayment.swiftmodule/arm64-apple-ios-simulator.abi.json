@@ -20,37 +20,22 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKAuthorizationScenario",
-        "printedName": "FintechSDKAuthorizationScenario",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl",
-          "Preconcurrency"
-        ]
       },
       {
         "kind": "Import",
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl",
-          "Preconcurrency"
-        ]
+        "moduleName": "FintechSDKQuickPayment"
       },
       {
         "kind": "Import",
-        "name": "FintechSDKCoreUI",
-        "printedName": "FintechSDKCoreUI",
+        "name": "FintechSDKCoreUtils",
+        "printedName": "FintechSDKCoreUtils",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment",
         "declAttributes": [
@@ -107,27 +92,6 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKAuthorizationScenario",
-        "printedName": "FintechSDKAuthorizationScenario",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl",
-          "Preconcurrency"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKCoreUI",
-        "printedName": "FintechSDKCoreUI",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -139,40 +103,6 @@
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKNetworkInterfaces",
-        "printedName": "FintechSDKNetworkInterfaces",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKAuthorizationScenario",
-        "printedName": "FintechSDKAuthorizationScenario",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKAuthInterfaces",
-        "printedName": "FintechSDKAuthInterfaces",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
       },
       {
         "kind": "Import",
@@ -210,16 +140,6 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKDivKitWidgetsFeatures",
-        "printedName": "FintechSDKDivKitWidgetsFeatures",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
@@ -227,13 +147,19 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKAuthorizationScenario",
-        "printedName": "FintechSDKAuthorizationScenario",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKDivKitWidgetsFeatures",
+        "printedName": "FintechSDKDivKitWidgetsFeatures",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment",
         "declAttributes": [
-          "SPIAccessControl",
-          "Preconcurrency"
+          "SPIAccessControl"
         ]
       },
       {
@@ -259,13 +185,6 @@
         "declAttributes": [
           "SPIAccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
       },
       {
         "kind": "Import",
@@ -307,17 +226,20 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKAuthInterfaces",
-        "printedName": "FintechSDKAuthInterfaces",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
       {
         "kind": "Import",
-        "name": "FintechSDKNetworkInterfaces",
-        "printedName": "FintechSDKNetworkInterfaces",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -338,6 +260,13 @@
         "declAttributes": [
           "SPIAccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
       },
       {
         "kind": "Import",
@@ -396,6 +325,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKDivKitWidgetsFeatures",
         "printedName": "FintechSDKDivKitWidgetsFeatures",
         "declKind": "Import",
@@ -441,13 +377,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -505,6 +434,27 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
@@ -599,6 +549,41 @@
         "declAttributes": [
           "SPIAccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
       },
       {
         "kind": "Import",
@@ -642,6 +627,20 @@
         "kind": "Import",
         "name": "FintechSDKNetworkInterfaces",
         "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
@@ -680,6 +679,13 @@
         "kind": "Import",
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
@@ -695,14 +701,10 @@
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -718,6 +720,26 @@
         "kind": "Import",
         "name": "FintechSDKCoreAnalytics",
         "printedName": "FintechSDKCoreAnalytics",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthorizationScenario",
+        "printedName": "FintechSDKAuthorizationScenario",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment",
         "declAttributes": [
@@ -897,6 +919,16 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
@@ -906,13 +938,6 @@
         "kind": "Import",
         "name": "FintechSDKNetworkInterfaces",
         "printedName": "FintechSDKNetworkInterfaces",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKAuthInterfaces",
-        "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
@@ -1109,12 +1134,25 @@
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment"
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
         "name": "FintechSDKAuthorizationScenario",
         "printedName": "FintechSDKAuthorizationScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment",
         "declAttributes": [
@@ -1382,6 +1420,16 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1393,6 +1441,16 @@
         "printedName": "FintechSDKBDUICore",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1500,6 +1558,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO20biometryNotAvailableyA2EmF",
                 "mangledName": "$s22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO20biometryNotAvailableyA2EmF",
+                "moduleName": "FintechSDKQuickPayment"
+              },
+              {
+                "kind": "Var",
+                "name": "notInteractive",
+                "printedName": "notInteractive",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason.Type) -> FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityCheckFailReason",
+                        "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason",
+                        "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SecurityCheckFailReason",
+                            "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState.SecurityCheckFailReason",
+                            "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO14notInteractiveyA2EmF",
+                "mangledName": "$s22FintechSDKQuickPayment19FTQuickPayAuthStateO23SecurityCheckFailReasonO14notInteractiveyA2EmF",
                 "moduleName": "FintechSDKQuickPayment"
               },
               {
@@ -1746,6 +1841,43 @@
             "declKind": "EnumElement",
             "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO23authorizationInProgressyA2CmF",
             "mangledName": "$s22FintechSDKQuickPayment19FTQuickPayAuthStateO23authorizationInProgressyA2CmF",
+            "moduleName": "FintechSDKQuickPayment"
+          },
+          {
+            "kind": "Var",
+            "name": "accountAuthorizedNotActivated",
+            "printedName": "accountAuthorizedNotActivated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKQuickPayment.FTQuickPayAuthState.Type) -> FintechSDKQuickPayment.FTQuickPayAuthState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTQuickPayAuthState",
+                    "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState",
+                    "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTQuickPayAuthState",
+                        "printedName": "FintechSDKQuickPayment.FTQuickPayAuthState",
+                        "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FintechSDKQuickPayment19FTQuickPayAuthStateO29accountAuthorizedNotActivatedyA2CmF",
+            "mangledName": "$s22FintechSDKQuickPayment19FTQuickPayAuthStateO29accountAuthorizedNotActivatedyA2CmF",
             "moduleName": "FintechSDKQuickPayment"
           },
           {
@@ -2264,9 +2396,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isActivatedByDefault",
+            "printedName": "isActivatedByDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKQuickPayment16FTQuickPayConfigV20isActivatedByDefaultSbvp",
+            "mangledName": "$s22FintechSDKQuickPayment16FTQuickPayConfigV20isActivatedByDefaultSbvp",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKQuickPayment16FTQuickPayConfigV20isActivatedByDefaultSbvg",
+                "mangledName": "$s22FintechSDKQuickPayment16FTQuickPayConfigV20isActivatedByDefaultSbvg",
+                "moduleName": "FintechSDKQuickPayment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantId:locale:theme:environment:enableLogging:)",
+            "printedName": "init(merchantId:locale:theme:environment:enableLogging:isActivatedByDefault:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2303,11 +2479,18 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22FintechSDKQuickPayment16FTQuickPayConfigV10merchantId6locale5theme11environment13enableLoggingACSS_0A9SDKCoreUI0A6LocaleO0A15SDKCommonEntity0A8SDKThemeOAL0A14SDKEnvironmentOSbtcfc",
-            "mangledName": "$s22FintechSDKQuickPayment16FTQuickPayConfigV10merchantId6locale5theme11environment13enableLoggingACSS_0A9SDKCoreUI0A6LocaleO0A15SDKCommonEntity0A8SDKThemeOAL0A14SDKEnvironmentOSbtcfc",
+            "usr": "s:22FintechSDKQuickPayment16FTQuickPayConfigV10merchantId6locale5theme11environment13enableLogging20isActivatedByDefaultACSS_0A9SDKCoreUI0A6LocaleO0A15SDKCommonEntity0A8SDKThemeOAM0A14SDKEnvironmentOS2btcfc",
+            "mangledName": "$s22FintechSDKQuickPayment16FTQuickPayConfigV10merchantId6locale5theme11environment13enableLogging20isActivatedByDefaultACSS_0A9SDKCoreUI0A6LocaleO0A15SDKCommonEntity0A8SDKThemeOAM0A14SDKEnvironmentOS2btcfc",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "AccessControl"
@@ -2938,16 +3121,6 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKCoreUI",
-        "printedName": "FintechSDKCoreUI",
-        "declKind": "Import",
-        "moduleName": "FintechSDKQuickPayment",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
@@ -2964,6 +3137,13 @@
         "kind": "Import",
         "name": "FintechSDKBDUIFeatures",
         "printedName": "FintechSDKBDUIFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCommonEntity",
+        "printedName": "FintechSDKCommonEntity",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment"
       },
@@ -2995,6 +3175,16 @@
         "kind": "Import",
         "name": "FintechSDKAuthorizationScenario",
         "printedName": "FintechSDKAuthorizationScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKQuickPayment",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
         "moduleName": "FintechSDKQuickPayment",
         "declAttributes": [
@@ -3173,6 +3363,43 @@
             "usr": "s:22FintechSDKQuickPayment0a5QuickC5ErrorO21noPresentationContextyA2CmF",
             "mangledName": "$s22FintechSDKQuickPayment0a5QuickC5ErrorO21noPresentationContextyA2CmF",
             "moduleName": "FintechSDKQuickPayment"
+          },
+          {
+            "kind": "Var",
+            "name": "widgetNotActivated",
+            "printedName": "widgetNotActivated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FintechSDKQuickPayment.FintechQuickPaymentError.Type) -> FintechSDKQuickPayment.FintechQuickPaymentError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechQuickPaymentError",
+                    "printedName": "FintechSDKQuickPayment.FintechQuickPaymentError",
+                    "usr": "s:22FintechSDKQuickPayment0a5QuickC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FintechSDKQuickPayment.FintechQuickPaymentError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechQuickPaymentError",
+                        "printedName": "FintechSDKQuickPayment.FintechQuickPaymentError",
+                        "usr": "s:22FintechSDKQuickPayment0a5QuickC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22FintechSDKQuickPayment0a5QuickC5ErrorO18widgetNotActivatedyA2CmF",
+            "mangledName": "$s22FintechSDKQuickPayment0a5QuickC5ErrorO18widgetNotActivatedyA2CmF",
+            "moduleName": "FintechSDKQuickPayment"
           }
         ],
         "declKind": "Enum",
@@ -3314,18 +3541,25 @@
           {
             "kind": "Function",
             "name": "createPaymentMethodsWidget",
-            "printedName": "createPaymentMethodsWidget()",
+            "printedName": "createPaymentMethodsWidget(allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "View",
                 "printedName": "any SwiftUI.View",
                 "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget7SwiftUI4View_pyF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget7SwiftUI4View_pyF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget17allowSilentReload7SwiftUI4View_pSb_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget17allowSilentReload7SwiftUI4View_pSb_tF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -3341,18 +3575,25 @@
           {
             "kind": "Function",
             "name": "createPaymentMethodsWidget",
-            "printedName": "createPaymentMethodsWidget()",
+            "printedName": "createPaymentMethodsWidget(allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidgetSo6UIViewCyF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidgetSo6UIViewCyF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget17allowSilentReloadSo6UIViewCSb_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC06createC13MethodsWidget17allowSilentReloadSo6UIViewCSb_tF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -3368,18 +3609,25 @@
           {
             "kind": "Function",
             "name": "createActivePaymentMethodBadge",
-            "printedName": "createActivePaymentMethodBadge()",
+            "printedName": "createActivePaymentMethodBadge(allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "View",
                 "printedName": "any SwiftUI.View",
                 "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge7SwiftUI4View_pyF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge7SwiftUI4View_pyF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge17allowSilentReload7SwiftUI4View_pSb_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge17allowSilentReload7SwiftUI4View_pSb_tF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -3395,18 +3643,25 @@
           {
             "kind": "Function",
             "name": "createActivePaymentMethodBadge",
-            "printedName": "createActivePaymentMethodBadge()",
+            "printedName": "createActivePaymentMethodBadge(allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "UIView",
                 "printedName": "UIKit.UIView",
                 "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadgeSo6UIViewCyF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadgeSo6UIViewCyF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge17allowSilentReloadSo6UIViewCSb_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC012createActiveC11MethodBadge17allowSilentReloadSo6UIViewCSb_tF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -3629,6 +3884,81 @@
           },
           {
             "kind": "Function",
+            "name": "activateQuickPay",
+            "printedName": "activateQuickPay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC08activatedE0yyYaKF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC08activatedE0yyYaKF",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deactivateQuickPay",
+            "printedName": "deactivateQuickPay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC010deactivatedE0yyYaKF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC010deactivatedE0yyYaKF",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isQuickPayActivated",
+            "printedName": "isQuickPayActivated()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC02isdE9ActivatedSbyYaF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC02isdE9ActivatedSbyYaF",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getAuthState",
             "printedName": "getAuthState()",
             "children": [
@@ -3818,7 +4148,7 @@
           {
             "kind": "Function",
             "name": "createExpandablePaymentMethodsWidget",
-            "printedName": "createExpandablePaymentMethodsWidget(expandState:)",
+            "printedName": "createExpandablePaymentMethodsWidget(expandState:allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3831,11 +4161,18 @@
                 "name": "FTQuickPayWidgetExpandState",
                 "printedName": "FintechSDKQuickPayment.FTQuickPayWidgetExpandState",
                 "usr": "s:22FintechSDKQuickPayment27FTQuickPayWidgetExpandStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState7SwiftUI4View_pAA07FTQuickej6ExpandL0O_tF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState7SwiftUI4View_pAA07FTQuickej6ExpandL0O_tF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState17allowSilentReload7SwiftUI4View_pAA07FTQuickej6ExpandL0O_SbtF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState17allowSilentReload7SwiftUI4View_pAA07FTQuickej6ExpandL0O_SbtF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -3851,7 +4188,7 @@
           {
             "kind": "Function",
             "name": "createExpandablePaymentMethodsWidget",
-            "printedName": "createExpandablePaymentMethodsWidget(expandState:)",
+            "printedName": "createExpandablePaymentMethodsWidget(expandState:allowSilentReload:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3864,11 +4201,18 @@
                 "name": "FTQuickPayWidgetExpandState",
                 "printedName": "FintechSDKQuickPayment.FTQuickPayWidgetExpandState",
                 "usr": "s:22FintechSDKQuickPayment27FTQuickPayWidgetExpandStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandStateSo6UIViewCAA07FTQuickej6ExpandL0O_tF",
-            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandStateSo6UIViewCAA07FTQuickej6ExpandL0O_tF",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState17allowSilentReloadSo6UIViewCAA07FTQuickej6ExpandL0O_SbtF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC016createExpandableC13MethodsWidget11expandState17allowSilentReloadSo6UIViewCAA07FTQuickej6ExpandL0O_SbtF",
             "moduleName": "FintechSDKQuickPayment",
             "declAttributes": [
               "Final",
@@ -4022,6 +4366,68 @@
               "Internal"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLocale",
+                "printedName": "FintechSDKCoreUI.FintechLocale",
+                "usr": "s:16FintechSDKCoreUI0A6LocaleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC6update6localey0A9SDKCoreUI0A6LocaleO_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC6update6localey0A9SDKCoreUI0A6LocaleO_tF",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechSDKTheme",
+                "printedName": "FintechSDKCommonEntity.FintechSDKTheme",
+                "usr": "s:22FintechSDKCommonEntity0A8SDKThemeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKQuickPayment0A15QuickPayHandlerC6update5themey0A15SDKCommonEntity0A8SDKThemeO_tF",
+            "mangledName": "$s22FintechSDKQuickPayment0A15QuickPayHandlerC6update5themey0A15SDKCommonEntity0A8SDKThemeO_tF",
+            "moduleName": "FintechSDKQuickPayment",
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4099,424 +4505,536 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTBadgeRefreshResponseHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTBadgeRefreshResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 26,
       "value": "\"pay\/v1\/quickpay\/settings\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPBadgeInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPBadgeInteractor.swift",
       "kind": "BooleanLiteral",
       "offset": 210,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 18,
       "value": "\"isPaymentProcess\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
       "kind": "StringLiteral",
       "offset": 794,
       "length": 22,
       "value": "\"currentTransactionId\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPCurrentPaymentVariablesInteractor.swift",
       "kind": "StringLiteral",
       "offset": 858,
       "length": 19,
       "value": "\"currentPaymentUrl\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPPollingInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPPollingInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPPollingInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4481,
+      "offset": 5301,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPSettingsResponseHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPSettingsResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 1076,
       "length": 26,
       "value": "\"pay\/v1\/quickpay\/settings\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPWidgetExpandStateInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Interactors\/FTQPWidgetExpandStateInteractor.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 45,
       "value": "\"global_foldable_quickpay_widget_is_expanded\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 960,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 3725,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/ApplicationLayer\/Services\/FTOrdersPollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 3760,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTActivePaymentMethodBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTActivePaymentMethodBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 55,
       "value": "\"\/pay\/v1\/public\/widgets\/quickpay\/active-payment-method\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTActivePaymentMethodBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTActivePaymentMethodBadgeEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 489,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 10,
       "value": "\"order_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 39,
       "value": "\"\/api\/merchant\/v1\/orders\/quickpay\/cpqr\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTCreateOrderEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 775,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrderStatusPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTGeneratePayTicketEndpoint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTGeneratePayTicketEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 44,
+      "value": "\"\/api\/v1\/authenticator\/pay_tickets\/generate\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrderStatusPollingEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 351,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrderStatusPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrderStatusPollingEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 733,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 12,
       "value": "\"in_process\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 18,
       "value": "\"user_interaction\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 787,
       "length": 25,
       "value": "\"\/pay\/v1\/quickpay\/orders\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTOrdersPollingEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 926,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 19,
       "value": "\"merchant_settings\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 28,
       "value": "\"selected_payment_method_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 898,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 1371,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 1447,
       "length": 22,
       "value": "\"quickpayment_enabled\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 1505,
       "length": 28,
       "value": "\"selected_payment_method_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTQuickPaySettingsEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 2676,
       "length": 27,
       "value": "\"\/pay\/v1\/quickpay\/settings\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTWidgetEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 49,
       "value": "\"\/pay\/v1\/public\/widgets\/quickpay\/payment-methods\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Endpoints\/FTWidgetEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 726,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Network\/FTQPStateStorage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Network\/FTQPActivationStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 31,
+      "value": "\"com.yandex.quickpay.activated\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Network\/FTQPStateStorage.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 29,
       "value": "\"com.yandex.quickpay.enabled\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/DataLayer\/Network\/RequestMiddlewares\/FTQPActivationHeaderMiddleware.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 23,
+      "value": "\"X-Quick-Pay-Activated\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 8,
       "value": "\"origin\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 12,
       "value": "\"source_sdk\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQPParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 6,
       "value": "\"puid\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4701,
+      "offset": 5285,
       "length": 20,
       "value": "\"Main_Screen_Opened\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4768,
+      "offset": 5352,
       "length": 36,
       "value": "\"Main_Screen_Connect_Button_Clicked\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4839,
+      "offset": 5423,
       "length": 22,
       "value": "\"Auth_Process_Started\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4898,
+      "offset": 5482,
       "length": 24,
       "value": "\"Auth_Process_Completed\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 5540,
       "length": 21,
       "value": "\"Auth_Process_Failed\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5017,
+      "offset": 5601,
       "length": 27,
       "value": "\"Payment_Process_Completed\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5081,
+      "offset": 5665,
       "length": 24,
       "value": "\"Payment_Process_Failed\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5148,
+      "offset": 5732,
       "length": 31,
       "value": "\"Payment_Process_Screen_Closed\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5208,
+      "offset": 5792,
       "length": 15,
       "value": "\"Token_Expired\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5844,
       "length": 24,
       "value": "\"Polling_Unmapped_Error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5324,
+      "offset": 5908,
       "length": 28,
       "value": "\"Merchant_Faq_Screen_Opened\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 5990,
       "length": 43,
       "value": "\"Merchant_Onboarding_Stories_Screen_Opened\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5526,
+      "offset": 6065,
+      "length": 18,
+      "value": "\"Widget_Activated\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6117,
+      "length": 20,
+      "value": "\"Widget_Deactivated\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6214,
       "length": 8,
       "value": "\"source\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5557,
+      "offset": 6245,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5601,
+      "offset": 6289,
       "length": 23,
       "value": "\"quick_payment_enabled\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 1917,
       "length": 10,
       "value": "\"quickPay\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
       "kind": "Dictionary",
-      "offset": 2586,
+      "offset": 2754,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/Analytics\/FTQuickPayAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2619,
+      "offset": 2787,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayBadgeFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayBadgeFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2645,
       "length": 29,
       "value": "\"active-payment-method-badge\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayNativeRouter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayMainModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 793,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayMainModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 896,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayNativeRouter.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 16,
       "value": "\"reload_widgets\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayNativeRouter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayNativeRouter.swift",
       "kind": "StringLiteral",
       "offset": 1937,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayWidgetFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/SDK\/FTQuickPayWidgetFactory.swift",
       "kind": "StringLiteral",
-      "offset": 3819,
+      "offset": 4309,
       "length": 23,
       "value": "\"payment-method-widget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/UI\/WebView\/FTBDUIWebViewConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/UI\/WebView\/FTBDUIWebViewConfiguration.swift",
       "kind": "Array",
       "offset": 190,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/UI\/WebView\/FTBDUIWebViewConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Private\/UI\/WebView\/FTBDUIWebViewConfiguration.swift",
       "kind": "Dictionary",
       "offset": 327,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FTQuickPayConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 523,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2205,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4140,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/QuickPayment\/Public\/SDK\/FintechQuickPayHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8959,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

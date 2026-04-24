@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name FintechSDKPayWidget -package-name FintechSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import FintechSDKBDUICore
+@_spi(Internal) import FintechSDKBDUIFeatures
 import FintechSDKCommonEntity
 @_spi(Internal) import FintechSDKCoreUI
 @_spi(Internal) import FintechSDKDivKitWidgetsFeatures
@@ -32,9 +33,9 @@ import _SwiftConcurrencyShims
 }
 @_spi(Internal) public typealias FTPayWidgetAuthorizedEndpoint = FintechSDKPayWidget.FTPayWidgetEndpoint
 @_spi(Internal) public enum FTPayWidgetFactory {
-  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient) -> some SwiftUICore.View
+  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient, widgetReloader: FintechSDKDivKitWidgetsFeatures.FTWidgetReloader, onAppearTask: @escaping () async throws -> Swift.Void, authorizeHandler: any FintechSDKBDUIFeatures.FTAuthorizeActionHandling) -> some SwiftUICore.View
   
-  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetUIView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient) -> UIKit.UIView
+  @_spi(Internal) @_Concurrency.MainActor public static func createPayWidgetUIView(presenterViewController: UIKit.UIViewController, model: FintechSDKPayWidget.FTPayWidgetModel, bduiAdapter: any FintechSDKBDUICore.FintechBDUIAdapter, flexClient: any FintechSDKNetworkInterfaces.FintechNetworkClient, widgetReloader: FintechSDKDivKitWidgetsFeatures.FTWidgetReloader, onAppearTask: @escaping () async throws -> Swift.Void, authorizeHandler: any FintechSDKBDUIFeatures.FTAuthorizeActionHandling) -> UIKit.UIView
 }
 public struct FTPayWidgetModel : Swift.Sendable {
   public var theme: FintechSDKCommonEntity.FintechSDKTheme

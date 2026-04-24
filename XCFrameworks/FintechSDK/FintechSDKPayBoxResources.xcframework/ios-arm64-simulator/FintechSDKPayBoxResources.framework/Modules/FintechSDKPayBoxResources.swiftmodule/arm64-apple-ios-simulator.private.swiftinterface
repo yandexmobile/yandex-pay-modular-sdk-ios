@@ -20,4 +20,7 @@ import _SwiftConcurrencyShims
   @_spi(Internal) nonisolated(unsafe) public static let payLogoRedEn: any FintechSDKCoreUI.FTAssetImage
   @_spi(Internal) nonisolated(unsafe) public static let splitLogoRu: any FintechSDKCoreUI.FTAssetImage
   @_spi(Internal) nonisolated(unsafe) public static let splitLogoEn: any FintechSDKCoreUI.FTAssetImage
+  @_spi(Internal) nonisolated(unsafe) public static var payboxLogo: any FintechSDKCoreUI.FTAssetImage {
+    @_spi(Internal) get
+  }
 }

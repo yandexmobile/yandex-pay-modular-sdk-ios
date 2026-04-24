@@ -13,6 +13,9 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_spi(Internal) @_Concurrency.MainActor @preconcurrency public struct FTNativeLoaderScreen<ViewModel> : SwiftUICore.View where ViewModel : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel {
   @_spi(Internal) @_Concurrency.MainActor @preconcurrency public init(viewModel: ViewModel)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public var navBar: some SwiftUICore.View {
+    @_spi(Internal) get
+  }
   @_spi(Internal) @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     @_spi(Internal) get
   }
@@ -22,6 +25,7 @@ import _SwiftConcurrencyShims
   @_spi(Internal) var title: Swift.String { get }
   @_spi(Internal) var subtitle: Swift.String? { get }
   @_spi(Internal) var buttonPayload: FintechSDKCoreUI.FTPrimaryButtonData { get }
+  @_spi(Internal) var logo: SwiftUICore.Image? { get }
   @_spi(Internal) func onAppear()
   @_spi(Internal) func onDisappear()
 }

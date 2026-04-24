@@ -21,7 +21,10 @@ import FintechSDKPayBadge
 import FintechSDKPayBoxEntity
 import FintechSDKPayButton
 import FintechSDKPayFormFeatures
+import FintechSDKPayMerchantData
+import FintechSDKPayOrderData
 import FintechSDKPayWidget
+import FintechSDKRedirectScenario
 import FintechSDKRemoteResourcesData
 import FintechSDKUltimateWidget
 import Foundation

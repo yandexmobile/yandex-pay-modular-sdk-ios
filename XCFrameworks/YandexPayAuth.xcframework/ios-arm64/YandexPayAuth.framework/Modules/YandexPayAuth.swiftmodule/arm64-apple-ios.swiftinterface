@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name YandexPayAuth -package-name yandexpayauth
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import FintechSDKAuthInterfaces
+import FintechSDKCoreUtils
 import Foundation
 import Swift
 import UIKit
@@ -29,9 +30,6 @@ public struct YPAuthModel : Swift.Sendable {
 @_Concurrency.MainActor public protocol YPLoginObserver : AnyObject {
   @_Concurrency.MainActor func didFinishLogin(with result: Swift.Result<YandexPayAuth.YPAuthModel, any Swift.Error>)
 }
-@_Concurrency.MainActor public protocol YPAuthStateObserver : AnyObject {
-  @_Concurrency.MainActor func onAuthStateChanged(_ state: YandexPayConfiguration.YPAuthState)
-}
 extension YandexPayConfiguration.YPay {
   @_Concurrency.MainActor final public var auth: YandexPayAuth.YPayAuth {
     get
@@ -48,6 +46,10 @@ final public class YPayAuthModule : YandexPayConfiguration.YPayModule {
   }
   @objc deinit
 }
+extension YandexPayAuth.YPayAuthModule {
+  final public func update(locale: YandexPayConfiguration.YPSDKLocale)
+  final public func update(theme: YandexPayConfiguration.YPSDKThemeColorScheme)
+}
 extension YandexPayAuth.YPayAuth {
   @_Concurrency.MainActor public static func module() -> YandexPayAuth.YPayAuthModule
 }
@@ -57,11 +59,6 @@ extension YandexPayAuth.YPayAuth {
   @_Concurrency.MainActor final public func logout()
   @_Concurrency.MainActor final public func addObserver(_ observer: any YandexPayAuth.YPLoginObserver)
   @_Concurrency.MainActor final public func removeObserver(_ observer: any YandexPayAuth.YPLoginObserver)
-  @_Concurrency.MainActor final public func getAuthState() async -> YandexPayConfiguration.YPAuthState
-  @_Concurrency.MainActor final public func isSecurityCheckRequired() async throws -> Swift.Bool
-  @_Concurrency.MainActor final public func addAuthStateObserver(_ observer: any YandexPayAuth.YPAuthStateObserver)
-  @_Concurrency.MainActor final public func removeAuthStateObserver(_ observer: any YandexPayAuth.YPAuthStateObserver)
-  @_Concurrency.MainActor final public func notifyAuthStateChanged(_ state: YandexPayConfiguration.YPAuthState)
   @objc deinit
 }
 extension YandexPayAuth.YPAuthorizationStrategy : Swift.Equatable {}

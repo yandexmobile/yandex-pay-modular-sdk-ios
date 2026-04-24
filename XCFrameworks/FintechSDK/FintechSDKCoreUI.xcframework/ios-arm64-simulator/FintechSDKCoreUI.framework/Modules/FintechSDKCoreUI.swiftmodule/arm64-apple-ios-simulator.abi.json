@@ -12,6 +12,305 @@
         "moduleName": "FintechSDKCoreUI"
       },
       {
+        "kind": "TypeDecl",
+        "name": "FTModalPresenting",
+        "printedName": "FTModalPresenting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI17FTModalPresentingP7present_8animated10completionySo16UIViewControllerC_SbyycSgtF",
+            "mangledName": "$s16FintechSDKCoreUI17FTModalPresentingP7present_8animated10completionySo16UIViewControllerC_SbyycSgtF",
+            "moduleName": "FintechSDKCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKCoreUI.FTModalPresenting>",
+            "sugared_genericSig": "<Self where Self : FintechSDKCoreUI.FTModalPresenting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16FintechSDKCoreUI17FTModalPresentingP",
+        "mangledName": "$s16FintechSDKCoreUI17FTModalPresentingP",
+        "moduleName": "FintechSDKCoreUI",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTSystemAlertPresenting",
+        "printedName": "FTSystemAlertPresenting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI23FTSystemAlertPresentingP04showE05title7messageySS_SStF",
+            "mangledName": "$s16FintechSDKCoreUI23FTSystemAlertPresentingP04showE05title7messageySS_SStF",
+            "moduleName": "FintechSDKCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKCoreUI.FTSystemAlertPresenting>",
+            "sugared_genericSig": "<Self where Self : FintechSDKCoreUI.FTSystemAlertPresenting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16FintechSDKCoreUI23FTSystemAlertPresentingP",
+        "mangledName": "$s16FintechSDKCoreUI23FTSystemAlertPresentingP",
+        "moduleName": "FintechSDKCoreUI",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTSystemAlertPresenter",
+        "printedName": "FTSystemAlertPresenter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(modalPresenter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTSystemAlertPresenter",
+                "printedName": "FintechSDKCoreUI.FTSystemAlertPresenter",
+                "usr": "s:16FintechSDKCoreUI22FTSystemAlertPresenterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKCoreUI.FTModalPresenting)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTModalPresenting",
+                    "printedName": "any FintechSDKCoreUI.FTModalPresenting",
+                    "usr": "s:16FintechSDKCoreUI17FTModalPresentingP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FintechSDKCoreUI22FTSystemAlertPresenterC05modalF0AcA17FTModalPresenting_pSg_tcfc",
+            "mangledName": "$s16FintechSDKCoreUI22FTSystemAlertPresenterC05modalF0AcA17FTModalPresenting_pSg_tcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI22FTSystemAlertPresenterC04showE05title7messageySS_SStF",
+            "mangledName": "$s16FintechSDKCoreUI22FTSystemAlertPresenterC04showE05title7messageySS_SStF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16FintechSDKCoreUI22FTSystemAlertPresenterC",
+        "mangledName": "$s16FintechSDKCoreUI22FTSystemAlertPresenterC",
+        "moduleName": "FintechSDKCoreUI",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FTSystemAlertPresenting",
+            "printedName": "FTSystemAlertPresenting",
+            "usr": "s:16FintechSDKCoreUI23FTSystemAlertPresentingP",
+            "mangledName": "$s16FintechSDKCoreUI23FTSystemAlertPresentingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreUI"
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -720,8 +1019,22 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreUI"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FintechSDKCoreUI"
       },
@@ -7960,6 +8273,313 @@
         "moduleName": "FintechSDKCoreUI"
       },
       {
+        "kind": "TypeDecl",
+        "name": "FTSVG",
+        "printedName": "FTSVG",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FintechSDKCoreUI5FTSVGC4data10Foundation4DataVvp",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGC4data10Foundation4DataVvp",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FintechSDKCoreUI5FTSVGC4data10Foundation4DataVvg",
+                "mangledName": "$s16FintechSDKCoreUI5FTSVGC4data10Foundation4DataVvg",
+                "moduleName": "FintechSDKCoreUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUI.FTSVG?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTSVG",
+                    "printedName": "FintechSDKCoreUI.FTSVG",
+                    "usr": "s:16FintechSDKCoreUI5FTSVGC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FintechSDKCoreUI5FTSVGCyACSgSScfc",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGCyACSgSScfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUI.FTSVG?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTSVG",
+                    "printedName": "FintechSDKCoreUI.FTSVG",
+                    "usr": "s:16FintechSDKCoreUI5FTSVGC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FintechSDKCoreUI5FTSVGCyACSg10Foundation4DataVcfc",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGCyACSg10Foundation4DataVcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FintechSDKCoreUI5FTSVGC4sizeSo6CGSizeVvp",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGC4sizeSo6CGSizeVvp",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FintechSDKCoreUI5FTSVGC4sizeSo6CGSizeVvg",
+                "mangledName": "$s16FintechSDKCoreUI5FTSVGC4sizeSo6CGSizeVvg",
+                "moduleName": "FintechSDKCoreUI",
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI5FTSVGC5imageSo7UIImageCyF",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGC5imageSo7UIImageCyF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI5FTSVGC4draw2inySo12CGContextRefa_tF",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGC4draw2inySo12CGContextRefa_tF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(in:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI5FTSVGC4draw2in4sizeySo12CGContextRefa_So6CGSizeVtF",
+            "mangledName": "$s16FintechSDKCoreUI5FTSVGC4draw2in4sizeySo12CGContextRefa_So6CGSizeVtF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16FintechSDKCoreUI5FTSVGC",
+        "mangledName": "$s16FintechSDKCoreUI5FTSVGC",
+        "moduleName": "FintechSDKCoreUI",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -7967,11 +8587,477 @@
         "moduleName": "FintechSDKCoreUI"
       },
       {
+        "kind": "TypeDecl",
+        "name": "FTSVGUIView",
+        "printedName": "FTSVGUIView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(svg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVGUIView",
+                "printedName": "FintechSDKCoreUI.FTSVGUIView",
+                "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVG",
+                "printedName": "FintechSDKCoreUI.FTSVG",
+                "usr": "s:16FintechSDKCoreUI5FTSVGC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FintechSDKCoreUI11FTSVGUIViewC3svgAcA5FTSVGC_tcfc",
+            "mangledName": "$s16FintechSDKCoreUI11FTSVGUIViewC3svgAcA5FTSVGC_tcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView(im)drawRect:",
+            "mangledName": "$s16FintechSDKCoreUI11FTSVGUIViewC4drawyySo6CGRectVF",
+            "moduleName": "FintechSDKCoreUI",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView(im)layoutSubviews",
+            "mangledName": "$s16FintechSDKCoreUI11FTSVGUIViewC14layoutSubviewsyyF",
+            "moduleName": "FintechSDKCoreUI",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVGUIView",
+                "printedName": "FintechSDKCoreUI.FTSVGUIView",
+                "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView(im)initWithFrame:",
+            "mangledName": "$s16FintechSDKCoreUI11FTSVGUIViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView",
+        "mangledName": "$s16FintechSDKCoreUI11FTSVGUIViewC",
+        "moduleName": "FintechSDKCoreUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "SPIAccessControl",
+          "ObjC"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FintechSDKCoreUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTSVGView",
+        "printedName": "FTSVGView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(svg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVGView",
+                "printedName": "FintechSDKCoreUI.FTSVGView",
+                "usr": "s:16FintechSDKCoreUI9FTSVGViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVG",
+                "printedName": "FintechSDKCoreUI.FTSVG",
+                "usr": "s:16FintechSDKCoreUI5FTSVGC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FintechSDKCoreUI9FTSVGViewV3svgAcA5FTSVGC_tcfc",
+            "mangledName": "$s16FintechSDKCoreUI9FTSVGViewV3svgAcA5FTSVGC_tcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVGUIView",
+                "printedName": "FintechSDKCoreUI.FTSVGUIView",
+                "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FintechSDKCoreUI.FTSVGView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTSVGView",
+                    "printedName": "FintechSDKCoreUI.FTSVGView",
+                    "usr": "s:16FintechSDKCoreUI9FTSVGViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI9FTSVGViewV10makeUIView7contextAA11FTSVGUIViewC05SwiftC00F20RepresentableContextVyACG_tF",
+            "mangledName": "$s16FintechSDKCoreUI9FTSVGViewV10makeUIView7contextAA11FTSVGUIViewC05SwiftC00F20RepresentableContextVyACG_tF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTSVGUIView",
+                "printedName": "FintechSDKCoreUI.FTSVGUIView",
+                "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FintechSDKCoreUI.FTSVGView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTSVGView",
+                    "printedName": "FintechSDKCoreUI.FTSVGView",
+                    "usr": "s:16FintechSDKCoreUI9FTSVGViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FintechSDKCoreUI9FTSVGViewV12updateUIView_7contextyAA11FTSVGUIViewC_05SwiftC00F20RepresentableContextVyACGtF",
+            "mangledName": "$s16FintechSDKCoreUI9FTSVGViewV12updateUIView_7contextyAA11FTSVGUIViewC_05SwiftC00F20RepresentableContextVyACGtF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FintechSDKCoreUI9FTSVGViewV",
+        "mangledName": "$s16FintechSDKCoreUI9FTSVGViewV",
+        "moduleName": "FintechSDKCoreUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTSVGUIView",
+                    "printedName": "FintechSDKCoreUI.FTSVGUIView",
+                    "usr": "c:@M@FintechSDKCoreUI@objc(cs)FTSVGUIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -9089,6 +10175,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "FTModalPresenting",
+            "printedName": "FTModalPresenting",
+            "usr": "s:16FintechSDKCoreUI17FTModalPresentingP",
+            "mangledName": "$s16FintechSDKCoreUI17FTModalPresentingP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -10195,6 +11288,236 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC16FintechSDKCoreUIE3hexABSgSS_tcfc",
+            "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE3hexABSgSS_tcfc",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toHex",
+            "printedName": "toHex(withAlpha:withPrefix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC16FintechSDKCoreUIE5toHex9withAlpha0G6PrefixSSSb_SbtF",
+            "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE5toHex9withAlpha0G6PrefixSSSb_SbtF",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "swiftUIColor",
+            "printedName": "swiftUIColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvp",
+            "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvp",
+            "moduleName": "FintechSDKCoreUI",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvg",
+                "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvg",
+                "moduleName": "FintechSDKCoreUI",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIView",
         "printedName": "UIView",
         "children": [
@@ -10339,6 +11662,233 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "topViewController",
+            "printedName": "topViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABSgvpZ",
+            "mangledName": "$sSo16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABSgvpZ",
+            "moduleName": "FintechSDKCoreUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABSgvgZ",
+                "mangledName": "$sSo16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABSgvgZ",
+                "moduleName": "FintechSDKCoreUI",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "topViewController",
+            "printedName": "topViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABvp",
+            "mangledName": "$sSo16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABvp",
+            "moduleName": "FintechSDKCoreUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABvg",
+                "mangledName": "$sSo16UIViewControllerC16FintechSDKCoreUIE07topViewB0ABvg",
+                "moduleName": "FintechSDKCoreUI",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FTModalPresenting",
+            "printedName": "FTModalPresenting",
+            "usr": "s:16FintechSDKCoreUI17FTModalPresentingP",
+            "mangledName": "$s16FintechSDKCoreUI17FTModalPresentingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -10608,157 +12158,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIColor",
-        "printedName": "UIColor",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "swiftUIColor",
-            "printedName": "swiftUIColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvp",
-            "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvp",
-            "moduleName": "FintechSDKCoreUI",
-            "isFromExtension": true,
-            "spi_group_names": [
-              "Internal"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvg",
-                "mangledName": "$sSo7UIColorC16FintechSDKCoreUIE05swiftA005SwiftD05ColorVvg",
-                "moduleName": "FintechSDKCoreUI",
-                "isFromExtension": true,
-                "spi_group_names": [
-                  "Internal"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIColor",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIColor",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByColorLiteral",
-            "printedName": "_ExpressibleByColorLiteral",
-            "usr": "s:s26_ExpressibleByColorLiteralP",
-            "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIImage",
         "printedName": "UIImage",
         "declKind": "Class",
@@ -10866,553 +12265,567 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Animators\/FTBottomSheetDismissInteractiveAnimator.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Animators\/FTBottomSheetDismissInteractiveAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 1609,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Core\/FTCardViewController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Core\/FTCardViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4767,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Core\/FTCardViewController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Core\/FTCardViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4811,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 2110,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 2162,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 2212,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Presentation\/FTCardPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 2257,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 149,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 457,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 631,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/BottomSheet\/Public\/FintechCardConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 663,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIColor+Hex.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIColor+Hex.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2337,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
       "kind": "IntegerLiteral",
       "offset": 1280,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
       "kind": "IntegerLiteral",
       "offset": 1308,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/Extensions\/UIView+Ext.swift",
       "kind": "IntegerLiteral",
       "offset": 1819,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButton.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButton.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonConfigurationProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonConfigurationProvider.swift",
       "kind": "FloatLiteral",
       "offset": 440,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1893,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1933,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 1971,
       "length": 3,
       "value": "112"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2075,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2098,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2124,
       "length": 4,
       "value": "0.96"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2150,
       "length": 4,
       "value": "0.92"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2176,
       "length": 4,
       "value": "0.85"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2202,
       "length": 4,
       "value": "0.77"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2228,
       "length": 4,
       "value": "0.67"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2254,
       "length": 4,
       "value": "0.56"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2280,
       "length": 4,
       "value": "0.44"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2306,
       "length": 4,
       "value": "0.33"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2332,
       "length": 4,
       "value": "0.23"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2358,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2384,
       "length": 4,
       "value": "0.08"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2410,
       "length": 4,
       "value": "0.04"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "FloatLiteral",
       "offset": 2436,
       "length": 4,
       "value": "0.01"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/PrimaryButton\/FTPrimaryButtonStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 2462,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 29,
       "value": "\"arrow_short_back_navigation\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 13,
       "value": "\"error_image\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTAssetImages.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 15,
       "value": "\"default_error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 20,
       "value": "\"background_primary\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 16,
       "value": "\"other_skeleton\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 24,
       "value": "\"other_product_skeleton\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 14,
       "value": "\"other_shadow\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 30,
       "value": "\"text_icon_secondary_inverted\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 23,
       "value": "\"button_primary_normal\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 25,
       "value": "\"button_secondary_normal\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 17,
       "value": "\"button_disabled\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 22,
       "value": "\"text_icon_quaternary\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 28,
       "value": "\"text_icon_primary_inverted\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 878,
       "length": 19,
       "value": "\"text_icon_primary\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 947,
       "length": 20,
       "value": "\"text_icon_tetriary\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 15,
       "value": "\"fill_default0\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTColors.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 16,
       "value": "\"fill_default50\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTResourceCache.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTResourceCache.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 12,
       "value": "\"ImageCache\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTResourceCache.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/FTResourceCache.swift",
       "kind": "StringLiteral",
       "offset": 883,
       "length": 11,
       "value": "\"DataCache\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableImage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableImage.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 42,
       "value": "\"Resources ObservableImage: did set image\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableImage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableImage.swift",
       "kind": "StringLiteral",
       "offset": 1161,
       "length": 5,
       "value": "\"svg\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableResourceImage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/ObservableImage\/FTObservableResourceImage.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 5,
       "value": "\"svg\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 30,
       "value": "\"==gbpFGdlJFduVWb1N2bEdkVTd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 30,
       "value": "\"=U2chVGblJFduVWb1N2bEdkVTd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 1107,
       "length": 38,
       "value": "\"hRXYE12byZUZ0FWZyNEduVWb1N2bEdkVTd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 34,
       "value": "\"hRXYE9GVlRXaydFduVWb1N2bEdkVTd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 1693,
       "length": 34,
       "value": "\"05WZtV3YvR0RWN1dhJHR0hXZ052bDd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 38,
       "value": "\"=UmepN1chZnbhNEdldEduVWb1N2bEdkVTd0Q\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 2433,
       "length": 34,
       "value": "\"6Qnbl1Wdj9GRHZ1UHNEa0l2VldWYtl2X\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/ResourcesProviding\/SVG\/FTSVG.swift",
       "kind": "StringLiteral",
       "offset": 2617,
       "length": 82,
       "value": "\"=ckVTVmcvN0LrJ3b3VWbhJnZuckVTVmcvN0LztmcvdXZtFmcGVGdhZXayB1L5JXYyJWaM9SblR3c5N1L\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/WebView\/FTWebViewRepresented.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/WebView\/FTWebViewRepresented.swift",
       "kind": "Dictionary",
       "offset": 528,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/WebView\/FTWebViewRepresented.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/UI\/Sources\/WebView\/FTWebViewRepresented.swift",
       "kind": "BooleanLiteral",
       "offset": 577,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 519,
       "length": 29,
       "value": "\"FintechSDK_FintechSDKCoreUI\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 30,
       "value": "\"PACKAGE_RESOURCE_BUNDLE_PATH\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 12,
       "value": "\".framework\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 1806,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 2243,
       "length": 4,
       "value": "\"..\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Derived\/Sources\/TuistBundle+FintechSDKCoreUI.swift",
       "kind": "StringLiteral",
       "offset": 2701,
       "length": 57,

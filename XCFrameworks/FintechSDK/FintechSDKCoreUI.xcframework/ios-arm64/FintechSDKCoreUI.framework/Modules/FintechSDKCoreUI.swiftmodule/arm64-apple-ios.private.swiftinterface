@@ -15,6 +15,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_spi(Internal) public protocol FTModalPresenting : AnyObject {
+  @_spi(Internal) @_Concurrency.MainActor func present(_ viewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@_spi(Internal) public protocol FTSystemAlertPresenting : AnyObject {
+  @_spi(Internal) @_Concurrency.MainActor func showAlert(title: Swift.String, message: Swift.String)
+}
+@_spi(Internal) final public class FTSystemAlertPresenter : FintechSDKCoreUI.FTSystemAlertPresenting {
+  @_spi(Internal) public init(modalPresenter: (any FintechSDKCoreUI.FTModalPresenting)?)
+  @_spi(Internal) @_Concurrency.MainActor final public func showAlert(title: Swift.String, message: Swift.String)
+  @_spi(Internal) @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FTCardDecorationView : UIKit.UIView {
   @objc deinit
 }
@@ -39,8 +50,14 @@ import _SwiftConcurrencyShims
 @_spi(Internal) extension FintechSDKCommonEntity.FintechSDKTheme {
   @_spi(Internal) public func toUIUserInterfaceStyle() -> UIKit.UIUserInterfaceStyle
 }
+@_spi(Internal) extension UIKit.UIColor {
+  @_spi(Internal) convenience public init?(hex hexString: Swift.String)
+  @_spi(Internal) public func toHex(withAlpha: Swift.Bool = true, withPrefix: Swift.Bool = true) -> Swift.String
+}
 @_spi(Internal) extension UIKit.UIView {
   @_spi(Internal) @_Concurrency.MainActor @preconcurrency public static func createUIViewfromView<Content>(_ content: Content) -> UIKit.UIView where Content : SwiftUICore.View
+}
+@_spi(Internal) extension UIKit.UIViewController : FintechSDKCoreUI.FTModalPresenting {
 }
 @_spi(Internal) extension SwiftUICore.View {
   @_spi(Internal) @_Concurrency.MainActor @preconcurrency public func readWidth(in width: SwiftUICore.Binding<CoreFoundation.CGFloat>, epsilon: CoreFoundation.CGFloat? = nil) -> some SwiftUICore.View
@@ -97,6 +114,14 @@ import _SwiftConcurrencyShims
 }
 @_spi(Internal) extension FintechSDKCoreUI.FTPresentationContext {
   @_spi(Internal) public var viewController: UIKit.UIViewController {
+    @_spi(Internal) get
+  }
+}
+@_spi(Internal) extension UIKit.UIViewController {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public static var topViewController: UIKit.UIViewController? {
+    @_spi(Internal) get
+  }
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public var topViewController: UIKit.UIViewController {
     @_spi(Internal) get
   }
 }
@@ -292,6 +317,34 @@ public enum FintechLocale : Swift.String {
     get
   }
 }
+@_spi(Internal) final public class FTSVG {
+  @_spi(Internal) final public let data: Foundation.Data
+  @_spi(Internal) @objc deinit
+  @_spi(Internal) convenience public init?(_ value: Swift.String)
+  @_spi(Internal) public init?(_ data: Foundation.Data)
+  @_spi(Internal) final public var size: CoreFoundation.CGSize {
+    @_spi(Internal) get
+  }
+  @_spi(Internal) final public func image() -> UIKit.UIImage
+  @_spi(Internal) final public func draw(in context: CoreGraphics.CGContext)
+  @_spi(Internal) final public func draw(in context: CoreGraphics.CGContext, size originTarget: CoreFoundation.CGSize)
+}
+@_spi(Internal) @objc @_Concurrency.MainActor @preconcurrency final public class FTSVGUIView : UIKit.UIView {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency required public init(svg: FintechSDKCoreUI.FTSVG)
+  @_spi(Internal) @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency @objc override final public func draw(_ rect: CoreFoundation.CGRect)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_spi(Internal) @objc deinit
+}
+@_spi(Internal) @_Concurrency.MainActor @preconcurrency public struct FTSVGView : SwiftUI.UIViewRepresentable {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public init(svg: FintechSDKCoreUI.FTSVG)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FintechSDKCoreUI.FTSVGView.Context) -> FintechSDKCoreUI.FTSVGUIView
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FintechSDKCoreUI.FTSVGUIView, context: FintechSDKCoreUI.FTSVGView.Context)
+  @_spi(Internal) public typealias Body = Swift.Never
+  @_spi(Internal) public typealias Coordinator = Swift.Void
+  @_spi(Internal) public typealias UIViewType = FintechSDKCoreUI.FTSVGUIView
+}
 @_spi(Internal) public enum FTTheme {
   @_spi(Internal) case dark
   @_spi(Internal) case light
@@ -369,6 +422,7 @@ public enum FintechLocale : Swift.String {
 extension FintechSDKCoreUI.FintechLocale : Swift.Equatable {}
 extension FintechSDKCoreUI.FintechLocale : Swift.Hashable {}
 extension FintechSDKCoreUI.FintechLocale : Swift.RawRepresentable {}
+@_spi(Internal) extension FintechSDKCoreUI.FTSVGView : Swift.Sendable {}
 @_spi(Internal) extension FintechSDKCoreUI.FTTheme : Swift.Equatable {}
 @_spi(Internal) extension FintechSDKCoreUI.FTTheme : Swift.Hashable {}
 @_spi(Internal) extension FintechSDKCoreUI.FTWebViewRepresented : Swift.Sendable {}

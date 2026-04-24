@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name FintechSDKCoreAnalytics -package-name FintechSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import FintechSDKAnalyticsInterfaces
-import FintechSDKAuthInterfaces
 import FintechSDKCommonEntity
 @_spi(Internal) import FintechSDKCoreUtils
 import FintechSDKNetworkInterfaces

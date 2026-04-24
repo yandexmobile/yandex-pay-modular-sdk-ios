@@ -4,12 +4,40 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 @_spi(Internal) import FintechSDKCoreUI
+import Foundation
 import Swift
 import SwiftUI
 import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_spi(Internal) public protocol FTScriptMessageHandlerDataSource : AnyObject {
+  @_spi(Internal) func handler(for action: Swift.String) -> (any FintechSDKWebViewFeatures.FTWebViewActionHandler)?
+}
+@_spi(Internal) @objc @_Concurrency.MainActor @preconcurrency final public class FTScriptMessageHandler : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency final public let name: Swift.String
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency weak final public var dataSource: (any FintechSDKWebViewFeatures.FTScriptMessageHandlerDataSource)?
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency public init(name: Swift.String)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_spi(Internal) @objc deinit
+}
+@_spi(Internal) public protocol FTWebViewActionHandler : AnyObject {
+  associatedtype Model : Swift.Decodable
+  @_spi(Internal) var name: Swift.String { get }
+  @_spi(Internal) @_Concurrency.MainActor func handle(model: Self.Model) async
+  @_spi(Internal) func handle(data: Foundation.Data) async
+  @_spi(Internal) func parseModel(data: Foundation.Data) throws -> Self.Model
+  @_spi(Internal) @_Concurrency.MainActor func didAttachToWebView(_ context: any FintechSDKWebViewFeatures.FTWebViewHandlerContext)
+}
+@_spi(Internal) extension FintechSDKWebViewFeatures.FTWebViewActionHandler {
+  @_spi(Internal) public func parseModel(data: Foundation.Data) throws -> Self.Model
+  @_spi(Internal) public func handle(data: Foundation.Data) async
+  @_spi(Internal) @_Concurrency.MainActor public func didAttachToWebView(_ context: any FintechSDKWebViewFeatures.FTWebViewHandlerContext)
+}
+@_spi(Internal) public protocol FTWebViewHandlerContext : AnyObject {
+  @_spi(Internal) @_Concurrency.MainActor func reload()
+  @_spi(Internal) @_Concurrency.MainActor func updateCookie(name: Swift.String, value: Swift.String)
+}
 @_spi(Internal) public protocol FTAnyWebViewModel : Combine.ObservableObject {
   @_spi(Internal) @_Concurrency.MainActor var urlRequest: Foundation.URLRequest? { get }
   @_spi(Internal) @_Concurrency.MainActor var state: FintechSDKWebViewFeatures.FTWebViewState { get }
@@ -37,6 +65,7 @@ import _SwiftConcurrencyShims
   @_spi(Internal) @_Concurrency.MainActor @preconcurrency public init(viewModel: WebViewModel, shimmer: Shimmer, errorView: ErrorView)
   @_spi(Internal) public typealias Body = @_opaqueReturnTypeOf("$s25FintechSDKWebViewFeatures05FTWebC0V4bodyQrvp", 0) __<WebViewModel, Shimmer, ErrorView>
 }
+@_spi(Internal) extension FintechSDKWebViewFeatures.FTScriptMessageHandler : Swift.Sendable {}
 @_spi(Internal) extension FintechSDKWebViewFeatures.FTWebViewState : Swift.Equatable {}
 @_spi(Internal) extension FintechSDKWebViewFeatures.FTWebViewState : Swift.Hashable {}
 @_spi(Internal) extension FintechSDKWebViewFeatures.FTWebView : Swift.Sendable {}

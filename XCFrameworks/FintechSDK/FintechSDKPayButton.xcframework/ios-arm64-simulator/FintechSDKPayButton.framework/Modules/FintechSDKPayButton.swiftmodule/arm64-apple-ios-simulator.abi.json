@@ -276,13 +276,6 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKRedirectScenario",
-        "printedName": "FintechSDKRedirectScenario",
-        "declKind": "Import",
-        "moduleName": "FintechSDKPayButton"
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKNetworkInterfaces",
         "printedName": "FintechSDKNetworkInterfaces",
         "declKind": "Import",
@@ -313,6 +306,16 @@
         "kind": "Import",
         "name": "FintechSDKCoreUI",
         "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRedirectScenario",
+        "printedName": "FintechSDKRedirectScenario",
         "declKind": "Import",
         "moduleName": "FintechSDKPayButton",
         "declAttributes": [
@@ -458,12 +461,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "(any FintechSDKPayButton.FTPayButtonPresentationContextProviding)?"
+                "printedName": "(any FintechSDKCoreUI.FTPresentationContextProviding)?"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvp",
-            "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvp",
+            "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvp",
+            "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvp",
             "moduleName": "FintechSDKPayButton",
             "declAttributes": [
               "HasInitialValue",
@@ -487,21 +490,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any FintechSDKPayButton.FTPayButtonPresentationContextProviding)?",
+                    "printedName": "(any FintechSDKCoreUI.FTPresentationContextProviding)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "FTPayButtonPresentationContextProviding",
-                        "printedName": "any FintechSDKPayButton.FTPayButtonPresentationContextProviding",
-                        "usr": "s:19FintechSDKPayButton05FTPayC28PresentationContextProvidingP"
+                        "name": "FTPresentationContextProviding",
+                        "printedName": "any FintechSDKCoreUI.FTPresentationContextProviding",
+                        "usr": "s:16FintechSDKCoreUI30FTPresentationContextProvidingP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvg",
-                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvg",
+                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvg",
+                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvg",
                 "moduleName": "FintechSDKPayButton",
                 "implicit": true,
                 "declAttributes": [
@@ -525,21 +528,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any FintechSDKPayButton.FTPayButtonPresentationContextProviding)?",
+                    "printedName": "(any FintechSDKCoreUI.FTPresentationContextProviding)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "FTPayButtonPresentationContextProviding",
-                        "printedName": "any FintechSDKPayButton.FTPayButtonPresentationContextProviding",
-                        "usr": "s:19FintechSDKPayButton05FTPayC28PresentationContextProvidingP"
+                        "name": "FTPresentationContextProviding",
+                        "printedName": "any FintechSDKCoreUI.FTPresentationContextProviding",
+                        "usr": "s:16FintechSDKCoreUI30FTPresentationContextProvidingP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvs",
-                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvs",
+                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvs",
+                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvs",
                 "moduleName": "FintechSDKPayButton",
                 "implicit": true,
                 "declAttributes": [
@@ -562,8 +565,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvM",
-                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProviderAA0dc12PresentationI9Providing_pSgvM",
+                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvM",
+                "mangledName": "$s19FintechSDKPayButton05FTPayC20PaymentUrlInteractorC27presentationContextProvider0A9SDKCoreUI014FTPresentationI9Providing_pSgvM",
                 "moduleName": "FintechSDKPayButton",
                 "implicit": true,
                 "declAttributes": [
@@ -980,83 +983,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKCoreUI",
-        "printedName": "FintechSDKCoreUI",
-        "declKind": "Import",
-        "moduleName": "FintechSDKPayButton",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FTPayButtonPresentationContextProviding",
-        "printedName": "FTPayButtonPresentationContextProviding",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "anchorForPresentation",
-            "printedName": "anchorForPresentation(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FTPresentationContext",
-                "printedName": "FintechSDKCoreUI.FTPresentationContext",
-                "usr": "s:16FintechSDKCoreUI21FTPresentationContextO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FTPayButtonProtocol",
-                "printedName": "any FintechSDKPayButton.FTPayButtonProtocol",
-                "usr": "s:19FintechSDKPayButton05FTPayC8ProtocolP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19FintechSDKPayButton05FTPayC28PresentationContextProvidingP09anchorForE03for0A9SDKCoreUI014FTPresentationF0OAA0dC8Protocol_p_tF",
-            "mangledName": "$s19FintechSDKPayButton05FTPayC28PresentationContextProvidingP09anchorForE03for0A9SDKCoreUI014FTPresentationF0OAA0dC8Protocol_p_tF",
-            "moduleName": "FintechSDKPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKPayButton.FTPayButtonPresentationContextProviding>",
-            "sugared_genericSig": "<Self where Self : FintechSDKPayButton.FTPayButtonPresentationContextProviding>",
-            "protocolReq": true,
-            "spi_group_names": [
-              "Internal"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:19FintechSDKPayButton05FTPayC28PresentationContextProvidingP",
-        "mangledName": "$s19FintechSDKPayButton05FTPayC28PresentationContextProvidingP",
-        "moduleName": "FintechSDKPayButton",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "SPIAccessControl"
-        ],
-        "spi_group_names": [
-          "Internal"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -3899,6 +3825,262 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKAnalyticsInterfaces",
+        "printedName": "FintechSDKAnalyticsInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRedirectScenario",
+        "printedName": "FintechSDKRedirectScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayMerchantData",
+        "printedName": "FintechSDKPayMerchantData",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayOrderData",
+        "printedName": "FintechSDKPayOrderData",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTPayButtonFactory",
+        "printedName": "FTPayButtonFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeButton",
+            "printedName": "makeButton(model:merchantID:merchantApiService:orderApiService:pollingScenario:eventReporter:paymentDataProvider:presentationContextProvider:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButton",
+                "printedName": "any FintechSDKPayButton.FTPayButton",
+                "usr": "s:19FintechSDKPayButton05FTPayC0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonModel",
+                "printedName": "FintechSDKPayButton.FTPayButtonModel",
+                "usr": "s:19FintechSDKPayButton05FTPayC5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTMerchantApiService",
+                "printedName": "any FintechSDKPayMerchantData.FTMerchantApiService",
+                "usr": "s:25FintechSDKPayMerchantData20FTMerchantApiServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTOrderApiService",
+                "printedName": "any FintechSDKPayOrderData.FTOrderApiService",
+                "usr": "s:22FintechSDKPayOrderData17FTOrderApiServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPollingScenario",
+                "printedName": "any FintechSDKRedirectScenario.FTPollingScenario",
+                "usr": "s:26FintechSDKRedirectScenario09FTPollingC0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAnalyticsEventReporter",
+                "printedName": "any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter",
+                "usr": "s:29FintechSDKAnalyticsInterfaces0A22AnalyticsEventReporterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonPaymentDataProviding",
+                "printedName": "any FintechSDKPayButton.FTPayButtonPaymentDataProviding",
+                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentDataProvidingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPresentationContextProviding",
+                "printedName": "any FintechSDKCoreUI.FTPresentationContextProviding",
+                "usr": "s:16FintechSDKCoreUI30FTPresentationContextProvidingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonDelegate",
+                "printedName": "any FintechSDKPayButton.FTPayButtonDelegate",
+                "usr": "s:19FintechSDKPayButton05FTPayC8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKPayButton05FTPayC7FactoryV04makeC05model10merchantID0H10ApiService05orderjK015pollingScenario13eventReporter19paymentDataProvider019presentationContextS08delegateAA0dC0_pAA0dC5ModelV_SS0ab8MerchantR0010FTMerchantjK0_p0ab5OrderR007FTOrderjK0_p0a11SDKRedirectN009FTPollingN0_p0A22SDKAnalyticsInterfaces0a14AnalyticsEventP0_pAA0dc7PaymentR9Providing_p0A9SDKCoreUI014FTPresentationU9Providing_pAA0dC8Delegate_ptFZ",
+            "mangledName": "$s19FintechSDKPayButton05FTPayC7FactoryV04makeC05model10merchantID0H10ApiService05orderjK015pollingScenario13eventReporter19paymentDataProvider019presentationContextS08delegateAA0dC0_pAA0dC5ModelV_SS0ab8MerchantR0010FTMerchantjK0_p0ab5OrderR007FTOrderjK0_p0a11SDKRedirectN009FTPollingN0_p0A22SDKAnalyticsInterfaces0a14AnalyticsEventP0_pAA0dc7PaymentR9Providing_p0A9SDKCoreUI014FTPresentationU9Providing_pAA0dC8Delegate_ptFZ",
+            "moduleName": "FintechSDKPayButton",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeButtonView",
+            "printedName": "makeButtonView(model:merchantID:merchantApiService:orderApiService:pollingScenario:eventReporter:paymentDataProvider:presentationContextProvider:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonModel",
+                "printedName": "FintechSDKPayButton.FTPayButtonModel",
+                "usr": "s:19FintechSDKPayButton05FTPayC5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTMerchantApiService",
+                "printedName": "any FintechSDKPayMerchantData.FTMerchantApiService",
+                "usr": "s:25FintechSDKPayMerchantData20FTMerchantApiServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTOrderApiService",
+                "printedName": "any FintechSDKPayOrderData.FTOrderApiService",
+                "usr": "s:22FintechSDKPayOrderData17FTOrderApiServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPollingScenario",
+                "printedName": "any FintechSDKRedirectScenario.FTPollingScenario",
+                "usr": "s:26FintechSDKRedirectScenario09FTPollingC0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAnalyticsEventReporter",
+                "printedName": "any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter",
+                "usr": "s:29FintechSDKAnalyticsInterfaces0A22AnalyticsEventReporterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonPaymentDataProviding",
+                "printedName": "any FintechSDKPayButton.FTPayButtonPaymentDataProviding",
+                "usr": "s:19FintechSDKPayButton05FTPayC20PaymentDataProvidingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPresentationContextProviding",
+                "printedName": "any FintechSDKCoreUI.FTPresentationContextProviding",
+                "usr": "s:16FintechSDKCoreUI30FTPresentationContextProvidingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPayButtonDelegate",
+                "printedName": "any FintechSDKPayButton.FTPayButtonDelegate",
+                "usr": "s:19FintechSDKPayButton05FTPayC8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKPayButton05FTPayC7FactoryV04makeC4View5model10merchantID0I10ApiService05orderkL015pollingScenario13eventReporter19paymentDataProvider019presentationContextT08delegateQrAA0dC5ModelV_SS0ab8MerchantS0010FTMerchantkL0_p0ab5OrderS007FTOrderkL0_p0a11SDKRedirectO009FTPollingO0_p0A22SDKAnalyticsInterfaces0a14AnalyticsEventQ0_pAA0dc7PaymentS9Providing_p0A9SDKCoreUI014FTPresentationV9Providing_pAA0dC8Delegate_ptFZ",
+            "mangledName": "$s19FintechSDKPayButton05FTPayC7FactoryV04makeC4View5model10merchantID0I10ApiService05orderkL015pollingScenario13eventReporter19paymentDataProvider019presentationContextT08delegateQrAA0dC5ModelV_SS0ab8MerchantS0010FTMerchantkL0_p0ab5OrderS007FTOrderkL0_p0a11SDKRedirectO009FTPollingO0_p0A22SDKAnalyticsInterfaces0a14AnalyticsEventQ0_pAA0dc7PaymentS9Providing_p0A9SDKCoreUI014FTPresentationV9Providing_pAA0dC8Delegate_ptFZ",
+            "moduleName": "FintechSDKPayButton",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19FintechSDKPayButton05FTPayC7FactoryV",
+        "mangledName": "$s19FintechSDKPayButton05FTPayC7FactoryV",
+        "moduleName": "FintechSDKPayButton",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKPayButton"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKCommonEntity",
         "printedName": "FintechSDKCommonEntity",
         "declKind": "Import",
@@ -5583,518 +5765,518 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/ApplicationLayer\/Interactors\/FTPayButtonDataInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/ApplicationLayer\/Interactors\/FTPayButtonDataInteractor.swift",
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
       "kind": "IntegerLiteral",
       "offset": 609,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
       "kind": "BooleanLiteral",
       "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/Domain\/FTPayButtonModel.swift",
       "kind": "BooleanLiteral",
       "offset": 665,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3024,
       "length": 13,
       "value": "\"yaPayButton\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3063,
       "length": 11,
       "value": "\"mainEvent\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3136,
       "length": 27,
       "value": "\"preferred_payment_methods\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3202,
       "length": 26,
       "value": "\"merchant_payment_methods\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3256,
       "length": 14,
       "value": "\"order_amount\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3300,
       "length": 16,
       "value": "\"order_currency\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3338,
       "length": 7,
       "value": "\"theme\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3367,
       "length": 7,
       "value": "\"state\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3399,
       "length": 11,
       "value": "\"has_split\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3440,
       "length": 17,
       "value": "\"has_split_plans\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3481,
       "length": 10,
       "value": "\"has_card\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3522,
       "length": 18,
       "value": "\"cash_back_amount\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3567,
       "length": 13,
       "value": "\"order_token\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3622,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/SDK\/Analytics\/FTPayButtonEventReporter.swift",
       "kind": "StringLiteral",
       "offset": 3663,
       "length": 4,
       "value": "\", \""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "Array",
       "offset": 141,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "BooleanLiteral",
       "offset": 171,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 1763,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 1806,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 5301,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 5342,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 5384,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "FloatLiteral",
       "offset": 5426,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonAnimatingLogoView.swift",
       "kind": "FloatLiteral",
       "offset": 5501,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 507,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 553,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 601,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 640,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "Array",
       "offset": 705,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonContainerViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 783,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
       "kind": "IntegerLiteral",
       "offset": 794,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
       "kind": "IntegerLiteral",
       "offset": 834,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonTitle.swift",
       "kind": "FloatLiteral",
       "offset": 876,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 525,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 552,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 581,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 608,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 8874,
       "length": 3,
       "value": "260"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 8911,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 8948,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 8986,
       "length": 2,
       "value": "38"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9025,
       "length": 2,
       "value": "52"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9062,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9100,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9140,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9184,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9247,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9292,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9327,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9370,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9420,
       "length": 2,
       "value": "41"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9478,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9522,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9573,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9613,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 9651,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 9699,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 9751,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 9799,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9838,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9908,
       "length": 3,
       "value": "260"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9951,
       "length": 3,
       "value": "220"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 9995,
       "length": 3,
       "value": "160"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 10070,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 10111,
       "length": 4,
       "value": "0.08"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayButtonView.swift",
       "kind": "FloatLiteral",
       "offset": 10155,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 80,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayButton\/UI\/Views\/FTPayLoaderView.swift",
       "kind": "FloatLiteral",
       "offset": 855,
       "length": 4,

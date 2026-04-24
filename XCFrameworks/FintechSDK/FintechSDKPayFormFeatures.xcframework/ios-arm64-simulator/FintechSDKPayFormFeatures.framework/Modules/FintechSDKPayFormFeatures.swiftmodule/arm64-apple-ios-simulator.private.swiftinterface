@@ -6,23 +6,13 @@
 import FintechSDKPayBoxEntity
 import Foundation
 import Swift
-import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_spi(Internal) public protocol FTPayForm : AnyObject {
-  @_spi(Internal) func present(from anchor: FintechSDKCoreUI.FTPresentationContext, animated: Swift.Bool, completion: (() -> Swift.Void)?)
-  @_spi(Internal) func present(from presenter: any FintechSDKPayFormFeatures.FTPayFormPresenter, animated: Swift.Bool, completion: (() -> Swift.Void)?)
-  @_spi(Internal) func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
-}
-@_spi(Internal) extension FintechSDKPayFormFeatures.FTPayForm {
-  @_spi(Internal) public func present(from anchor: FintechSDKCoreUI.FTPresentationContext, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @_spi(Internal) @_Concurrency.MainActor func present(from presenter: any FintechSDKCoreUI.FTPresentationContextProviding, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @_spi(Internal) @_Concurrency.MainActor func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
 }
 @_spi(Internal) public protocol FTPayFormDelegate : AnyObject {
   @_spi(Internal) func yandexPayForm(_ payForm: any FintechSDKPayFormFeatures.FTPayForm, data: FintechSDKPayBoxEntity.FTPaymentData, didCompletePaymentWithResult result: FintechSDKPayBoxEntity.FTPaymentResult)
-}
-public protocol FTPayFormPresenter : AnyObject {
-  func present(_ viewControllerToPresent: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
-}
-extension UIKit.UIViewController : @preconcurrency FintechSDKPayFormFeatures.FTPayFormPresenter {
 }

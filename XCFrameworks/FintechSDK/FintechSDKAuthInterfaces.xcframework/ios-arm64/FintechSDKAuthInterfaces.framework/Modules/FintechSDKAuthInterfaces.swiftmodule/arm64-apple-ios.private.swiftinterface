@@ -62,7 +62,7 @@ public protocol FintechDPoPKey {
   var isInvalid: Swift.Bool { get }
   var requiresBiometry: Swift.Bool { get }
   var keyType: FintechSDKAuthInterfaces.PublicKeyType { get }
-  func makeDPoP(method: Swift.String, path: Swift.String, tokenForAth: Swift.String) async throws(FintechSDKAuthInterfaces.FintechCryptoKeyError) -> Swift.String
+  func makeDPoP(method: Swift.String, path: Swift.String, tokenForAuth: Swift.String) async throws(FintechSDKAuthInterfaces.FintechCryptoKeyError) -> Swift.String
   func invalidate()
 }
 public enum FintechCryptoKeyError : Foundation.LocalizedError {
@@ -74,6 +74,7 @@ public enum FintechCryptoKeyError : Foundation.LocalizedError {
   case keyInvalidated(Foundation.NSError)
   case userCancelled
   case systemCancelled
+  case notInteractive
   public var needToLogout: Swift.Bool {
     get
   }
@@ -146,7 +147,8 @@ public enum FintechAuthorizationStrategy : Swift.String {
 }
 public enum FintechLoginServiceError : Foundation.LocalizedError {
   case clientIDNotSet
-  case sdkError(underlying: any Swift.Error)
+  case userCancelled
+  case sdkError(message: Swift.String, underlying: any Swift.Error)
   case concurrencyError(underlying: (any Swift.Error)?)
 }
 public protocol FintechLoginService : AnyObject {

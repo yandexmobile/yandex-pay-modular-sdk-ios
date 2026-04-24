@@ -577,66 +577,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "YPAuthStateObserver",
-        "printedName": "YPAuthStateObserver",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onAuthStateChanged",
-            "printedName": "onAuthStateChanged(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "YPAuthState",
-                "printedName": "YandexPayConfiguration.YPAuthState",
-                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth19YPAuthStateObserverP02oncE7Changedyy0aB13Configuration0dE0OF",
-            "mangledName": "$s13YandexPayAuth19YPAuthStateObserverP02oncE7Changedyy0aB13Configuration0dE0OF",
-            "moduleName": "YandexPayAuth",
-            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayAuth.YPAuthStateObserver>",
-            "sugared_genericSig": "<Self where Self : YandexPayAuth.YPAuthStateObserver>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13YandexPayAuth19YPAuthStateObserverP",
-        "mangledName": "$s13YandexPayAuth19YPAuthStateObserverP",
-        "moduleName": "YandexPayAuth",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "YandexPayConfiguration",
         "printedName": "YandexPayConfiguration",
@@ -843,6 +783,60 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPSDKLocale",
+                "printedName": "YandexPayConfiguration.YPSDKLocale",
+                "usr": "s:22YandexPayConfiguration11YPSDKLocaleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleC6update6localey0aB13Configuration11YPSDKLocaleO_tF",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleC6update6localey0aB13Configuration11YPSDKLocaleO_tF",
+            "moduleName": "YandexPayAuth",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YPSDKThemeColorScheme",
+                "printedName": "YandexPayConfiguration.YPSDKThemeColorScheme",
+                "usr": "s:22YandexPayConfiguration21YPSDKThemeColorSchemeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13YandexPayAuth04YPayC6ModuleC6update5themey0aB13Configuration21YPSDKThemeColorSchemeO_tF",
+            "mangledName": "$s13YandexPayAuth04YPayC6ModuleC6update5themey0aB13Configuration21YPSDKThemeColorSchemeO_tF",
+            "moduleName": "YandexPayAuth",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -895,6 +889,16 @@
         "kind": "Import",
         "name": "YandexPayConfiguration",
         "printedName": "YandexPayConfiguration",
+        "declKind": "Import",
+        "moduleName": "YandexPayAuth",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUtils",
+        "printedName": "FintechSDKCoreUtils",
         "declKind": "Import",
         "moduleName": "YandexPayAuth",
         "declAttributes": [
@@ -1058,139 +1062,6 @@
           },
           {
             "kind": "Function",
-            "name": "getAuthState",
-            "printedName": "getAuthState()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "YPAuthState",
-                "printedName": "YandexPayConfiguration.YPAuthState",
-                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C03getC5State0aB13Configuration06YPAuthF0OyYaF",
-            "mangledName": "$s13YandexPayAuth04YPayC0C03getC5State0aB13Configuration06YPAuthF0OyYaF",
-            "moduleName": "YandexPayAuth",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isSecurityCheckRequired",
-            "printedName": "isSecurityCheckRequired()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C23isSecurityCheckRequiredSbyYaKF",
-            "mangledName": "$s13YandexPayAuth04YPayC0C23isSecurityCheckRequiredSbyYaKF",
-            "moduleName": "YandexPayAuth",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAuthStateObserver",
-            "printedName": "addAuthStateObserver(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "YPAuthStateObserver",
-                "printedName": "any YandexPayAuth.YPAuthStateObserver",
-                "usr": "s:13YandexPayAuth19YPAuthStateObserverP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C03addC13StateObserveryyAA06YPAuthfG0_pF",
-            "mangledName": "$s13YandexPayAuth04YPayC0C03addC13StateObserveryyAA06YPAuthfG0_pF",
-            "moduleName": "YandexPayAuth",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAuthStateObserver",
-            "printedName": "removeAuthStateObserver(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "YPAuthStateObserver",
-                "printedName": "any YandexPayAuth.YPAuthStateObserver",
-                "usr": "s:13YandexPayAuth19YPAuthStateObserverP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C06removeC13StateObserveryyAA06YPAuthfG0_pF",
-            "mangledName": "$s13YandexPayAuth04YPayC0C06removeC13StateObserveryyAA06YPAuthfG0_pF",
-            "moduleName": "YandexPayAuth",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "notifyAuthStateChanged",
-            "printedName": "notifyAuthStateChanged(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "YPAuthState",
-                "printedName": "YandexPayConfiguration.YPAuthState",
-                "usr": "s:22YandexPayConfiguration11YPAuthStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13YandexPayAuth04YPayC0C06notifyC12StateChangedyy0aB13Configuration06YPAuthF0OF",
-            "mangledName": "$s13YandexPayAuth04YPayC0C06notifyC12StateChangedyy0aB13Configuration06YPAuthF0OF",
-            "moduleName": "YandexPayAuth",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "module",
             "printedName": "module()",
             "children": [
@@ -1338,20 +1209,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
-      "kind": "Array",
-      "offset": 238,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/4\/1\/4018880314\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayAuth\/Sources\/YandexPaySDKAuth.swift",
-      "kind": "Array",
-      "offset": 301,
-      "length": 2,
-      "value": "[]"
-    }
-  ]
+  "ConstValues": []
 }

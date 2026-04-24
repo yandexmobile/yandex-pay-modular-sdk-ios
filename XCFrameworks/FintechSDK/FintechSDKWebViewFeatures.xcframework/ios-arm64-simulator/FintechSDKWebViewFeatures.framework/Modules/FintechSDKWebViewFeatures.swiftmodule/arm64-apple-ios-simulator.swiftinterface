@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import FintechSDKCoreUI
+import Foundation
 import Swift
 import SwiftUI
 import WebKit

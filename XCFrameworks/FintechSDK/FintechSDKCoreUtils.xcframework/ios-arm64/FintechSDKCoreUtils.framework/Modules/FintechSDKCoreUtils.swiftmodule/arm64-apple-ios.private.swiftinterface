@@ -204,6 +204,15 @@ public protocol FTAnyValueBox {
     @_spi(Internal) get
   }
 }
+@_spi(Internal) public struct FTObserverList<Observer> {
+  @_spi(Internal) public init()
+  @_spi(Internal) public mutating func add(_ observer: Observer)
+  @_spi(Internal) public mutating func remove(_ observer: Observer)
+  @_spi(Internal) public var observers: [Observer] {
+    @_spi(Internal) get
+  }
+  @_spi(Internal) public func forEach(_ body: (Observer) -> Swift.Void)
+}
 @_spi(Internal) extension FintechSDKCoreUtils.FTPKDynamicLinkParser {
   @_spi(Internal) public struct ParsedDynamicLink {
     @_spi(Internal) public let path: Swift.String
@@ -367,6 +376,11 @@ final public class FTTaskDelayedActionScheduler : FintechSDKCoreUtils.FTDelayedA
 }
 public enum FTURLUtils {
   public static func sanitize(_ original: Foundation.URL?) -> Swift.String
+}
+@_spi(Internal) final public class FTWeakRef<T> where T : AnyObject {
+  @_spi(Internal) weak final public var value: T?
+  @_spi(Internal) public init(_ value: T)
+  @_spi(Internal) @objc deinit
 }
 public enum FintechApiBaseUrlType : Swift.String, Swift.CaseIterable {
   case payBackend

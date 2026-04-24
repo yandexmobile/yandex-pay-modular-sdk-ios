@@ -25,26 +25,58 @@ extension YandexPayConfiguration.YPay {
   final public func isQuickPaymentEnabled() async throws -> Swift.Bool
   final public func enableQuickPayment() async throws
   final public func disableQuickPayment() async throws
+  final public func activateQuickPay() async throws
+  final public func deactivateQuickPay() async throws
+  final public func isQuickPayActivated() async -> Swift.Bool
   final public func getPaymentSessionId() async throws -> Swift.String
-  @_Concurrency.MainActor final public func createPaymentMethodsWidget() -> UIKit.UIView
-  @_Concurrency.MainActor final public func createPaymentMethodsWidget() -> any SwiftUICore.View
-  @_Concurrency.MainActor final public func createActivePaymentMethodBadge() -> UIKit.UIView
-  @_Concurrency.MainActor final public func createActivePaymentMethodBadge() -> any SwiftUICore.View
+  @_Concurrency.MainActor final public func createPaymentMethodsWidget(allowSilentReload: Swift.Bool = true) -> UIKit.UIView
+  @_Concurrency.MainActor final public func createPaymentMethodsWidget(allowSilentReload: Swift.Bool = true) -> any SwiftUICore.View
+  @_Concurrency.MainActor final public func createActivePaymentMethodBadge(allowSilentReload: Swift.Bool = true) -> UIKit.UIView
+  @_Concurrency.MainActor final public func createActivePaymentMethodBadge(allowSilentReload: Swift.Bool = true) -> any SwiftUICore.View
   @_Concurrency.MainActor final public func enableActivePaymentMethodBadge()
   @_Concurrency.MainActor final public func disableActivePaymentMethodBadge()
   final public func stopPaymentPolling() async
   final public func showFaqScreen() async
   final public func showOnboardingStoriesScreen() async
-  @_Concurrency.MainActor final public func createExpandablePaymentMethodsWidget(expandState: YandexQuickPay.YQuickPayWidgetExpandState) -> any SwiftUICore.View
-  @_Concurrency.MainActor final public func createExpandablePaymentMethodsWidget(expandState: YandexQuickPay.YQuickPayWidgetExpandState) -> UIKit.UIView
+  @_Concurrency.MainActor final public func createExpandablePaymentMethodsWidget(expandState: YandexQuickPay.YQuickPayWidgetExpandState, allowSilentReload: Swift.Bool = true) -> any SwiftUICore.View
+  @_Concurrency.MainActor final public func createExpandablePaymentMethodsWidget(expandState: YandexQuickPay.YQuickPayWidgetExpandState, allowSilentReload: Swift.Bool = true) -> UIKit.UIView
   final public func addWidgetExpandChangeObserver(_ callback: @escaping (_ state: YandexQuickPay.YQuickPayWidgetExpandState) -> Swift.Void) async -> Foundation.UUID
   final public func removeWidgetExpandChangeObserver(forId id: Foundation.UUID) async
   @_Concurrency.MainActor final public func setWidgetExpanded(_ state: YandexQuickPay.YQuickPayWidgetExpandState)
   @_Concurrency.MainActor final public func isWidgetExpanded() -> YandexQuickPay.YQuickPayWidgetExpandState?
+  final public func getAuthState() async -> YandexQuickPay.YQuickPayAuthState
+  final public func isSecurityCheckRequired() async throws -> Swift.Bool
+  @_Concurrency.MainActor final public func addAuthStateObserver(_ observer: any YandexQuickPay.YQuickPayAuthStateObserver)
+  @_Concurrency.MainActor final public func removeAuthStateObserver(_ observer: any YandexQuickPay.YQuickPayAuthStateObserver)
   @objc deinit
 }
+public enum YQuickPayAuthState : Swift.Equatable {
+  public enum SecurityCheckFailReason : Swift.Equatable {
+    case userCancelled
+    case biometryNotAvailable
+    case notInteractive
+    case unknownError
+    public static func == (a: YandexQuickPay.YQuickPayAuthState.SecurityCheckFailReason, b: YandexQuickPay.YQuickPayAuthState.SecurityCheckFailReason) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  case notAuthorized
+  case authorizationInProgress
+  case accountAuthorizedNotActivated
+  case accountAuthorized
+  case securityCheckInProgress
+  case securityCheckFailed(reason: YandexQuickPay.YQuickPayAuthState.SecurityCheckFailReason)
+  case securityCheckRequired
+  case securityCheckCompleted
+  public static func == (a: YandexQuickPay.YQuickPayAuthState, b: YandexQuickPay.YQuickPayAuthState) -> Swift.Bool
+}
+@_Concurrency.MainActor public protocol YQuickPayAuthStateObserver : AnyObject {
+  @_Concurrency.MainActor func onAuthStateChanged(_ state: YandexQuickPay.YQuickPayAuthState)
+}
 final public class YQuickPayModuleDescriptor : YandexPayConfiguration.YPayModule {
-  public init(stateListener: any YandexQuickPay.YQuickPaymentStateListener)
+  public init(stateListener: any YandexQuickPay.YQuickPaymentStateListener, merchant: YandexPayConfiguration.YPSDKMerchant, presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding, isActivatedByDefault: Swift.Bool = true)
   @_Concurrency.MainActor final public func configure(with configuration: YandexPayConfiguration.YPay)
   final public var urlHandlers: [any YandexPayConfiguration.YPayURLHandler] {
     get
@@ -54,12 +86,12 @@ final public class YQuickPayModuleDescriptor : YandexPayConfiguration.YPayModule
   }
   @objc deinit
 }
-extension YandexQuickPay.YQuickPay {
-  public static func module(stateListener: any YandexQuickPay.YQuickPaymentStateListener) -> YandexQuickPay.YQuickPayModuleDescriptor
+extension YandexQuickPay.YQuickPayModuleDescriptor {
+  @_Concurrency.MainActor final public func update(locale: YandexPayConfiguration.YPSDKLocale)
+  @_Concurrency.MainActor final public func update(theme: YandexPayConfiguration.YPSDKThemeColorScheme)
 }
-extension YandexQuickPay.YQuickPayModuleDescriptor : YandexPayConfiguration.YPAuthStateProviding {
-  final public func getAuthState() async -> YandexPayConfiguration.YPAuthState
-  final public func isSecurityCheckRequired() async throws -> Swift.Bool
+extension YandexQuickPay.YQuickPay {
+  public static func module(stateListener: any YandexQuickPay.YQuickPaymentStateListener, merchant: YandexPayConfiguration.YPSDKMerchant, presentationContextProvider: any YandexPayConfiguration.YPPresentationContextProviding, isActivatedByDefault: Swift.Bool = true) -> YandexQuickPay.YQuickPayModuleDescriptor
 }
 public enum YQuickPayResult {
   case success
@@ -84,6 +116,7 @@ public protocol YQuickPaymentStateListener : AnyObject {
   func onSessionExpired()
   func onPaymentResult(quickpayResult: YandexQuickPay.YQuickPayResult)
 }
+extension YandexQuickPay.YQuickPayAuthState.SecurityCheckFailReason : Swift.Hashable {}
 extension YandexQuickPay.YQuickPayWidgetExpandState : Swift.Equatable {}
 extension YandexQuickPay.YQuickPayWidgetExpandState : Swift.Hashable {}
 extension YandexQuickPay.YQuickPayResult : Swift.Equatable {}

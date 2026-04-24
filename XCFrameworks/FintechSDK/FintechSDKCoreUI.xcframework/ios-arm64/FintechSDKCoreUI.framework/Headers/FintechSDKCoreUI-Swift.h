@@ -322,6 +322,14 @@ SWIFT_CLASS("_TtC16FintechSDKCoreUI22FTPlaceholderUIKitView")
 - (void)willMoveToSuperview:(UIView * _Nullable)newSuperview;
 @end
 
+SWIFT_CLASS("_TtC16FintechSDKCoreUI11FTSVGUIView")
+@interface FTSVGUIView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (void)drawRect:(CGRect)rect;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class UITraitCollection;
 @class NSString;
 @class NSBundle;
