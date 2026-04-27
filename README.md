@@ -268,54 +268,6 @@ YPay.instance.auth.addObserver(observer)
 YPay.instance.auth.removeObserver(observer)
 ```
 
-### Состояние авторизации виджета быстрой оплаты
-
-Эти методы отражают состояние авторизации именно в контексте виджета быстрой оплаты (не общей авторизации через Яндекс ID).
-
-```swift
-// Текущее состояние
-let state: YPAuthState = await YPay.instance.auth.getAuthState()
-
-// Нужна ли проверка безопасности перед следующей транзакцией
-let required: Bool = try await YPay.instance.auth.isSecurityCheckRequired()
-```
-
-**`YPAuthState`:**
-
-| Состояние | Описание |
-|---|---|
-| `.notAuthorized` | Пользователь не авторизован |
-| `.authorizationInProgress` | Идёт процесс авторизации |
-| `.accountAuthorized` | Аккаунт привязан, проверка безопасности ещё не пройдена |
-| `.securityCheckInProgress` | Идёт биометрическая или PIN-проверка |
-| `.securityCheckRequired` | Необходима проверка безопасности |
-| `.securityCheckCompleted` | Проверка пройдена, виджет готов к оплате |
-| `.securityCheckFailed(reason:)` | Проверка не пройдена |
-
-**`SecurityCheckFailReason`:**
-
-| Причина | Описание |
-|---|---|
-| `.userCancelled` | Пользователь отменил проверку |
-| `.biometryNotAvailable` | Биометрия недоступна на устройстве |
-| `.unknownError` | Неизвестная ошибка |
-
-### Наблюдатель изменений состояния авторизации
-
-```swift
-class MyController: YPAuthStateObserver {
-    func onAuthStateChanged(_ state: YPAuthState) {
-        // обновить UI в зависимости от нового состояния
-    }
-}
-
-let observer = MyController()
-YPay.instance.auth.addAuthStateObserver(observer)
-
-// Когда наблюдатель больше не нужен:
-YPay.instance.auth.removeAuthStateObserver(observer)
-```
-
 ---
 
 ## YandexQuickPay — быстрая оплата
@@ -395,44 +347,6 @@ let badge: any View = YPay.instance.quickPay.createActivePaymentMethodBadge()
 // Показать / скрыть бейдж программно
 YPay.instance.quickPay.enableActivePaymentMethodBadge()
 YPay.instance.quickPay.disableActivePaymentMethodBadge()
-```
-
-#### Раскрываемый виджет способов оплаты
-
-Полноразмерный виджет с поддержкой свёрнутого и развёрнутого состояний.
-
-```swift
-// UIKit
-let widget: UIView = YPay.instance.quickPay.createExpandablePaymentMethodsWidget(
-    expandState: .collapsed
-)
-
-// SwiftUI
-let widget: any View = YPay.instance.quickPay.createExpandablePaymentMethodsWidget(
-    expandState: .collapsed
-)
-```
-
-Управление состоянием виджета:
-
-```swift
-// Подписаться на изменения состояния
-let observerId = await YPay.instance.quickPay.addWidgetExpandChangeObserver { state in
-    switch state {
-    case .expanded:  // виджет развёрнут
-    case .collapsed: // виджет свёрнут
-    }
-}
-
-// Отписаться
-await YPay.instance.quickPay.removeWidgetExpandChangeObserver(forId: observerId)
-
-// Задать состояние программно
-YPay.instance.quickPay.setWidgetExpanded(.expanded)
-YPay.instance.quickPay.setWidgetExpanded(.collapsed)
-
-// Получить текущее состояние (nil — если виджет ещё не создан)
-let state: YQuickPayWidgetExpandState? = YPay.instance.quickPay.isWidgetExpanded()
 ```
 
 #### Список способов оплаты
