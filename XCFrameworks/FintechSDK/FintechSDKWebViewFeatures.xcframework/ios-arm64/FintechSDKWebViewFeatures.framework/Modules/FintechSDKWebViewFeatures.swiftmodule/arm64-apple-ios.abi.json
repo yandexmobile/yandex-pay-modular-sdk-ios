@@ -868,6 +868,33 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25FintechSDKWebViewFeatures05FTWebC14HandlerContextP7dismissyyF",
+            "mangledName": "$s25FintechSDKWebViewFeatures05FTWebC14HandlerContextP7dismissyyF",
+            "moduleName": "FintechSDKWebViewFeatures",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKWebViewFeatures.FTWebViewHandlerContext>",
+            "sugared_genericSig": "<Self where Self : FintechSDKWebViewFeatures.FTWebViewHandlerContext>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",

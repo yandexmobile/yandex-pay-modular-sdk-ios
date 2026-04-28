@@ -69,8 +69,9 @@ extension FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider {
 }
 public protocol FintechNetworkEventObserver {
   func didStart(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider)
-  func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data)
-  func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?)
+  func didFinishCollectingMetrics(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, metrics: Foundation.URLSessionTaskMetrics)
+  func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data, requestDurationMs: Swift.Int64?)
+  func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, requestDurationMs: Swift.Int64?)
 }
 public protocol FintechNetworkRequestMiddleware {
   func process(request: Foundation.URLRequest) async throws -> Foundation.URLRequest

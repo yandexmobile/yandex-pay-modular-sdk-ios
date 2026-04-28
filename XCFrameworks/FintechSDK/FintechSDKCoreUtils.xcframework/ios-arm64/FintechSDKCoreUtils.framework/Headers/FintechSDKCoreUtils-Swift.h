@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import UIKit;
 #endif
 
 #endif
@@ -302,6 +303,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+@class UIViewController;
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+SWIFT_CLASS("_TtC19FintechSDKCoreUtils33FTDismissableNavigationController")
+@interface FTDismissableNavigationController : UINavigationController
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)viewDidDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

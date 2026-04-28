@@ -521,6 +521,119 @@
         "printedName": "LoginServiceImpl",
         "children": [
           {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvp",
+            "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvp",
+            "moduleName": "FintechSDKLoginAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechLoginServiceDelegate",
+                        "printedName": "any FintechSDKAuthInterfaces.FintechLoginServiceDelegate",
+                        "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvg",
+                "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvg",
+                "moduleName": "FintechSDKLoginAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechLoginServiceDelegate",
+                        "printedName": "any FintechSDKAuthInterfaces.FintechLoginServiceDelegate",
+                        "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvs",
+                "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvs",
+                "moduleName": "FintechSDKLoginAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvM",
+                "mangledName": "$s22FintechSDKLoginAdapter16LoginServiceImplC8delegate0A17SDKAuthInterfaces0adE8Delegate_pSgvM",
+                "moduleName": "FintechSDKLoginAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(environment:)",
@@ -788,44 +901,44 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/AuthModelStorage.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/AuthModelStorage.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 17,
       "value": "\"fintechsdk.auth\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 684,
       "length": 22,
       "value": "\"YANDEX_PAY_CLIENT_ID\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 737,
       "length": 27,
       "value": "\"YANDEX_PAY_CLIENT_ID_TEST\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 795,
       "length": 18,
       "value": "\"YANDEX_CLIENT_ID\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 844,
       "length": 23,
       "value": "\"YANDEX_CLIENT_ID_TEST\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/LoginSDK\/Sources\/LoginService.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 927,
       "length": 26,
       "value": "\"fintechsdk.auth.external\""
     }

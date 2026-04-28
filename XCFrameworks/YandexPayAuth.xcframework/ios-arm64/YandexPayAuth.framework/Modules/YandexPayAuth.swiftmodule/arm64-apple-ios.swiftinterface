@@ -59,7 +59,12 @@ extension YandexPayAuth.YPayAuth {
   @_Concurrency.MainActor final public func logout()
   @_Concurrency.MainActor final public func addObserver(_ observer: any YandexPayAuth.YPLoginObserver)
   @_Concurrency.MainActor final public func removeObserver(_ observer: any YandexPayAuth.YPLoginObserver)
+  @_Concurrency.MainActor final public func setPartnerAuthState(isUserAuthorized: Swift.Bool)
   @objc deinit
+}
+extension YandexPayAuth.YPayAuth : FintechSDKAuthInterfaces.FintechLoginServiceDelegate {
+  @_Concurrency.MainActor final public func loginService(_ service: any FintechSDKAuthInterfaces.FintechLoginService, didAuthorize model: FintechSDKAuthInterfaces.FintechAuthModel)
+  @_Concurrency.MainActor final public func loginService(_ service: any FintechSDKAuthInterfaces.FintechLoginService, didFailWith error: FintechSDKAuthInterfaces.FintechLoginServiceError)
 }
 extension YandexPayAuth.YPAuthorizationStrategy : Swift.Equatable {}
 extension YandexPayAuth.YPAuthorizationStrategy : Swift.Hashable {}

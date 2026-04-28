@@ -30,6 +30,23 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKRemoteResourcesData",
+        "printedName": "FintechSDKRemoteResourcesData",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKAuthorizationScenario",
         "printedName": "FintechSDKAuthorizationScenario",
         "declKind": "Import",
@@ -42,6 +59,145 @@
         "kind": "Import",
         "name": "FintechSDKDivKitWidgetsFeatures",
         "printedName": "FintechSDKDivKitWidgetsFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthorizationScenario",
+        "printedName": "FintechSDKAuthorizationScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUIFeatures",
+        "printedName": "FintechSDKBDUIFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKLoaderScreen",
+        "printedName": "FintechSDKLoaderScreen",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxResources",
+        "printedName": "FintechSDKPayBoxResources",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUICore",
+        "printedName": "FintechSDKBDUICore",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNativeErrorFeature",
+        "printedName": "FintechSDKNativeErrorFeature",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxResources",
+        "printedName": "FintechSDKPayBoxResources",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUICore",
+        "printedName": "FintechSDKBDUICore",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
         "moduleName": "FintechSDKAssistant",
         "declAttributes": [
@@ -132,6 +288,26 @@
         "kind": "Import",
         "name": "FintechSDKWebViewFeatures",
         "printedName": "FintechSDKWebViewFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKLoaderScreen",
+        "printedName": "FintechSDKLoaderScreen",
+        "declKind": "Import",
+        "moduleName": "FintechSDKAssistant",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxResources",
+        "printedName": "FintechSDKPayBoxResources",
         "declKind": "Import",
         "moduleName": "FintechSDKAssistant",
         "declAttributes": [
@@ -666,7 +842,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantId:environment:locale:bduiAdapterFactory:fontsAdapter:accountManagerAdapter:loginService:networkChallengeHandlerFactory:)",
+            "printedName": "init(merchantId:environment:locale:bduiAdapterFactory:fontsAdapter:accountManagerAdapter:loginService:networkChallengeHandlerFactory:partnerAuthStateProvider:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -721,11 +897,45 @@
                 "name": "FintechNetworkChallengeHandlerFactory",
                 "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkChallengeHandlerFactory",
                 "usr": "s:27FintechSDKNetworkInterfaces0A30NetworkChallengeHandlerFactoryP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> Swift.Bool?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService016networkChallengefM0ACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAV0a5LoginR0_p0A20SDKNetworkInterfaces0a7NetworktfM0_ptcfc",
-            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService016networkChallengefM0ACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAV0a5LoginR0_p0A20SDKNetworkInterfaces0a7NetworktfM0_ptcfc",
+            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService016networkChallengefM024partnerAuthStateProviderACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAW0a5LoginR0_p0A20SDKNetworkInterfaces0a7NetworktfM0_pSbSgycSgtcfc",
+            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC10merchantId11environment6locale18bduiAdapterFactory05fontsL0014accountManagerL012loginService016networkChallengefM024partnerAuthStateProviderACSS_0A15SDKCommonEntity0A14SDKEnvironmentO0A9SDKCoreUI0A6LocaleO0A15SDKBDUIFeatures0a11BDUIAdapterM0_p0A18SDKFontsInterfaces0a5FontsL0_p0A17SDKAuthInterfaces0a7AccountpL0_pAW0a5LoginR0_p0A20SDKNetworkInterfaces0a7NetworktfM0_pSbSgycSgtcfc",
             "moduleName": "FintechSDKAssistant",
             "declAttributes": [
               "AccessControl",
@@ -945,6 +1155,30 @@
               "Internal"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKAssistant27FTYandexPayAssistantHandlerC6logoutyyYaF",
+            "mangledName": "$s19FintechSDKAssistant27FTYandexPayAssistantHandlerC6logoutyyYaF",
+            "moduleName": "FintechSDKAssistant",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1012,6 +1246,31 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authorize",
+            "printedName": "authorize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31FintechSDKAuthorizationScenario20FTAuthFlowInteractorC0A12SDKAssistantE9authorizeyyYaKF",
+            "mangledName": "$s31FintechSDKAuthorizationScenario20FTAuthFlowInteractorC0A12SDKAssistantE9authorizeyyYaKF",
+            "moduleName": "FintechSDKAssistant",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1060,6 +1319,13 @@
             "printedName": "FTWebViewBSTAcquiring",
             "usr": "s:31FintechSDKDivKitWidgetsFeatures21FTWebViewBSTAcquiringP",
             "mangledName": "$s31FintechSDKDivKitWidgetsFeatures21FTWebViewBSTAcquiringP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FTWebViewLoginAuthorizing",
+            "printedName": "FTWebViewLoginAuthorizing",
+            "usr": "s:31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP",
+            "mangledName": "$s31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP"
           },
           {
             "kind": "Conformance",
@@ -1139,37 +1405,44 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 38,
       "value": "\"\/pay\/v1\/public\/widgets\/argo\/benefits\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/DataLayer\/Endpoints\/FTBenefitWidgetEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 425,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYABDUIErrorContentFactory.swift",
       "kind": "StringLiteral",
-      "offset": 9195,
+      "offset": 281,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYABenefitWidgetShimmerView.swift",
+      "kind": "Array",
+      "offset": 135,
+      "length": 20,
+      "value": "[185, 110, 111, 160]"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
       "kind": "StringLiteral",
-      "offset": 10388,
+      "offset": 11772,
       "length": 11,
       "value": "\"assistant\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/YandexPayAssistant\/Private\/SDK\/FTYandexPayAssistantMainModule.swift",
       "kind": "StringLiteral",
-      "offset": 10648,
+      "offset": 11985,
       "length": 17,
       "value": "\"benefits-widget\""
     }

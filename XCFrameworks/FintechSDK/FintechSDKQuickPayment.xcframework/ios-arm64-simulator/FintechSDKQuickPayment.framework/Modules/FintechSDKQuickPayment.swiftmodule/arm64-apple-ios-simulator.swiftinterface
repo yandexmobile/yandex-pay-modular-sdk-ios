@@ -18,6 +18,7 @@ import FintechSDKFontsInterfaces
 import FintechSDKNativeErrorFeature
 import FintechSDKNetworkImplementation
 import FintechSDKNetworkInterfaces
+import FintechSDKPollingScenario
 import FintechSDKRemoteResourcesData
 import Foundation
 import Swift

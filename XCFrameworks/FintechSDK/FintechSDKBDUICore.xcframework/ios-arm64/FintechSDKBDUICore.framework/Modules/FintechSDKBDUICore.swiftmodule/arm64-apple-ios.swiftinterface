@@ -54,6 +54,7 @@ public protocol FintechBDUIAdapter : FintechSDKBDUICore.FintechBDUIDivActionHand
   var variableStorage: any FintechSDKBDUICore.FintechBDUIDivVariableStorage { get }
   var expressionResolver: any FintechSDKBDUICore.FintechDivKitExpressionResolver { get }
   func setThemeKind(themeKind: FintechSDKBDUICore.FintechBDUIThemeKind)
+  @_Concurrency.MainActor func addFirstInteractionOverlay(to engine: any FintechSDKBDUICore.FintechBDUIEngine, screenPath: Swift.String)
   @_Concurrency.MainActor func create<Preview>(entryPoint: FintechSDKBDUICore.FintechBDUIEntryPoint, preview: Preview) -> any FintechSDKBDUICore.FintechBDUIEngine where Preview : FintechSDKBDUICore.FintechBDUIContent
   @_Concurrency.MainActor func create<Content>(document: Content) -> any FintechSDKBDUICore.FintechBDUIEngine where Content : FintechSDKBDUICore.FintechBDUIContent
   @_Concurrency.MainActor func createDivKitView(action: (any FintechSDKBDUICore.FintechDivUrlHandler)?, source: FintechSDKBDUICore.FintechDivViewSource, divFlags: FintechSDKBDUICore.FintechDivFlagsInfo?) -> any SwiftUICore.View
@@ -99,6 +100,7 @@ public struct FintechBDUICustomProps {
   public let clearStack: Swift.Bool
   public let popToRoot: Swift.Bool
   public let endEditing: Swift.Bool
+  public let pageName: Swift.String
   public init(rawValue: [Swift.String : Any])
 }
 public enum CutoutAnimationType : Swift.String, Swift.Decodable {

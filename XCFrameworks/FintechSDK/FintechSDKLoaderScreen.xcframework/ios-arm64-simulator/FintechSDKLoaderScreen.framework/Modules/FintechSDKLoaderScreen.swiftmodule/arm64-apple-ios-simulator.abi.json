@@ -426,14 +426,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FTPrimaryButtonData",
-                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
-                "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPrimaryButtonData",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                    "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvp",
-            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvp",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvp",
             "moduleName": "FintechSDKLoaderScreen",
             "protocolReq": true,
             "spi_group_names": [
@@ -447,14 +455,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "FTPrimaryButtonData",
-                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
-                    "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                    "name": "Optional",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPrimaryButtonData",
+                        "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                        "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvg",
-                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvg",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvg",
                 "moduleName": "FintechSDKLoaderScreen",
                 "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
                 "sugared_genericSig": "<Self where Self : FintechSDKLoaderScreen.FTNativeLoaderScreenViewModel>",
@@ -618,6 +634,679 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "FTNativeLoaderScreenViewModelImpl",
+        "printedName": "FTNativeLoaderScreenViewModelImpl",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5titleSSvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5titleSSvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5titleSSvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5titleSSvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subtitle",
+            "printedName": "subtitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8subtitleSSSgvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8subtitleSSSgvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8subtitleSSSgvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8subtitleSSSgvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonPayload",
+            "printedName": "buttonPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPrimaryButtonData",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                    "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPrimaryButtonData",
+                        "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                        "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTPrimaryButtonData",
+                        "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                        "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvs",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvs",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvM",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCSgvM",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$buttonPayload",
+            "printedName": "$buttonPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<FintechSDKCoreUI.FTPrimaryButtonData>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<FintechSDKCoreUI.FTPrimaryButtonData>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<FintechSDKCoreUI.FTPrimaryButtonData>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvs",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_Gvs",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_GvM",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC14$buttonPayload7Combine9PublishedV9PublisherVy0A9SDKCoreUI19FTPrimaryButtonDataCSg_GvM",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC4logo7SwiftUI5ImageVSgvp",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC4logo7SwiftUI5ImageVSgvp",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC4logo7SwiftUI5ImageVSgvg",
+                "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC4logo7SwiftUI5ImageVSgvg",
+                "moduleName": "FintechSDKLoaderScreen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:subtitle:logo:buttonPayload:onDisappear:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTNativeLoaderScreenViewModelImpl",
+                "printedName": "FintechSDKLoaderScreen.FTNativeLoaderScreenViewModelImpl",
+                "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPrimaryButtonData",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                    "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5title8subtitle4logo13buttonPayload11onDisappearACSS_SSSg7SwiftUI5ImageVSg0a7SDKCoreQ019FTPrimaryButtonDataCSgyycSgtcfc",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC5title8subtitle4logo13buttonPayload11onDisappearACSS_SSSg7SwiftUI5ImageVSg0a7SDKCoreQ019FTPrimaryButtonDataCSgyycSgtcfc",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onAppear",
+            "printedName": "onAppear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8onAppearyyF",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC8onAppearyyF",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDisappear",
+            "printedName": "onDisappear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC11onDisappearyyF",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC11onDisappearyyF",
+            "moduleName": "FintechSDKLoaderScreen",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC",
+        "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC13ViewModelImplC",
+        "moduleName": "FintechSDKLoaderScreen",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FTNativeLoaderScreenViewModel",
+            "printedName": "FTNativeLoaderScreenViewModel",
+            "usr": "s:22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP",
+            "mangledName": "$s22FintechSDKLoaderScreen014FTNativeLoaderC9ViewModelP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -646,21 +1335,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "FloatLiteral",
       "offset": 891,
       "length": 3,
       "value": "3.5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Loader\/Loader\/FTLoaderView.swift",
       "kind": "FloatLiteral",
       "offset": 967,
       "length": 3,

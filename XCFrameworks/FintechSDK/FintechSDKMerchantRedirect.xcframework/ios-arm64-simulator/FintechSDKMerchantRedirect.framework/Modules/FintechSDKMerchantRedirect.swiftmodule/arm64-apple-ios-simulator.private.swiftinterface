@@ -24,6 +24,7 @@ import FintechSDKPayBoxEntity
 @_spi(Internal) import FintechSDKPayMerchantData
 @_spi(Internal) import FintechSDKPayOrderData
 @_spi(Internal) import FintechSDKPayWidget
+@_spi(Internal) import FintechSDKPollingScenario
 @_spi(Internal) import FintechSDKRedirectScenario
 @_spi(Internal) import FintechSDKRemoteResourcesData
 import FintechSDKUltimateWidget

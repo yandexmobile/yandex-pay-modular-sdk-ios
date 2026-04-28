@@ -21,6 +21,15 @@ import _SwiftConcurrencyShims
   @_spi(Internal) var subtitle: Swift.String { get }
   @_spi(Internal) var image: FintechSDKCoreUI.FTImageProvider { get }
   @_spi(Internal) var buttonPayload: FintechSDKCoreUI.FTPrimaryButtonData { get }
-  @_spi(Internal) var code: Swift.String { get }
+  @_spi(Internal) var code: Swift.String? { get }
+}
+@_spi(Internal) final public class FTNativeErrorViewModelImpl : FintechSDKNativeErrorFeature.FTNativeErrorViewModel {
+  @_spi(Internal) final public let title: Swift.String
+  @_spi(Internal) final public let subtitle: Swift.String
+  @_spi(Internal) final public let image: FintechSDKCoreUI.FTImageProvider
+  @_spi(Internal) final public let buttonPayload: FintechSDKCoreUI.FTPrimaryButtonData
+  @_spi(Internal) final public let code: Swift.String?
+  @_spi(Internal) public init(title: Swift.String, subtitle: Swift.String, image: FintechSDKCoreUI.FTImageProvider, buttonPayload: FintechSDKCoreUI.FTPrimaryButtonData, code: Swift.String?)
+  @_spi(Internal) @objc deinit
 }
 @_spi(Internal) extension FintechSDKNativeErrorFeature.FTNativeErrorView : Swift.Sendable {}

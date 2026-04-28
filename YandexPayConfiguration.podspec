@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'YandexPayConfiguration'
-  s.version               = '0.2.2'
+  s.version               = '0.3.4'
   s.summary               = 'YandexPayConfiguration — Yandex Pay Modular SDK for iOS'
   s.homepage              = 'https://github.com/yandexmobile/yandex-pay-modular-sdk-ios'
   s.license               = { :type => 'Proprietary' }

@@ -141,6 +141,7 @@ import _SwiftConcurrencyShims
   @_spi(Internal) public typealias Body = @_opaqueReturnTypeOf("$s16FintechSDKCoreUI15FTPrimaryButtonV4bodyQrvp", 0) __
 }
 @_spi(Internal) final public class FTPrimaryButtonData : Combine.ObservableObject {
+  @_spi(Internal) final public var action: (() -> Swift.Void)?
   @_spi(Internal) public init(title: Swift.String? = nil, titleFont: SwiftUICore.Font? = nil, state: FintechSDKCoreUI.FTPrimaryButtonData.State, action: (() -> Swift.Void)? = nil)
   @_spi(Internal) public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @_spi(Internal) @objc deinit
@@ -294,6 +295,11 @@ import _SwiftConcurrencyShims
     @_spi(Internal) case payButtonSplitSubtitle
     @_spi(Internal) case ybuttonSplit
     @_spi(Internal) case ypaySplitInfoHeader
+    @_spi(Internal) case authAlmostDone
+    @_spi(Internal) case authWillConnectToYandexPay
+    @_spi(Internal) case authContinue
+    @_spi(Internal) case tryRefreshPage
+    @_spi(Internal) case close
     @_spi(Internal) public static func == (a: FintechSDKCoreUI.FTLocaleProviderService.LocalizedString, b: FintechSDKCoreUI.FTLocaleProviderService.LocalizedString) -> Swift.Bool
     @_spi(Internal) public func hash(into hasher: inout Swift.Hasher)
     @_spi(Internal) public var hashValue: Swift.Int {

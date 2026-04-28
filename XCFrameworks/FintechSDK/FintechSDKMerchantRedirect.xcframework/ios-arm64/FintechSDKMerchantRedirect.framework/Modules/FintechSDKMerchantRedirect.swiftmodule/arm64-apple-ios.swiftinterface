@@ -24,6 +24,7 @@ import FintechSDKPayFormFeatures
 import FintechSDKPayMerchantData
 import FintechSDKPayOrderData
 import FintechSDKPayWidget
+import FintechSDKPollingScenario
 import FintechSDKRedirectScenario
 import FintechSDKRemoteResourcesData
 import FintechSDKUltimateWidget

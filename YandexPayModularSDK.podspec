@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'YandexPayModularSDK'
-  s.version               = '0.2.2'
+  s.version               = '0.3.4'
   s.summary               = 'Yandex Pay Modular SDK for iOS'
   s.homepage              = 'https://github.com/yandexmobile/yandex-pay-modular-sdk-ios'
   s.license               = { :type => 'Proprietary' }
@@ -120,6 +120,7 @@ Pod::Spec.new do |s|
   s.subspec 'YandexPaySDK' do |ss|
     ss.vendored_frameworks = 'XCFrameworks/YandexPaySDK.xcframework'
     ss.dependency 'YandexPayModularSDK/FintechSDKMerchantRedirect'
+    ss.dependency 'YandexPayModularSDK/FintechSDKPollingScenario'
     ss.dependency 'YandexPayModularSDK/FintechSDKPayBoxEntity'
     ss.dependency 'YandexPayModularSDK/FintechSDKPayBoxResources'
     ss.dependency 'YandexPayModularSDK/FintechSDKPayOrderData'
@@ -161,6 +162,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'FintechSDKMerchantRedirect' do |ss|
     ss.vendored_frameworks = 'XCFrameworks/FintechSDK/FintechSDKMerchantRedirect.xcframework'
+  end
+
+  s.subspec 'FintechSDKPollingScenario' do |ss|
+    ss.vendored_frameworks = 'XCFrameworks/FintechSDK/FintechSDKPollingScenario.xcframework'
   end
 
   s.subspec 'FintechSDKPayBoxEntity' do |ss|
@@ -249,6 +254,8 @@ Pod::Spec.new do |s|
     ss.dependency 'YandexPayModularSDK/FintechSDKDivKitWidgetsFeatures'
     ss.dependency 'YandexPayModularSDK/FintechSDKWebViewFeatures'
     ss.dependency 'YandexPayModularSDK/FintechSDKRemoteResourcesData'
+    ss.dependency 'YandexPayModularSDK/FintechSDKNativeErrorFeature'
+    ss.dependency 'YandexPayModularSDK/FintechSDKPayBoxResources'
     ss.dependency 'YandexPayModularSDK/ExternalBduiAdapter'
     ss.dependency 'YandexPayModularSDK/FintechSDKAppMetricaAdapter'
     ss.dependency 'YandexPayModularSDK/FintechSDKFontsAdapter'
@@ -401,6 +408,7 @@ Pod::Spec.new do |s|
   s.subspec 'YandexQuickPay' do |ss|
     ss.vendored_frameworks = 'XCFrameworks/YandexQuickPay.xcframework'
     ss.dependency 'YandexPayModularSDK/FintechSDKQuickPayment'
+    ss.dependency 'YandexPayModularSDK/FintechSDKPollingScenario'
     ss.dependency 'YandexPayModularSDK/FintechSDKAuthInterfaces'
     ss.dependency 'YandexPayModularSDK/FintechSDKBDUIFeatures'
     ss.dependency 'YandexPayModularSDK/FintechSDKBDUICore'
@@ -447,6 +455,9 @@ Pod::Spec.new do |s|
         fi
         if ! grep -Fq '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKQuickPayment/FintechSDKQuickPayment.framework"' "${frameworks_script}"; then
           printf '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKQuickPayment/FintechSDKQuickPayment.framework"\n' >> "${frameworks_script}"
+        fi
+        if ! grep -Fq '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKPollingScenario/FintechSDKPollingScenario.framework"' "${frameworks_script}"; then
+          printf '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKPollingScenario/FintechSDKPollingScenario.framework"\n' >> "${frameworks_script}"
         fi
         if ! grep -Fq '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKAuthInterfaces/FintechSDKAuthInterfaces.framework"' "${frameworks_script}"; then
           printf '  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/YandexPayModularSDK/FintechSDKAuthInterfaces/FintechSDKAuthInterfaces.framework"\n' >> "${frameworks_script}"

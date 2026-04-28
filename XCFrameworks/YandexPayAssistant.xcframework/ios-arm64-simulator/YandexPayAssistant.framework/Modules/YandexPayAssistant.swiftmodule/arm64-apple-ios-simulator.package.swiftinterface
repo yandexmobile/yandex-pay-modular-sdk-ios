@@ -29,6 +29,7 @@ final public class YPAssistantModuleDescriptor : YandexPayConfiguration.YPayModu
   final public var userActivityHandlers: [any YandexPayConfiguration.YPayUserActivityHandler] {
     get
   }
+  @_spi(Internal) @_Concurrency.MainActor final public func logout()
   @objc deinit
 }
 public enum YPBenefitsWidgetScreen : Swift.String, Swift.CaseIterable {

@@ -2186,6 +2186,140 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isAuthorizedInPartner",
+            "printedName": "isAuthorizedInPartner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvp",
+            "mangledName": "$s22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvp",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvg",
+                "mangledName": "$s22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvg",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvs",
+                "mangledName": "$s22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvs",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvM",
+                "mangledName": "$s22YandexPayConfiguration4YPayC21isAuthorizedInPartnerSbSgvM",
+                "moduleName": "YandexPayConfiguration",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initialize",
             "printedName": "initialize(environment:locale:theme:enableLogging:modules:)",
@@ -2246,6 +2380,33 @@
               "Custom",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "propagateLogout",
+            "printedName": "propagateLogout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration4YPayC15propagateLogoutyyF",
+            "mangledName": "$s22YandexPayConfiguration4YPayC15propagateLogoutyyF",
+            "moduleName": "YandexPayConfiguration",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "SPIAccessControl"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -2630,6 +2791,34 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration10YPayModuleP6logoutyyF",
+            "mangledName": "$s22YandexPayConfiguration10YPayModuleP6logoutyyF",
+            "moduleName": "YandexPayConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayModule>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
+            "protocolReq": true,
+            "declAttributes": [
+              "SPIAccessControl",
+              "Custom"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "urlHandlers",
             "printedName": "urlHandlers",
@@ -2835,6 +3024,33 @@
             "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
             "declAttributes": [
               "SPIAccessControl"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22YandexPayConfiguration10YPayModulePAAE6logoutyyF",
+            "mangledName": "$s22YandexPayConfiguration10YPayModulePAAE6logoutyyF",
+            "moduleName": "YandexPayConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YandexPayConfiguration.YPayModule>",
+            "sugared_genericSig": "<Self where Self : YandexPayConfiguration.YPayModule>",
+            "declAttributes": [
+              "SPIAccessControl",
+              "Custom"
             ],
             "isFromExtension": true,
             "spi_group_names": [
@@ -3234,28 +3450,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPSDKEnvironment.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPSDKEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 58,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPay.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPay.swift",
       "kind": "BooleanLiteral",
-      "offset": 2369,
+      "offset": 2428,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
       "kind": "Dictionary",
       "offset": 299,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/Facades\/YandexPayConfiguration\/Sources\/YPayDeeplinkHandler.swift",
       "kind": "Dictionary",
       "offset": 1085,
       "length": 3,

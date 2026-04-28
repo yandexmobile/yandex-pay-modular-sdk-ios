@@ -3618,161 +3618,161 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 2296,
       "length": 6,
       "value": "\"bnpl\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 2342,
       "length": 10,
       "value": "\"cashback\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Data\/FTPayBadgeAPIServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 2392,
       "length": 10,
       "value": "\"ultimate\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 807,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 2965,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3000,
       "length": 15,
       "value": "\"\/api\/v2\/badge\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3059,
       "length": 7,
       "value": "\"color\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3109,
       "length": 7,
       "value": "\"theme\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3159,
       "length": 7,
       "value": "\"align\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3211,
       "length": 9,
       "value": "\"variant\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3261,
       "length": 13,
       "value": "\"merchant_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3308,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3350,
       "length": 8,
       "value": "\"amount\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3396,
       "length": 10,
       "value": "\"currency\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3446,
       "length": 13,
       "value": "\"render_data\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3526,
       "length": 68,
       "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3635,
       "length": 17,
       "value": "\"X-Pay-MetricaID\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3691,
       "length": 16,
       "value": "\"X-Pay-DeviceID\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3742,
       "length": 12,
       "value": "\"X-Pay-IDFA\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/Endpoints\/FTPayBadgeEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 3794,
       "length": 18,
       "value": "\"X-Pay-User-Token\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeView.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayBadge\/UI\/FTPayBadgeViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 495,
       "length": 5,

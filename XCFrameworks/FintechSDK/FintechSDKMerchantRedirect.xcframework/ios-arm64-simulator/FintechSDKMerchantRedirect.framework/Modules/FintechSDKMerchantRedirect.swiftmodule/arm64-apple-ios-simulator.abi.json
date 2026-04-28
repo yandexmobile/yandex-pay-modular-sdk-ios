@@ -13,10 +13,91 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxEntity",
+        "printedName": "FintechSDKPayBoxEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKAuthInterfaces",
         "printedName": "FintechSDKAuthInterfaces",
         "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthorizationScenario",
+        "printedName": "FintechSDKAuthorizationScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthorizationScenario",
+        "printedName": "FintechSDKAuthorizationScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayButton",
+        "printedName": "FintechSDKPayButton",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKDivKitWidgetsFeatures",
+        "printedName": "FintechSDKDivKitWidgetsFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1336,6 +1417,20 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKCoreAnalytics",
+        "printedName": "FintechSDKCoreAnalytics",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
@@ -1356,15 +1451,35 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKCoreAnalytics",
-        "printedName": "FintechSDKCoreAnalytics",
+        "name": "FintechSDKAnalyticsInterfaces",
+        "printedName": "FintechSDKAnalyticsInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAnalyticsInterfaces",
+        "printedName": "FintechSDKAnalyticsInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect"
       },
       {
         "kind": "Import",
-        "name": "FintechSDKAuthInterfaces",
-        "printedName": "FintechSDKAuthInterfaces",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect"
       },
@@ -1717,6 +1832,16 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKPollingScenario",
+        "printedName": "FintechSDKPollingScenario",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
@@ -1817,6 +1942,40 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayBoxEntity",
+        "printedName": "FintechSDKPayBoxEntity",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKPayFormFeatures",
+        "printedName": "FintechSDKPayFormFeatures",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKBDUICore",
         "printedName": "FintechSDKBDUICore",
         "declKind": "Import",
@@ -1875,6 +2034,13 @@
       },
       {
         "kind": "Import",
+        "name": "FintechSDKBDUICore",
+        "printedName": "FintechSDKBDUICore",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
         "name": "FintechSDKCoreUI",
         "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
@@ -1921,6 +2087,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKBDUICore",
+        "printedName": "FintechSDKBDUICore",
         "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect"
       },
@@ -2024,6 +2197,16 @@
         "printedName": "FintechSDKPayWidget",
         "declKind": "Import",
         "moduleName": "FintechSDKMerchantRedirect"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthCoreImplementation",
+        "printedName": "FintechSDKAuthCoreImplementation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKMerchantRedirect",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -2702,158 +2885,172 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/ApplicationLayer\/Interactors\/FTMRPayWidgetConfigInteractor.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/ApplicationLayer\/Interactors\/FTMRPayWidgetConfigInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 442,
+      "offset": 601,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/ApplicationLayer\/Interactors\/FTMRPayWidgetConfigInteractor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 482,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 323,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 16,
       "value": "\"payment_status\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 28,
       "value": "\"\/pay\/v1\/pay-widget\/payment\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTCreateTransactionEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 744,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 466,
+      "length": 20,
+      "value": "\"pay_widget_enabled\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
       "length": 23,
       "value": "\"stop_polling_statuses\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 1085,
       "length": 41,
       "value": "\"\/pay\/v1\/public\/configuration\/pay-widget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPayWidgetConfigurationEndpoint.swift",
       "kind": "FloatLiteral",
-      "offset": 747,
+      "offset": 1240,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 16,
       "value": "\"payment_status\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 564,
       "length": 35,
       "value": "\"\/pay\/v1\/pay-widget\/payment\/status\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/DataLayer\/Endpoints\/FTPaymentStatusEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 673,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 18,
       "value": "\"user_interaction\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 13,
       "value": "\"in_progress\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 20,
       "value": "\"open_status_screen\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 26,
       "value": "\"force_open_status_screen\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/Domain\/FTPWTransaction.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 14,
       "value": "\"stop_polling\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRAuthProcessAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 164,
-      "length": 18,
-      "value": "\"merchantRedirect\""
-    },
-    {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 512,
       "length": 8,
       "value": "\"origin\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 546,
       "length": 12,
       "value": "\"source_sdk\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTMRParamsProvider.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 6,
       "value": "\"puid\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/FTMRComponentsFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/Analytics\/FTPWAuthProcessAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 11,
+      "value": "\"payWidget\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/SDK\/FTMRComponentsFactory.swift",
       "kind": "Array",
       "offset": 891,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/UI\/FTMRBDUIQuery.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 16,
+      "value": "\"transaction_id\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Flows\/MerchantRedirect\/Private\/UI\/FTMRBDUIQuery.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 13,
+      "value": "\"payment_url\""
     }
   ]
 }

@@ -34,6 +34,7 @@ extension FintechSDKLoginAdapter.FintechCookieExchangerAdapterImpl : FintechSDKA
   final public func requestCookieAuthURL(uid: Foundation.NSNumber?, retPath: Swift.String) async throws(FintechSDKAuthInterfaces.FintechCookieExchangerError) -> Foundation.URL
 }
 @_hasMissingDesignatedInitializers final public class LoginServiceImpl : FintechSDKAuthInterfaces.FintechLoginService {
+  weak final public var delegate: (any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?
   convenience public init(environment: FintechSDKAuthInterfaces.FintechServiceEnvironment = .prod)
   @objc deinit
   @_Concurrency.MainActor final public func getCurrentAuth(for type: FintechSDKAuthInterfaces.FintechAuthType) -> FintechSDKLoginAdapter.LoginServiceImpl.Model?

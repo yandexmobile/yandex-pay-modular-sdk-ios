@@ -9,6 +9,7 @@ import FintechSDKBDUICore
 @_spi(Internal) import FintechSDKBDUIFeatures
 @_spi(Internal) import FintechSDKCoreUI
 @_spi(Internal) import FintechSDKCoreUtils
+@_spi(Internal) import FintechSDKNativeErrorFeature
 @_spi(Internal) import FintechSDKNetworkImplementation
 import FintechSDKNetworkInterfaces
 @_spi(Internal) import FintechSDKWebViewFeatures
@@ -54,7 +55,7 @@ import _SwiftConcurrencyShims
     @_spi(Internal) public init(from decoder: any Swift.Decoder) throws
   }
   @_spi(Internal) final public let name: Swift.String
-  @_spi(Internal) public init(acquireBST: any FintechSDKDivKitWidgetsFeatures.FTWebViewBSTAcquiring, mode: FintechSDKDivKitWidgetsFeatures.FTWebViewBSTAcquisitionMode, widgetReloader: FintechSDKDivKitWidgetsFeatures.FTWidgetReloader)
+  @_spi(Internal) public init(authorize: any FintechSDKDivKitWidgetsFeatures.FTWebViewLoginAuthorizing, widgetReloader: FintechSDKDivKitWidgetsFeatures.FTWidgetReloader, presentationContextProvider: (any FintechSDKCoreUI.FTPresentationContextProviding)? = nil, resourceProvider: (any FintechSDKCoreUI.FTResourceProvider)? = nil)
   @_spi(Internal) @_Concurrency.MainActor final public func didAttachToWebView(_ context: any FintechSDKWebViewFeatures.FTWebViewHandlerContext)
   @_spi(Internal) @_Concurrency.MainActor final public func handle(model: FintechSDKDivKitWidgetsFeatures.FTWebViewLoginHandler.Model) async
   @_spi(Internal) @objc deinit
@@ -187,6 +188,9 @@ public enum FintechWidgetState {
 }
 @_spi(Internal) public protocol FTWebViewBSTAcquiring : Swift.Sendable {
   @_spi(Internal) func acquireBSTToken(mode: FintechSDKDivKitWidgetsFeatures.FTWebViewBSTAcquisitionMode) async throws -> Swift.String
+}
+@_spi(Internal) public protocol FTWebViewLoginAuthorizing : Swift.Sendable {
+  @_spi(Internal) func authorize() async throws
 }
 @_spi(Internal) public protocol FTWebViewLogoutUseCase : Swift.Sendable {
   @_spi(Internal) func logout() async throws

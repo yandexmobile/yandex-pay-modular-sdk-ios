@@ -1184,6 +1184,42 @@
           },
           {
             "kind": "Function",
+            "name": "addFirstInteractionOverlay",
+            "printedName": "addFirstInteractionOverlay(to:screenPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechBDUIEngine",
+                "printedName": "any FintechSDKBDUICore.FintechBDUIEngine",
+                "usr": "s:18FintechSDKBDUICore0A10BDUIEngineP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FintechSDKBDUICore0A11BDUIAdapterP26addFirstInteractionOverlay2to10screenPathyAA0A10BDUIEngine_p_SStF",
+            "mangledName": "$s18FintechSDKBDUICore0A11BDUIAdapterP26addFirstInteractionOverlay2to10screenPathyAA0A10BDUIEngine_p_SStF",
+            "moduleName": "FintechSDKBDUICore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKBDUICore.FintechBDUIAdapter>",
+            "sugared_genericSig": "<Self where Self : FintechSDKBDUICore.FintechBDUIAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "create",
             "printedName": "create(entryPoint:preview:)",
             "children": [
@@ -2730,6 +2766,50 @@
                 "declKind": "Accessor",
                 "usr": "s:18FintechSDKBDUICore0A15BDUICustomPropsV10endEditingSbvg",
                 "mangledName": "$s18FintechSDKBDUICore0A15BDUICustomPropsV10endEditingSbvg",
+                "moduleName": "FintechSDKBDUICore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageName",
+            "printedName": "pageName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FintechSDKBDUICore0A15BDUICustomPropsV8pageNameSSvp",
+            "mangledName": "$s18FintechSDKBDUICore0A15BDUICustomPropsV8pageNameSSvp",
+            "moduleName": "FintechSDKBDUICore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FintechSDKBDUICore0A15BDUICustomPropsV8pageNameSSvg",
+                "mangledName": "$s18FintechSDKBDUICore0A15BDUICustomPropsV8pageNameSSvg",
                 "moduleName": "FintechSDKBDUICore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8356,28 +8436,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechBDUICutoutManager.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechBDUICutoutManager.swift",
       "kind": "StringLiteral",
       "offset": 92,
       "length": 19,
       "value": "\"scale_from_center\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 121,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivAction.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 8,
       "value": "\"log_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/BDUI\/FintechDivFlagsInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 522,
       "length": 5,

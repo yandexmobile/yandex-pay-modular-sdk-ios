@@ -50,6 +50,7 @@ let package = Package(
       dependencies: [
         "YandexQuickPay",
         "FintechSDKQuickPayment",
+        "FintechSDKPollingScenario",
         "FintechSDKAuthInterfaces",
         "FintechSDKBDUIFeatures",
         "FintechSDKBDUICore",
@@ -182,6 +183,10 @@ let package = Package(
     .binaryTarget(
       name: "FintechSDKMerchantRedirect",
       path: "XCFrameworks/FintechSDK/FintechSDKMerchantRedirect.xcframework"
+    ),
+    .binaryTarget(
+      name: "FintechSDKPollingScenario",
+      path: "XCFrameworks/FintechSDK/FintechSDKPollingScenario.xcframework"
     ),
     .binaryTarget(
       name: "FintechSDKPayBoxEntity",

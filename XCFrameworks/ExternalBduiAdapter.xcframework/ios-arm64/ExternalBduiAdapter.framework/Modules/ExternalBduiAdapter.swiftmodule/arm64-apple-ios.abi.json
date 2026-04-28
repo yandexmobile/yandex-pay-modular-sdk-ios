@@ -99,7 +99,7 @@
           {
             "kind": "Function",
             "name": "make",
-            "printedName": "make(networkClient:router:requestTimeoutSec:fontAdapter:errorLogger:themeKind:contentFactories:errorContentFactory:actionHandlers:divCustomFactories:localImageProvider:)",
+            "printedName": "make(networkClient:router:requestTimeoutSec:fontAdapter:errorLogger:themeKind:contentFactories:errorContentFactory:actionHandlers:divCustomFactories:localImageProvider:renderingEventsListener:firstInteractionListener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -204,11 +204,39 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKAnalyticsInterfaces.FTRenderingEventsListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTRenderingEventsListener",
+                    "printedName": "any FintechSDKAnalyticsInterfaces.FTRenderingEventsListener",
+                    "usr": "s:29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKAnalyticsInterfaces.FTFirstInteractionEventsListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTFirstInteractionEventsListener",
+                    "printedName": "any FintechSDKAnalyticsInterfaces.FTFirstInteractionEventsListener",
+                    "usr": "s:29FintechSDKAnalyticsInterfaces32FTFirstInteractionEventsListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ExternalBduiAdapter29FintechBDUIAdapterFactoryImplC4make13networkClient6router17requestTimeoutSec04fontC011errorLogger9themeKind16contentFactories0p7ContentF014actionHandlers09divCustomU018localImageProvider0D11SDKBDUICore0dE0_p0D20SDKNetworkInterfaces0d7NetworkJ0_p_AP0D10BDUIRouter_pSi0D18SDKFontsInterfaces0d5FontsC0_p0D22SDKAnalyticsInterfaces0D22AnalyticsErrorReporter_pAP0d9BDUIThemeS0OSayAP0d11BDUIContentF0_pGAPA__pSayAP0D17BDUIActionHandler_pGSayAP0d7BDUIDivzF0_pGAP0D23BDUILocalImageProviding_pSgtF",
-            "mangledName": "$s19ExternalBduiAdapter29FintechBDUIAdapterFactoryImplC4make13networkClient6router17requestTimeoutSec04fontC011errorLogger9themeKind16contentFactories0p7ContentF014actionHandlers09divCustomU018localImageProvider0D11SDKBDUICore0dE0_p0D20SDKNetworkInterfaces0d7NetworkJ0_p_AP0D10BDUIRouter_pSi0D18SDKFontsInterfaces0d5FontsC0_p0D22SDKAnalyticsInterfaces0D22AnalyticsErrorReporter_pAP0d9BDUIThemeS0OSayAP0d11BDUIContentF0_pGAPA__pSayAP0D17BDUIActionHandler_pGSayAP0d7BDUIDivzF0_pGAP0D23BDUILocalImageProviding_pSgtF",
+            "usr": "s:19ExternalBduiAdapter29FintechBDUIAdapterFactoryImplC4make13networkClient6router17requestTimeoutSec04fontC011errorLogger9themeKind16contentFactories0p7ContentF014actionHandlers09divCustomU018localImageProvider23renderingEventsListener24firstInteractionListener0D11SDKBDUICore0dE0_p0D20SDKNetworkInterfaces0d7NetworkJ0_p_AR0D10BDUIRouter_pSi0D18SDKFontsInterfaces0d5FontsC0_p0D22SDKAnalyticsInterfaces0D22AnalyticsErrorReporter_pAR0d9BDUIThemeS0OSayAR0d11BDUIContentF0_pGARA1__pSayAR0D17BDUIActionHandler_pGSayAR0d7BDUIDivzF0_pGAR0D23BDUILocalImageProviding_pSgAY25FTRenderingEventsListener_pSgAY32FTFirstInteractionEventsListener_pSgtF",
+            "mangledName": "$s19ExternalBduiAdapter29FintechBDUIAdapterFactoryImplC4make13networkClient6router17requestTimeoutSec04fontC011errorLogger9themeKind16contentFactories0p7ContentF014actionHandlers09divCustomU018localImageProvider23renderingEventsListener24firstInteractionListener0D11SDKBDUICore0dE0_p0D20SDKNetworkInterfaces0d7NetworkJ0_p_AR0D10BDUIRouter_pSi0D18SDKFontsInterfaces0d5FontsC0_p0D22SDKAnalyticsInterfaces0D22AnalyticsErrorReporter_pAR0d9BDUIThemeS0OSayAR0d11BDUIContentF0_pGARA1__pSayAR0D17BDUIActionHandler_pGSayAR0d7BDUIDivzF0_pGAR0D23BDUILocalImageProviding_pSgAY25FTRenderingEventsListener_pSgAY32FTFirstInteractionEventsListener_pSgtF",
             "moduleName": "ExternalBduiAdapter",
             "declAttributes": [
               "Final",
@@ -357,21 +385,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 14,
       "value": "\"YandexPaySDK\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 13,
       "value": "\"BDUIAdapter\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/AdapterBinary\/ExternalBduiAdapter\/Sources\/BDUIAdapterImpl.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 58,

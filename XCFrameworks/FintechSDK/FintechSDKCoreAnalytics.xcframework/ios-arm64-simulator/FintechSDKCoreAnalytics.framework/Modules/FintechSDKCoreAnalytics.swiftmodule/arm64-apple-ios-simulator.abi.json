@@ -1061,20 +1061,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FintechSDKCoreAnalytics"
-      },
-      {
-        "kind": "Import",
-        "name": "FintechSDKNetworkInterfaces",
-        "printedName": "FintechSDKNetworkInterfaces",
-        "declKind": "Import",
-        "moduleName": "FintechSDKCoreAnalytics"
-      },
-      {
-        "kind": "Import",
         "name": "FintechSDKAnalyticsInterfaces",
         "printedName": "FintechSDKAnalyticsInterfaces",
         "declKind": "Import",
@@ -1091,6 +1077,20 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "FintechSDKNetworkInterfaces",
+        "printedName": "FintechSDKNetworkInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreAnalytics"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FintechNetworkReportingObserver",
         "printedName": "FintechNetworkReportingObserver",
@@ -1098,7 +1098,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(serviceName:errorReporter:eventReporter:reportOnlyFailures:)",
+            "printedName": "init(serviceName:errorReporter:eventReporter:reportOnlyFailures:networkEventsListener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1138,11 +1138,26 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKAnalyticsInterfaces.FTNetworkEventsListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTNetworkEventsListener",
+                    "printedName": "any FintechSDKAnalyticsInterfaces.FTNetworkEventsListener",
+                    "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC11serviceName13errorReporter05eventJ018reportOnlyFailuresACSS_0A22SDKAnalyticsInterfaces0ac5ErrorJ0_pAH0ac5EventJ0_pSgSbtcfc",
-            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC11serviceName13errorReporter05eventJ018reportOnlyFailuresACSS_0A22SDKAnalyticsInterfaces0ac5ErrorJ0_pAH0ac5EventJ0_pSgSbtcfc",
+            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC11serviceName13errorReporter05eventJ018reportOnlyFailures21networkEventsListenerACSS_0A22SDKAnalyticsInterfaces0ac5ErrorJ0_pAI0ac5EventJ0_pSgSbAI09FTNetworkpQ0_pSgtcfc",
+            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC11serviceName13errorReporter05eventJ018reportOnlyFailures21networkEventsListenerACSS_0A22SDKAnalyticsInterfaces0ac5ErrorJ0_pAI0ac5EventJ0_pSgSbAI09FTNetworkpQ0_pSgtcfc",
             "moduleName": "FintechSDKCoreAnalytics",
             "declAttributes": [
               "AccessControl"
@@ -1178,8 +1193,41 @@
           },
           {
             "kind": "Function",
+            "name": "didFinishCollectingMetrics",
+            "printedName": "didFinishCollectingMetrics(endpoint:metrics:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechNetworkEndpointProvider",
+                "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider",
+                "usr": "s:27FintechSDKNetworkInterfaces0A23NetworkEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTaskMetrics",
+                "printedName": "Foundation.URLSessionTaskMetrics",
+                "usr": "c:objc(cs)NSURLSessionTaskMetrics"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC26didFinishCollectingMetrics8endpoint7metricsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So016NSURLSessionTaskJ0CtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC26didFinishCollectingMetrics8endpoint7metricsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So016NSURLSessionTaskJ0CtF",
+            "moduleName": "FintechSDKCoreAnalytics",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didSucceed",
-            "printedName": "didSucceed(endpoint:response:data:)",
+            "printedName": "didSucceed(endpoint:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1203,11 +1251,25 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC10didSucceed8endpoint8response4datay0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
-            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC10didSucceed8endpoint8response4datay0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
+            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC10didSucceed8endpoint8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC10didSucceed8endpoint8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
             "moduleName": "FintechSDKCoreAnalytics",
             "declAttributes": [
               "Final",
@@ -1218,7 +1280,7 @@
           {
             "kind": "Function",
             "name": "didFail",
-            "printedName": "didFail(endpoint:error:response:data:)",
+            "printedName": "didFail(endpoint:error:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1264,11 +1326,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC7didFail8endpoint5error8response4datay0A20SDKNetworkInterfaces0aD16EndpointProvider_p_AI0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
-            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC7didFail8endpoint5error8response4datay0A20SDKNetworkInterfaces0aD16EndpointProvider_p_AI0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
+            "usr": "s:23FintechSDKCoreAnalytics0A24NetworkReportingObserverC7didFail8endpoint5error8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_AJ0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics0A24NetworkReportingObserverC7didFail8endpoint5error8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aD16EndpointProvider_p_AJ0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
             "moduleName": "FintechSDKCoreAnalytics",
             "declAttributes": [
               "Final",
@@ -1404,8 +1480,44 @@
           },
           {
             "kind": "Function",
+            "name": "didFinishCollectingMetrics",
+            "printedName": "didFinishCollectingMetrics(endpoint:metrics:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechNetworkEndpointProvider",
+                "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider",
+                "usr": "s:27FintechSDKNetworkInterfaces0A23NetworkEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTaskMetrics",
+                "printedName": "Foundation.URLSessionTaskMetrics",
+                "usr": "c:objc(cs)NSURLSessionTaskMetrics"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC26didFinishCollectingMetrics8endpoint7metricsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So016NSURLSessionTaskK0CtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC26didFinishCollectingMetrics8endpoint7metricsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So016NSURLSessionTaskK0CtF",
+            "moduleName": "FintechSDKCoreAnalytics",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didSucceed",
-            "printedName": "didSucceed(endpoint:response:data:)",
+            "printedName": "didSucceed(endpoint:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1429,11 +1541,25 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC10didSucceed8endpoint8response4datay0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
-            "mangledName": "$s23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC10didSucceed8endpoint8response4datay0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
+            "usr": "s:23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC10didSucceed8endpoint8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC10didSucceed8endpoint8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
             "moduleName": "FintechSDKCoreAnalytics",
             "declAttributes": [
               "Final",
@@ -1447,7 +1573,7 @@
           {
             "kind": "Function",
             "name": "didFail",
-            "printedName": "didFail(endpoint:error:response:data:)",
+            "printedName": "didFail(endpoint:error:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1493,11 +1619,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC7didFail8endpoint5error8response4datay0A20SDKNetworkInterfaces0aF16EndpointProvider_p_AI0F11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
-            "mangledName": "$s23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC7didFail8endpoint5error8response4datay0A20SDKNetworkInterfaces0aF16EndpointProvider_p_AI0F11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
+            "usr": "s:23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC7didFail8endpoint5error8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_AJ0F11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
+            "mangledName": "$s23FintechSDKCoreAnalytics30FTOpenTelemetryNetworkObserverC7didFail8endpoint5error8response4data17requestDurationMsy0A20SDKNetworkInterfaces0aF16EndpointProvider_p_AJ0F11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
             "moduleName": "FintechSDKCoreAnalytics",
             "declAttributes": [
               "Final",
@@ -2721,168 +2861,182 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsAppMetricaReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsAppMetricaReporter.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1663,
       "length": 5,
       "value": "\"env\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1692,
       "length": 9,
       "value": "\"service\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1730,
       "length": 4,
       "value": "\"ts\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1764,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1794,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsRUMReporter.swift",
       "kind": "StringLiteral",
       "offset": 1827,
       "length": 12,
       "value": "\"additional\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsTelemetryReporter.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/FintechAnalyticsTelemetryReporter.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
       "kind": "BooleanLiteral",
-      "offset": 582,
+      "offset": 648,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 4676,
       "length": 9,
       "value": "\"service\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 4714,
       "length": 15,
       "value": "\"endpoint_path\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
       "kind": "StringLiteral",
-      "offset": 3032,
+      "offset": 4760,
       "length": 17,
       "value": "\"endpoint_method\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
       "kind": "StringLiteral",
-      "offset": 3081,
+      "offset": 4809,
       "length": 26,
       "value": "\"endpoint_timeout_seconds\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechOpenTelemetryNetworkObserver.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 4862,
+      "length": 13,
+      "value": "\"duration_ms\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechNetworkReportingObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 4901,
+      "length": 12,
+      "value": "\"size_bytes\""
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Observers\/FintechOpenTelemetryNetworkObserver.swift",
       "kind": "Dictionary",
-      "offset": 2021,
+      "offset": 2206,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1613,
       "length": 5,
       "value": "\"env\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1645,
       "length": 13,
       "value": "\"app_version\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1721,
       "length": 13,
       "value": "\"ios_version\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1761,
       "length": 13,
       "value": "\"bundle_name\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1799,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 9,
       "value": "\"service\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1869,
       "length": 4,
       "value": "\"ts\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1899,
       "length": 12,
       "value": "\"session_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Analytics\/Implementation\/Params\/FTAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 1938,
       "length": 13,

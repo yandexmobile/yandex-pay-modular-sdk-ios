@@ -1035,15 +1035,29 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "FintechSDKDivKitWidgetsFeatures"
       },
       {
         "kind": "Import",
-        "name": "FintechSDKWebViewFeatures",
-        "printedName": "FintechSDKWebViewFeatures",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKDivKitWidgetsFeatures"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKAuthInterfaces",
+        "printedName": "FintechSDKAuthInterfaces",
+        "declKind": "Import",
+        "moduleName": "FintechSDKDivKitWidgetsFeatures"
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKCoreUI",
+        "printedName": "FintechSDKCoreUI",
         "declKind": "Import",
         "moduleName": "FintechSDKDivKitWidgetsFeatures",
         "declAttributes": [
@@ -1052,8 +1066,18 @@
       },
       {
         "kind": "Import",
-        "name": "FintechSDKNetworkImplementation",
-        "printedName": "FintechSDKNetworkImplementation",
+        "name": "FintechSDKNativeErrorFeature",
+        "printedName": "FintechSDKNativeErrorFeature",
+        "declKind": "Import",
+        "moduleName": "FintechSDKDivKitWidgetsFeatures",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FintechSDKWebViewFeatures",
+        "printedName": "FintechSDKWebViewFeatures",
         "declKind": "Import",
         "moduleName": "FintechSDKDivKitWidgetsFeatures",
         "declAttributes": [
@@ -1192,7 +1216,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(acquireBST:mode:widgetReloader:)",
+            "printedName": "init(authorize:widgetReloader:presentationContextProvider:resourceProvider:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1202,26 +1226,50 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "FTWebViewBSTAcquiring",
-                "printedName": "any FintechSDKDivKitWidgetsFeatures.FTWebViewBSTAcquiring",
-                "usr": "s:31FintechSDKDivKitWidgetsFeatures21FTWebViewBSTAcquiringP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FTWebViewBSTAcquisitionMode",
-                "printedName": "FintechSDKDivKitWidgetsFeatures.FTWebViewBSTAcquisitionMode",
-                "usr": "s:31FintechSDKDivKitWidgetsFeatures27FTWebViewBSTAcquisitionModeO"
+                "name": "FTWebViewLoginAuthorizing",
+                "printedName": "any FintechSDKDivKitWidgetsFeatures.FTWebViewLoginAuthorizing",
+                "usr": "s:31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "FTWidgetReloader",
                 "printedName": "FintechSDKDivKitWidgetsFeatures.FTWidgetReloader",
                 "usr": "s:31FintechSDKDivKitWidgetsFeatures16FTWidgetReloaderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKCoreUI.FTPresentationContextProviding)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPresentationContextProviding",
+                    "printedName": "any FintechSDKCoreUI.FTPresentationContextProviding",
+                    "usr": "s:16FintechSDKCoreUI30FTPresentationContextProvidingP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKCoreUI.FTResourceProvider)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTResourceProvider",
+                    "printedName": "any FintechSDKCoreUI.FTResourceProvider",
+                    "usr": "s:16FintechSDKCoreUI18FTResourceProviderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:31FintechSDKDivKitWidgetsFeatures21FTWebViewLoginHandlerC10acquireBST4mode14widgetReloaderAcA0fG12BSTAcquiring_p_AA0fG18BSTAcquisitionModeOAA08FTWidgetN0Ctcfc",
-            "mangledName": "$s31FintechSDKDivKitWidgetsFeatures21FTWebViewLoginHandlerC10acquireBST4mode14widgetReloaderAcA0fG12BSTAcquiring_p_AA0fG18BSTAcquisitionModeOAA08FTWidgetN0Ctcfc",
+            "usr": "s:31FintechSDKDivKitWidgetsFeatures21FTWebViewLoginHandlerC9authorize14widgetReloader27presentationContextProvider08resourceO0AcA0fgH11Authorizing_p_AA08FTWidgetL0C0A9SDKCoreUI014FTPresentationN9Providing_pSgAK010FTResourceO0_pSgtcfc",
+            "mangledName": "$s31FintechSDKDivKitWidgetsFeatures21FTWebViewLoginHandlerC9authorize14widgetReloader27presentationContextProvider08resourceO0AcA0fgH11Authorizing_p_AA08FTWidgetL0C0A9SDKCoreUI014FTPresentationN9Providing_pSgAK010FTResourceO0_pSgtcfc",
             "moduleName": "FintechSDKDivKitWidgetsFeatures",
             "declAttributes": [
               "AccessControl"
@@ -5235,6 +5283,81 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FTWebViewLoginAuthorizing",
+        "printedName": "FTWebViewLoginAuthorizing",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "authorize",
+            "printedName": "authorize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP9authorizeyyYaKF",
+            "mangledName": "$s31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP9authorizeyyYaKF",
+            "moduleName": "FintechSDKDivKitWidgetsFeatures",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKDivKitWidgetsFeatures.FTWebViewLoginAuthorizing>",
+            "sugared_genericSig": "<Self where Self : FintechSDKDivKitWidgetsFeatures.FTWebViewLoginAuthorizing>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "Internal"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP",
+        "mangledName": "$s31FintechSDKDivKitWidgetsFeatures25FTWebViewLoginAuthorizingP",
+        "moduleName": "FintechSDKDivKitWidgetsFeatures",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FintechSDKDivKitWidgetsFeatures"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FTWebViewLogoutUseCase",
         "printedName": "FTWebViewLogoutUseCase",
         "children": [
@@ -7474,343 +7597,350 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/AuthorizationAction\/FTAuthorizationDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/AuthorizationAction\/FTAuthorizationDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 704,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/AuthorizationAction\/FTAuthorizationDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/AuthorizationAction\/FTAuthorizationDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 11,
       "value": "\"authorize\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 1002,
       "length": 12,
       "value": "\"event_name\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 1360,
       "length": 6,
       "value": "\"bdui\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 1389,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/FTSendAnalyticsDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 1422,
       "length": 11,
       "value": "\"analytics\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ListAction\/FTListUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ListAction\/FTListUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 857,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ListAction\/FTListUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ListAction\/FTListUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 13,
       "value": "\"list_action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
       "kind": "FloatLiteral",
       "offset": 200,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
       "kind": "FloatLiteral",
       "offset": 258,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 9,
       "value": "\"fade_in\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTAnimationConfig.swift",
       "kind": "StringLiteral",
       "offset": 787,
       "length": 10,
       "value": "\"fade_out\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3383,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3396,
+      "offset": 3416,
       "length": 18,
       "value": "\"open_flex_screen\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenFlexAction\/FTOpenFlexScreenDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4524,
+      "offset": 4544,
       "length": 14,
       "value": "\"bottom_sheet\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewBSTExpiredHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewBSTExpiredHandler.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 12,
       "value": "\"bstExpired\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewCloseHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewCloseHandler.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewLoginHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewLoginHandler.swift",
       "kind": "StringLiteral",
-      "offset": 263,
+      "offset": 343,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewLogoutHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewLoginHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 719,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/ActionHandlers\/FTWebViewLogoutHandler.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 8,
       "value": "\"logout\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 15,
       "value": "\"bst_biometric\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 12,
       "value": "\"bst_silent\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3006,
+      "offset": 3116,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3149,
       "length": 15,
       "value": "\"open_web_view\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 3190,
       "length": 12,
       "value": "\"auth_level\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/FTOpenWebViewDivUrlHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3223,
       "length": 6,
       "value": "\"path\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1138,
+      "offset": 1181,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4279,
+      "offset": 4322,
       "length": 16,
       "value": "\"webview_opened\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4321,
+      "offset": 4364,
       "length": 27,
       "value": "\"webview_page_load_started\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4374,
+      "offset": 4417,
       "length": 16,
       "value": "\"webview_loaded\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4459,
       "length": 25,
       "value": "\"webview_page_load_error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4542,
       "length": 16,
       "value": "\"widget_webview\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4584,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 4615,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/OpenWebView\/WebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4641,
+      "offset": 4684,
       "length": 10,
       "value": "\"nativeAM\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTActionCallback.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTActionCallback.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 8,
       "value": "\"log_id\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 305,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionModel.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 12,
       "value": "\"on_success\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteActionModel.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 9,
       "value": "\"on_fail\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 2064,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteDivUrlHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/RemoteAction\/FTRemoteDivUrlHandler.swift",
       "kind": "StringLiteral",
       "offset": 2097,
       "length": 15,
       "value": "\"remote_action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTReportWidgetExpandStateChangeActionHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTReportWidgetExpandStateChangeActionHandler.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 12,
       "value": "\"div-action\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTReportWidgetExpandStateChangeActionHandler.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTReportWidgetExpandStateChangeActionHandler.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 38,
       "value": "\"quick_pay_report_expand_state_change\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTWidgetExpandedStateChangeNotifier.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/DivUrlHandlers\/ReportWidgetExpandStateChangeAction\/FTWidgetExpandedStateChangeNotifier.swift",
       "kind": "Dictionary",
       "offset": 178,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/FTWidgetsFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/FTWidgetsFactory.swift",
       "kind": "BooleanLiteral",
       "offset": 1283,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/FTWidgetsFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/FTWidgetsFactory.swift",
       "kind": "BooleanLiteral",
       "offset": 2279,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/Models\/FTDivKitComponents.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/Models\/FTDivKitComponents.swift",
       "kind": "Array",
       "offset": 309,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetDivUIView.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetDivUIView.swift",
       "kind": "BooleanLiteral",
       "offset": 838,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetDivViewModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetDivViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 816,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetRefreshManaging.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Features\/Widgets\/UI\/FTWidgetRefreshManaging.swift",
       "kind": "IntegerLiteral",
       "offset": 636,
       "length": 13,

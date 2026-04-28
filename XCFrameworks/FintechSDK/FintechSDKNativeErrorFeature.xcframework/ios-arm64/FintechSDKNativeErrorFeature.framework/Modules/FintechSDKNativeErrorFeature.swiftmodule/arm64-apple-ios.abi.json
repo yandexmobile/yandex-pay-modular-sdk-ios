@@ -427,14 +427,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSvp",
-            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSvp",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSSgvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSSgvp",
             "moduleName": "FintechSDKNativeErrorFeature",
             "protocolReq": true,
             "spi_group_names": [
@@ -448,14 +456,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSvg",
-                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSvg",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSSgvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP4codeSSSgvg",
                 "moduleName": "FintechSDKNativeErrorFeature",
                 "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKNativeErrorFeature.FTNativeErrorViewModel>",
                 "sugared_genericSig": "<Self where Self : FintechSDKNativeErrorFeature.FTNativeErrorViewModel>",
@@ -494,6 +510,396 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTNativeErrorViewModelImpl",
+        "printedName": "FTNativeErrorViewModelImpl",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5titleSSvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5titleSSvp",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5titleSSvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5titleSSvg",
+                "moduleName": "FintechSDKNativeErrorFeature",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subtitle",
+            "printedName": "subtitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC8subtitleSSvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC8subtitleSSvp",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC8subtitleSSvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC8subtitleSSvg",
+                "moduleName": "FintechSDKNativeErrorFeature",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTImageProvider",
+                "printedName": "FintechSDKCoreUI.FTImageProvider",
+                "usr": "s:16FintechSDKCoreUI15FTImageProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5image0A9SDKCoreUI15FTImageProviderCvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5image0A9SDKCoreUI15FTImageProviderCvp",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTImageProvider",
+                    "printedName": "FintechSDKCoreUI.FTImageProvider",
+                    "usr": "s:16FintechSDKCoreUI15FTImageProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5image0A9SDKCoreUI15FTImageProviderCvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5image0A9SDKCoreUI15FTImageProviderCvg",
+                "moduleName": "FintechSDKNativeErrorFeature",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonPayload",
+            "printedName": "buttonPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTPrimaryButtonData",
+                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvp",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTPrimaryButtonData",
+                    "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                    "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC13buttonPayload0A9SDKCoreUI19FTPrimaryButtonDataCvg",
+                "moduleName": "FintechSDKNativeErrorFeature",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC4codeSSSgvp",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC4codeSSSgvp",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC4codeSSSgvg",
+                "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC4codeSSSgvg",
+                "moduleName": "FintechSDKNativeErrorFeature",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:subtitle:image:buttonPayload:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTNativeErrorViewModelImpl",
+                "printedName": "FintechSDKNativeErrorFeature.FTNativeErrorViewModelImpl",
+                "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTImageProvider",
+                "printedName": "FintechSDKCoreUI.FTImageProvider",
+                "usr": "s:16FintechSDKCoreUI15FTImageProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FTPrimaryButtonData",
+                "printedName": "FintechSDKCoreUI.FTPrimaryButtonData",
+                "usr": "s:16FintechSDKCoreUI19FTPrimaryButtonDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5title8subtitle5image13buttonPayload4codeACSS_SS0A9SDKCoreUI15FTImageProviderCAI19FTPrimaryButtonDataCSSSgtcfc",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC5title8subtitle5image13buttonPayload4codeACSS_SS0A9SDKCoreUI15FTImageProviderCAI19FTPrimaryButtonDataCSSSgtcfc",
+            "moduleName": "FintechSDKNativeErrorFeature",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC",
+        "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC13ViewModelImplC",
+        "moduleName": "FintechSDKNativeErrorFeature",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FTNativeErrorViewModel",
+            "printedName": "FTNativeErrorViewModel",
+            "usr": "s:28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP",
+            "mangledName": "$s28FintechSDKNativeErrorFeature08FTNativeC9ViewModelP"
           }
         ]
       }

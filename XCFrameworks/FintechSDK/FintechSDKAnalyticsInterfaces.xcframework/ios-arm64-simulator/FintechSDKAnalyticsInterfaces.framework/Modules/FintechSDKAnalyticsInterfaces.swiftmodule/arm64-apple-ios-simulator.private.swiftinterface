@@ -30,6 +30,20 @@ public protocol FintechAppMetricaReportingAdapter : Swift.Sendable {
 public protocol FintechAppMetricaYandexReportingAdapter {
   func setPUID(_ puid: Swift.String?)
 }
+public protocol FTFirstInteractionEventsListener : AnyObject, Swift.Sendable {
+  func onFirstInteraction(screenPath: Swift.String, navigationStartTimeNanos: Swift.UInt64) async -> Swift.Bool
+}
+public protocol FTNetworkEventsListener : AnyObject, Swift.Sendable {
+  func onNetworkRequestStarted(path: Swift.String) async
+  func onFirstByteReceived(durationMs: Swift.Int64, path: Swift.String) async
+  func onNetworkRequestCompleted(durationMs: Swift.Int64, path: Swift.String, sizeBytes: Swift.Int64) async
+  func onNetworkRequestFailed(path: Swift.String) async
+}
+public protocol FTRenderingEventsListener : AnyObject, Swift.Sendable {
+  func onScreenDecodingCompleted(durationMs: Swift.Int64, screenPath: Swift.String, sizeBytes: Swift.Int64) async
+  func onScreenRenderingCompleted(durationMs: Swift.Int64, screenPath: Swift.String) async
+  func getCurrentPath() async -> Swift.String?
+}
 public enum FintechAnalyticsEnvironment : Swift.Sendable {
   case development
   case testing

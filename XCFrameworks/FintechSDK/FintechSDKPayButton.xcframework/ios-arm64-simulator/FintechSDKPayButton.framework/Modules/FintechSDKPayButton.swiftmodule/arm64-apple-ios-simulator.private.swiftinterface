@@ -28,6 +28,7 @@ import _SwiftConcurrencyShims
   @_spi(Internal) @objc deinit
 }
 @_spi(Internal) @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class FTPayButtonPaymentUrlInteractor : FintechSDKPayButton.FTPayButtonTapUseCase {
+  @_spi(Internal) @_Concurrency.MainActor final public var widgetPaymentUseCase: (any FintechSDKPayButton.FTPayButtonStartWidgetPaymentUseCase)?
   @_spi(Internal) @_Concurrency.MainActor weak final public var paymentDataProvider: (any FintechSDKPayButton.FTPayButtonPaymentDataProviding)?
   @_spi(Internal) @_Concurrency.MainActor weak final public var presentationContextProvider: (any FintechSDKCoreUI.FTPresentationContextProviding)?
   @_spi(Internal) @_Concurrency.MainActor weak final public var button: (any FintechSDKPayButton.FTPayButtonProtocol)?
@@ -42,6 +43,9 @@ import _SwiftConcurrencyShims
   @_spi(Internal) @_Concurrency.MainActor func merchantPaymentMethods() async -> [FintechSDKPayBoxEntity.FTPaymentMethod]
   @_spi(Internal) @_Concurrency.MainActor func hasSplitPlans(orderAmount: Foundation.Decimal, currency: FintechSDKPayBoxEntity.FTCurrencyCode) async -> Swift.Bool
   @_spi(Internal) @_Concurrency.MainActor func cashback(orderAmount: Foundation.Decimal, currency: FintechSDKPayBoxEntity.FTCurrencyCode) async -> Swift.String?
+}
+@_spi(Internal) public protocol FTPayButtonStartWidgetPaymentUseCase : Swift.Sendable {
+  @_spi(Internal) @_Concurrency.MainActor func startWidgetPayment(paymentURL: Foundation.URL, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding) async throws
 }
 @_spi(Internal) public protocol FTPayButtonTapUseCase {
   @_spi(Internal) @_Concurrency.MainActor func buttonTapped() async throws
@@ -107,8 +111,8 @@ import _SwiftConcurrencyShims
   }
 }
 @_spi(Internal) public struct FTPayButtonFactory {
-  @_spi(Internal) @_Concurrency.MainActor public static func makeButton(model: FintechSDKPayButton.FTPayButtonModel, merchantID: Swift.String, merchantApiService: any FintechSDKPayMerchantData.FTMerchantApiService, orderApiService: any FintechSDKPayOrderData.FTOrderApiService, pollingScenario: any FintechSDKRedirectScenario.FTPollingScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate) -> any FintechSDKPayButton.FTPayButton
-  @_spi(Internal) @_Concurrency.MainActor public static func makeButtonView(model: FintechSDKPayButton.FTPayButtonModel, merchantID: Swift.String, merchantApiService: any FintechSDKPayMerchantData.FTMerchantApiService, orderApiService: any FintechSDKPayOrderData.FTOrderApiService, pollingScenario: any FintechSDKRedirectScenario.FTPollingScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate) -> some SwiftUICore.View
+  @_spi(Internal) @_Concurrency.MainActor public static func makeButton(model: FintechSDKPayButton.FTPayButtonModel, merchantID: Swift.String, merchantApiService: any FintechSDKPayMerchantData.FTMerchantApiService, orderApiService: any FintechSDKPayOrderData.FTOrderApiService, pollingScenario: any FintechSDKRedirectScenario.FTPollingScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate, widgetPaymentUseCase: (any FintechSDKPayButton.FTPayButtonStartWidgetPaymentUseCase)? = nil) -> any FintechSDKPayButton.FTPayButton
+  @_spi(Internal) @_Concurrency.MainActor public static func makeButtonView(model: FintechSDKPayButton.FTPayButtonModel, merchantID: Swift.String, merchantApiService: any FintechSDKPayMerchantData.FTMerchantApiService, orderApiService: any FintechSDKPayOrderData.FTOrderApiService, pollingScenario: any FintechSDKRedirectScenario.FTPollingScenario, eventReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter, paymentDataProvider: any FintechSDKPayButton.FTPayButtonPaymentDataProviding, presentationContextProvider: any FintechSDKCoreUI.FTPresentationContextProviding, delegate: any FintechSDKPayButton.FTPayButtonDelegate, widgetPaymentUseCase: (any FintechSDKPayButton.FTPayButtonStartWidgetPaymentUseCase)? = nil) -> some SwiftUICore.View
   
 }
 @_spi(Internal) @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class FTPayButtonContainerViewModel : Combine.ObservableObject, FintechSDKPayButton.FTPayButtonProtocol {

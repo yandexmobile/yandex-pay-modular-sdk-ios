@@ -1062,6 +1062,34 @@
           },
           {
             "kind": "Function",
+            "name": "setPartnerAuthState",
+            "printedName": "setPartnerAuthState(isUserAuthorized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13YandexPayAuth04YPayC0C010setPartnerC5State16isUserAuthorizedySb_tF",
+            "mangledName": "$s13YandexPayAuth04YPayC0C010setPartnerC5State16isUserAuthorizedySb_tF",
+            "moduleName": "YandexPayAuth",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "module",
             "printedName": "module()",
             "children": [
@@ -1077,6 +1105,76 @@
             "mangledName": "$s13YandexPayAuth04YPayC0C6moduleAA0dC6ModuleCyFZ",
             "moduleName": "YandexPayAuth",
             "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginService",
+            "printedName": "loginService(_:didAuthorize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthModel",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
+                "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13YandexPayAuth04YPayC0C12loginService_12didAuthorizey24FintechSDKAuthInterfaces0i5LoginF0_p_AF0iC5ModelVtF",
+            "mangledName": "$s13YandexPayAuth04YPayC0C12loginService_12didAuthorizey24FintechSDKAuthInterfaces0i5LoginF0_p_AF0iC5ModelVtF",
+            "moduleName": "YandexPayAuth",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginService",
+            "printedName": "loginService(_:didFailWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginServiceError",
+                "printedName": "FintechSDKAuthInterfaces.FintechLoginServiceError",
+                "usr": "s:24FintechSDKAuthInterfaces0A17LoginServiceErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13YandexPayAuth04YPayC0C12loginService_11didFailWithy24FintechSDKAuthInterfaces0j5LoginF0_p_AF0jmF5ErrorOtF",
+            "mangledName": "$s13YandexPayAuth04YPayC0C12loginService_11didFailWithy24FintechSDKAuthInterfaces0j5LoginF0_p_AF0jmF5ErrorOtF",
+            "moduleName": "YandexPayAuth",
             "declAttributes": [
               "Custom",
               "Final",
@@ -1116,6 +1214,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FintechLoginServiceDelegate",
+            "printedName": "FintechLoginServiceDelegate",
+            "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
           }
         ]
       },

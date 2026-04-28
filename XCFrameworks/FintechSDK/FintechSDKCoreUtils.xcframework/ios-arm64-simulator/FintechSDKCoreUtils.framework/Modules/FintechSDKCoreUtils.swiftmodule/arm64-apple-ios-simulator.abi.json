@@ -2592,6 +2592,752 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FintechSDKCoreUtils"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTDeinitAction",
+        "printedName": "FTDeinitAction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTDeinitAction",
+                "printedName": "FintechSDKCoreUtils.FTDeinitAction",
+                "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19FintechSDKCoreUtils14FTDeinitActionCyACyyccfc",
+            "mangledName": "$s19FintechSDKCoreUtils14FTDeinitActionCyACyyccfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "perform",
+            "printedName": "perform()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC7performyyF",
+            "mangledName": "$s19FintechSDKCoreUtils14FTDeinitActionC7performyyF",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drop",
+            "printedName": "drop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC4dropyyF",
+            "mangledName": "$s19FintechSDKCoreUtils14FTDeinitActionC4dropyyF",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC",
+        "mangledName": "$s19FintechSDKCoreUtils14FTDeinitActionC",
+        "moduleName": "FintechSDKCoreUtils",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTDismissableNavigationController",
+        "printedName": "FTDismissableNavigationController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onDeinit",
+            "printedName": "onDeinit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FintechSDKCoreUtils.FTDeinitAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FTDeinitAction",
+                    "printedName": "FintechSDKCoreUtils.FTDeinitAction",
+                    "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvp",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvp",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FintechSDKCoreUtils.FTDeinitAction?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTDeinitAction",
+                        "printedName": "FintechSDKCoreUtils.FTDeinitAction",
+                        "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvg",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvg",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FintechSDKCoreUtils.FTDeinitAction?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FTDeinitAction",
+                        "printedName": "FintechSDKCoreUtils.FTDeinitAction",
+                        "usr": "s:19FintechSDKCoreUtils14FTDeinitActionC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvs",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvs",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvM",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC8onDeinitAA14FTDeinitActionCSgvM",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDidDisappear",
+            "printedName": "onDidDisappear",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvp",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvp",
+            "moduleName": "FintechSDKCoreUtils",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvg",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvg",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvs",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvs",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvM",
+                "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC14onDidDisappearyycSgvM",
+                "moduleName": "FintechSDKCoreUtils",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "Internal"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTDismissableNavigationController",
+                "printedName": "FintechSDKCoreUtils.FTDismissableNavigationController",
+                "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController(im)initWithRootViewController:",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC08rootViewF0ACSo06UIViewF0C_tcfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "overriding": true,
+            "objc_name": "initWithRootViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController(im)viewDidDisappear:",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC16viewDidDisappearyySbF",
+            "moduleName": "FintechSDKCoreUtils",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarClass:toolbarClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTDismissableNavigationController",
+                "printedName": "FintechSDKCoreUtils.FTDismissableNavigationController",
+                "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController(im)initWithNavigationBarClass:toolbarClass:",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC18navigationBarClass07toolbarI0ACyXlXpSg_AFtcfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "5.0",
+            "objc_name": "initWithNavigationBarClass:toolbarClass:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTDismissableNavigationController",
+                "printedName": "FintechSDKCoreUtils.FTDismissableNavigationController",
+                "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController(im)initWithNibName:bundle:",
+            "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "FintechSDKCoreUtils",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "spi_group_names": [
+              "Internal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FintechSDKCoreUtils@objc(cs)FTDismissableNavigationController",
+        "mangledName": "$s19FintechSDKCoreUtils33FTDismissableNavigationControllerC",
+        "moduleName": "FintechSDKCoreUtils",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "SPIAccessControl",
+          "ObjC"
+        ],
+        "spi_group_names": [
+          "Internal"
+        ],
+        "superclassUsr": "c:objc(cs)UINavigationController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UINavigationController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "FTObserverList",
         "printedName": "FTObserverList",
@@ -10488,203 +11234,203 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/DebugPrint.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Decimal.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/FTSequenceExtensions.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/FTSequenceExtensions.swift",
       "kind": "Dictionary",
       "offset": 631,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/Locale.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 7,
       "value": "\"ru_RU\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/String.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Extensions\/String.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 5,
       "value": "\" \""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTObserverList.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTObserverList.swift",
       "kind": "Array",
       "offset": 373,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "Array",
       "offset": 125,
       "length": 29,
       "value": "[\"fintech-sdk\", \"fintechsdk\"]"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 3,
       "value": "\"[\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 3,
       "value": "\"]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 3,
       "value": "\"[\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 393,
       "length": 3,
       "value": "\"]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 3,
       "value": "\"{\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 4,
       "value": "\"[]\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTPKDynamicLinkParser.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 67,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_\/\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTTagged.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FTTagged.swift",
       "kind": "StringLiteral",
       "offset": 3475,
       "length": 43,
       "value": "\"You don't need to cast value to same type\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 97,
       "length": 34,
       "value": "\"FintechApiBaseUrlType.PayBackend\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 151,
       "length": 33,
       "value": "\"FintechApiBaseUrlType.Frontback\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechApiBaseUrlType.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 33,
       "value": "\"FintechApiBaseUrlType.Tovarisch\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechSDKCurrentVersion.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/FintechSDKCurrentVersion.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 8,
       "value": "\"1.11.0\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 109,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/OAuth.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 3,
       "value": "\"*\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/4\/4072875946\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Services\/EventusIdGenerator\/LogIdGenerator.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Core\/Utils\/Sources\/Services\/EventusIdGenerator\/LogIdGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 82,
       "length": 1,

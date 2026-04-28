@@ -49,17 +49,19 @@ final public class FintechAnalyticsTelemetryReporter : FintechSDKAnalyticsInterf
   @objc deinit
 }
 final public class FintechNetworkReportingObserver : FintechSDKNetworkInterfaces.FintechNetworkEventObserver {
-  public init(serviceName: Swift.String, errorReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter, eventReporter: (any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter)?, reportOnlyFailures: Swift.Bool = false)
+  public init(serviceName: Swift.String, errorReporter: any FintechSDKAnalyticsInterfaces.FintechAnalyticsErrorReporter, eventReporter: (any FintechSDKAnalyticsInterfaces.FintechAnalyticsEventReporter)?, reportOnlyFailures: Swift.Bool = false, networkEventsListener: (any FintechSDKAnalyticsInterfaces.FTNetworkEventsListener)? = nil)
   final public func didStart(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider)
-  final public func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data)
-  final public func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?)
+  final public func didFinishCollectingMetrics(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, metrics: Foundation.URLSessionTaskMetrics)
+  final public func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data, requestDurationMs: Swift.Int64?)
+  final public func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, requestDurationMs: Swift.Int64?)
   @objc deinit
 }
 @_spi(Internal) final public class FTOpenTelemetryNetworkObserver : FintechSDKNetworkInterfaces.FintechNetworkEventObserver {
   @_spi(Internal) public init(telemetryAdapter: any FintechSDKAnalyticsInterfaces.FintechTelemetryAdapter, spanStorage: FintechSDKCoreAnalytics.FTRequestSpanStorage = .shared)
   @_spi(Internal) final public func didStart(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider)
-  @_spi(Internal) final public func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data)
-  @_spi(Internal) final public func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?)
+  @_spi(Internal) final public func didFinishCollectingMetrics(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, metrics: Foundation.URLSessionTaskMetrics)
+  @_spi(Internal) final public func didSucceed(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, response: Foundation.HTTPURLResponse, data: Foundation.Data, requestDurationMs: Swift.Int64?)
+  @_spi(Internal) final public func didFail(endpoint: any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider, error: FintechSDKNetworkInterfaces.NetworkClientError, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, requestDurationMs: Swift.Int64?)
   @_spi(Internal) @objc deinit
 }
 @_spi(Internal) @_hasMissingDesignatedInitializers final public class FTRequestSpanStorage {

@@ -755,6 +755,385 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FTFirstInteractionEventsListener",
+        "printedName": "FTFirstInteractionEventsListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onFirstInteraction",
+            "printedName": "onFirstInteraction(screenPath:navigationStartTimeNanos:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces32FTFirstInteractionEventsListenerP07onFirstE010screenPath24navigationStartTimeNanosSbSS_s6UInt64VtYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces32FTFirstInteractionEventsListenerP07onFirstE010screenPath24navigationStartTimeNanosSbSS_s6UInt64VtYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTFirstInteractionEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTFirstInteractionEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29FintechSDKAnalyticsInterfaces32FTFirstInteractionEventsListenerP",
+        "mangledName": "$s29FintechSDKAnalyticsInterfaces32FTFirstInteractionEventsListenerP",
+        "moduleName": "FintechSDKAnalyticsInterfaces",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTNetworkEventsListener",
+        "printedName": "FTNetworkEventsListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onNetworkRequestStarted",
+            "printedName": "onNetworkRequestStarted(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP23onNetworkRequestStarted4pathySS_tYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP23onNetworkRequestStarted4pathySS_tYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFirstByteReceived",
+            "printedName": "onFirstByteReceived(durationMs:path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP19onFirstByteReceived10durationMs4pathys5Int64V_SStYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP19onFirstByteReceived10durationMs4pathys5Int64V_SStYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNetworkRequestCompleted",
+            "printedName": "onNetworkRequestCompleted(durationMs:path:sizeBytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP25onNetworkRequestCompleted10durationMs4path9sizeBytesys5Int64V_SSAItYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP25onNetworkRequestCompleted10durationMs4path9sizeBytesys5Int64V_SSAItYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNetworkRequestFailed",
+            "printedName": "onNetworkRequestFailed(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP22onNetworkRequestFailed4pathySS_tYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP22onNetworkRequestFailed4pathySS_tYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTNetworkEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP",
+        "mangledName": "$s29FintechSDKAnalyticsInterfaces23FTNetworkEventsListenerP",
+        "moduleName": "FintechSDKAnalyticsInterfaces",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTRenderingEventsListener",
+        "printedName": "FTRenderingEventsListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onScreenDecodingCompleted",
+            "printedName": "onScreenDecodingCompleted(durationMs:screenPath:sizeBytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP25onScreenDecodingCompleted10durationMs10screenPath9sizeBytesys5Int64V_SSAItYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP25onScreenDecodingCompleted10durationMs10screenPath9sizeBytesys5Int64V_SSAItYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScreenRenderingCompleted",
+            "printedName": "onScreenRenderingCompleted(durationMs:screenPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP26onScreenRenderingCompleted10durationMs10screenPathys5Int64V_SStYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP26onScreenRenderingCompleted10durationMs10screenPathys5Int64V_SStYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentPath",
+            "printedName": "getCurrentPath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP14getCurrentPathSSSgyYaF",
+            "mangledName": "$s29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP14getCurrentPathSSSgyYaF",
+            "moduleName": "FintechSDKAnalyticsInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAnalyticsInterfaces.FTRenderingEventsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP",
+        "mangledName": "$s29FintechSDKAnalyticsInterfaces25FTRenderingEventsListenerP",
+        "moduleName": "FintechSDKAnalyticsInterfaces",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FintechAnalyticsEnvironment",
         "printedName": "FintechAnalyticsEnvironment",
         "children": [

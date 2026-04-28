@@ -7,6 +7,7 @@ import AppTrackingTransparency
 import FintechSDKAnalyticsInterfaces
 import Foundation
 import Swift
+import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -203,6 +204,19 @@ public protocol FTAnyValueBox {
   @_spi(Internal) public var error: E? {
     @_spi(Internal) get
   }
+}
+@_spi(Internal) final public class FTDeinitAction : Swift.Sendable {
+  @_spi(Internal) public init(_ action: @escaping () -> Swift.Void)
+  @_spi(Internal) final public func perform()
+  @_spi(Internal) final public func drop()
+  @_spi(Internal) @objc deinit
+}
+@_spi(Internal) @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FTDismissableNavigationController : UIKit.UINavigationController {
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency final public var onDeinit: FintechSDKCoreUtils.FTDeinitAction?
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency final public var onDidDisappear: (() -> Swift.Void)?
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_spi(Internal) @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
+  @_spi(Internal) @objc deinit
 }
 @_spi(Internal) public struct FTObserverList<Observer> {
   @_spi(Internal) public init()

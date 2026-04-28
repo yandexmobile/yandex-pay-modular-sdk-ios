@@ -9,6 +9,7 @@ import FintechSDKBDUICore
 import FintechSDKBDUIFeatures
 import FintechSDKCoreUI
 import FintechSDKCoreUtils
+import FintechSDKNativeErrorFeature
 import FintechSDKNetworkImplementation
 import FintechSDKNetworkInterfaces
 import FintechSDKWebViewFeatures

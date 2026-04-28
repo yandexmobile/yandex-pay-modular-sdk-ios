@@ -4015,9 +4015,228 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FintechLoginServiceDelegate",
+        "printedName": "FintechLoginServiceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loginService",
+            "printedName": "loginService(_:didAuthorize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechAuthModel",
+                "printedName": "FintechSDKAuthInterfaces.FintechAuthModel",
+                "usr": "s:24FintechSDKAuthInterfaces0A9AuthModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP05loginE0_12didAuthorizeyAA0adE0_p_AA0A9AuthModelVtF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A20LoginServiceDelegateP05loginE0_12didAuthorizeyAA0adE0_p_AA0A9AuthModelVtF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginService",
+            "printedName": "loginService(_:didFailWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginService",
+                "printedName": "any FintechSDKAuthInterfaces.FintechLoginService",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechLoginServiceError",
+                "printedName": "FintechSDKAuthInterfaces.FintechLoginServiceError",
+                "usr": "s:24FintechSDKAuthInterfaces0A17LoginServiceErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP05loginE0_11didFailWithyAA0adE0_p_AA0adE5ErrorOtF",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A20LoginServiceDelegateP05loginE0_11didFailWithyAA0adE0_p_AA0adE5ErrorOtF",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP",
+        "mangledName": "$s24FintechSDKAuthInterfaces0A20LoginServiceDelegateP",
+        "moduleName": "FintechSDKAuthInterfaces",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FintechLoginService",
         "printedName": "FintechLoginService",
         "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FintechLoginServiceDelegate",
+                    "printedName": "any FintechSDKAuthInterfaces.FintechLoginServiceDelegate",
+                    "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvp",
+            "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvp",
+            "moduleName": "FintechSDKAuthInterfaces",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechLoginServiceDelegate",
+                        "printedName": "any FintechSDKAuthInterfaces.FintechLoginServiceDelegate",
+                        "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvg",
+                "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvg",
+                "moduleName": "FintechSDKAuthInterfaces",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
+                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FintechSDKAuthInterfaces.FintechLoginServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FintechLoginServiceDelegate",
+                        "printedName": "any FintechSDKAuthInterfaces.FintechLoginServiceDelegate",
+                        "usr": "s:24FintechSDKAuthInterfaces0A20LoginServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvs",
+                "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvs",
+                "moduleName": "FintechSDKAuthInterfaces",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
+                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvM",
+                "mangledName": "$s24FintechSDKAuthInterfaces0A12LoginServiceP8delegateAA0adE8Delegate_pSgvM",
+                "moduleName": "FintechSDKAuthInterfaces",
+                "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKAuthInterfaces.FintechLoginService>",
+                "sugared_genericSig": "<Self where Self : FintechSDKAuthInterfaces.FintechLoginService>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "getCurrentAuth",

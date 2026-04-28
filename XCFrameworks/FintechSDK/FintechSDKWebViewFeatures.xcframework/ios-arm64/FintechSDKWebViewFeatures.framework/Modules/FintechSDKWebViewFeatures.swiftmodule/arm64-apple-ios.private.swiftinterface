@@ -37,6 +37,7 @@ import _SwiftConcurrencyShims
 @_spi(Internal) public protocol FTWebViewHandlerContext : AnyObject {
   @_spi(Internal) @_Concurrency.MainActor func reload()
   @_spi(Internal) @_Concurrency.MainActor func updateCookie(name: Swift.String, value: Swift.String)
+  @_spi(Internal) @_Concurrency.MainActor func dismiss()
 }
 @_spi(Internal) public protocol FTAnyWebViewModel : Combine.ObservableObject {
   @_spi(Internal) @_Concurrency.MainActor var urlRequest: Foundation.URLRequest? { get }

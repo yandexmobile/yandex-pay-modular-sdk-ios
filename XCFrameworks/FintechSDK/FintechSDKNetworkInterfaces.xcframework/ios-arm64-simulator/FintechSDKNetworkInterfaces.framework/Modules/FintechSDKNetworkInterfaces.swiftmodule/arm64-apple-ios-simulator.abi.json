@@ -1701,8 +1701,41 @@
           },
           {
             "kind": "Function",
+            "name": "didFinishCollectingMetrics",
+            "printedName": "didFinishCollectingMetrics(endpoint:metrics:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FintechNetworkEndpointProvider",
+                "printedName": "any FintechSDKNetworkInterfaces.FintechNetworkEndpointProvider",
+                "usr": "s:27FintechSDKNetworkInterfaces0A23NetworkEndpointProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTaskMetrics",
+                "printedName": "Foundation.URLSessionTaskMetrics",
+                "usr": "c:objc(cs)NSURLSessionTaskMetrics"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27FintechSDKNetworkInterfaces0A20NetworkEventObserverP26didFinishCollectingMetrics8endpoint7metricsyAA0aD16EndpointProvider_p_So016NSURLSessionTaskJ0CtF",
+            "mangledName": "$s27FintechSDKNetworkInterfaces0A20NetworkEventObserverP26didFinishCollectingMetrics8endpoint7metricsyAA0aD16EndpointProvider_p_So016NSURLSessionTaskJ0CtF",
+            "moduleName": "FintechSDKNetworkInterfaces",
+            "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
+            "sugared_genericSig": "<Self where Self : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didSucceed",
-            "printedName": "didSucceed(endpoint:response:data:)",
+            "printedName": "didSucceed(endpoint:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1726,11 +1759,25 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:27FintechSDKNetworkInterfaces0A20NetworkEventObserverP10didSucceed8endpoint8response4datayAA0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
-            "mangledName": "$s27FintechSDKNetworkInterfaces0A20NetworkEventObserverP10didSucceed8endpoint8response4datayAA0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVtF",
+            "usr": "s:27FintechSDKNetworkInterfaces0A20NetworkEventObserverP10didSucceed8endpoint8response4data17requestDurationMsyAA0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
+            "mangledName": "$s27FintechSDKNetworkInterfaces0A20NetworkEventObserverP10didSucceed8endpoint8response4data17requestDurationMsyAA0aD16EndpointProvider_p_So17NSHTTPURLResponseC10Foundation4DataVs5Int64VSgtF",
             "moduleName": "FintechSDKNetworkInterfaces",
             "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
             "sugared_genericSig": "<Self where Self : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
@@ -1741,7 +1788,7 @@
           {
             "kind": "Function",
             "name": "didFail",
-            "printedName": "didFail(endpoint:error:response:data:)",
+            "printedName": "didFail(endpoint:error:response:data:requestDurationMs:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1787,11 +1834,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:27FintechSDKNetworkInterfaces0A20NetworkEventObserverP7didFail8endpoint5error8response4datayAA0aD16EndpointProvider_p_AA0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
-            "mangledName": "$s27FintechSDKNetworkInterfaces0A20NetworkEventObserverP7didFail8endpoint5error8response4datayAA0aD16EndpointProvider_p_AA0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgtF",
+            "usr": "s:27FintechSDKNetworkInterfaces0A20NetworkEventObserverP7didFail8endpoint5error8response4data17requestDurationMsyAA0aD16EndpointProvider_p_AA0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
+            "mangledName": "$s27FintechSDKNetworkInterfaces0A20NetworkEventObserverP7didFail8endpoint5error8response4data17requestDurationMsyAA0aD16EndpointProvider_p_AA0D11ClientErrorOSo17NSHTTPURLResponseCSg10Foundation4DataVSgs5Int64VSgtF",
             "moduleName": "FintechSDKNetworkInterfaces",
             "genericSig": "<τ_0_0 where τ_0_0 : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
             "sugared_genericSig": "<Self where Self : FintechSDKNetworkInterfaces.FintechNetworkEventObserver>",
