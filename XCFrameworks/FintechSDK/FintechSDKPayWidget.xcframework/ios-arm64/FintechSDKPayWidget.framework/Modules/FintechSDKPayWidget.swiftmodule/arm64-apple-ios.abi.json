@@ -1032,28 +1032,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 35,
       "value": "\"\/pay\/v1\/public\/widgets\/pay-widget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Endpoints\/FTPayWidgetEndpoint.swift",
       "kind": "FloatLiteral",
       "offset": 485,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/FTPayWidgetFactory.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/FTPayWidgetFactory.swift",
       "kind": "StringLiteral",
       "offset": 3426,
       "length": 20,
       "value": "\"YandexPayPayWidget\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Model\/FTPayWidgetModel.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Widgets\/PayWidget\/Model\/FTPayWidgetModel.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
       "length": 5,

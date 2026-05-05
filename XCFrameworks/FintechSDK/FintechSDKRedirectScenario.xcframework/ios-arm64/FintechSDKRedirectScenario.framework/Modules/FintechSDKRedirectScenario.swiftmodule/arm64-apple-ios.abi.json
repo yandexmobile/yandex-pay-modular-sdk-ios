@@ -1874,210 +1874,210 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
       "kind": "IntegerLiteral",
       "offset": 5484,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
       "kind": "IntegerLiteral",
       "offset": 5515,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/FTPollingOrderScenario.swift",
       "kind": "IntegerLiteral",
       "offset": 5520,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 323,
       "length": 36,
       "value": "\"\/api\/v1\/orders\/meta\/by-payment-url\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/Network\/FTOrderMetaEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 942,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 1998,
       "length": 9,
       "value": "\"success\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2024,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2050,
       "length": 7,
       "value": "\"abort\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2142,
       "length": 16,
       "value": "\"PAYMENT_FAILED\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2179,
       "length": 11,
       "value": "\"APP_ERROR\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2214,
       "length": 14,
       "value": "\"INVALID_ARGS\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2253,
       "length": 15,
       "value": "\"ORDER_EXPIRED\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2294,
       "length": 17,
       "value": "\"ORDER_NOT_FOUND\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2336,
       "length": 15,
       "value": "\"UNKNOWN_ERROR\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2397,
       "length": 24,
       "value": "\"AUTHENTICATION_PROBLEM\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2449,
       "length": 19,
       "value": "\"WRONG_MERCHANT_ID\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2525,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2559,
       "length": 9,
       "value": "\"orderId\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2598,
       "length": 12,
       "value": "\"merchantId\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2639,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2676,
       "length": 8,
       "value": "\"result\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2710,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 11,
       "value": "\"userToken\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2789,
       "length": 32,
       "value": "\"merchant.applink.pay.yandex.ru\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2849,
       "length": 40,
       "value": "\"merchant.applink.sandbox.pay.yandex.ru\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Polling\/PaymentResultParser\/PaymentResultParser.swift",
       "kind": "StringLiteral",
       "offset": 2917,
       "length": 37,
       "value": "\"merchant.applink.test.pay.yandex.ru\""
     },
     {
-      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/2\/6\/4083210562\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Redirect\/URLValidator\/FTDomainURLValidator.swift",
+      "filePath": "\/usr\/local\/place\/sandbox-data\/tasks\/6\/5\/4107667856\/arcadia\/mobile\/fintech-sdk\/ios\/FintechSDK\/Scenarios\/Redirect\/Redirect\/URLValidator\/FTDomainURLValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 203,
       "length": 5,

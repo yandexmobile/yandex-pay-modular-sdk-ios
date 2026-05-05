@@ -9,6 +9,7 @@ let package = Package(
   products: [
     .library(name: "YandexPayConfiguration", targets: ["YandexPayConfigurationWrapper"]),
     .library(name: "YandexPayAuth", targets: ["YandexPayAuthWrapper"]),
+    .library(name: "YandexPayAssistant", targets: ["YandexPayAssistantWrapper"]),
     .library(name: "YandexQuickPay", targets: ["YandexQuickPayWrapper"]),
   ],
   targets: [
@@ -44,6 +45,40 @@ let package = Package(
         "FintechSDKNetworkInterfaces",
       ],
       path: "Sources/YandexPayAuthWrapper"
+    ),
+    .target(
+      name: "YandexPayAssistantWrapper",
+      dependencies: [
+        "YandexPayAssistant",
+        "FintechSDKAssistant",
+        "FintechSDKAuthInterfaces",
+        "FintechSDKAuthCoreImplementation",
+        "FintechSDKAuthorizationScenario",
+        "FintechSDKLoaderScreen",
+        "FintechSDKBDUIFeatures",
+        "FintechSDKBDUICore",
+        "FintechSDKCommonEntity",
+        "FintechSDKFontsInterfaces",
+        "FintechSDKCoreUI",
+        "FintechSDKCoreUtils",
+        "FintechSDKCoreAnalytics",
+        "FintechSDKAnalyticsInterfaces",
+        "FintechPlusSDKInterfaces",
+        "FintechYBSDKInterfaces",
+        "FintechSDKNetworkInterfaces",
+        "FintechSDKNetworkImplementation",
+        "FintechSDKDivKitWidgetsFeatures",
+        "FintechSDKWebViewFeatures",
+        "FintechSDKRemoteResourcesData",
+        "FintechSDKNativeErrorFeature",
+        "FintechSDKPayBoxResources",
+        "ExternalBduiAdapter",
+        "FintechSDKAppMetricaAdapter",
+        "FintechSDKFontsAdapter",
+        "FintechSDKLoginAdapter",
+        "YandexPayConfiguration",
+      ],
+      path: "Sources/YandexPayAssistantWrapper"
     ),
     .target(
       name: "YandexQuickPayWrapper",
